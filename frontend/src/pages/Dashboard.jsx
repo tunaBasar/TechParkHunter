@@ -1,17 +1,25 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Building2, Globe, Send, Clock } from 'lucide-react';
+import { Building2, Globe, Send, Clock, FolderOpen } from 'lucide-react';
 import { api } from '../services/api';
 import StatusBadge from '../components/StatusBadge';
+import Skeleton from '../components/Skeleton';
+import EmptyState from '../components/EmptyState';
+import { useToast } from '../components/Toast';
 
 const APPLIED_STATUSES = ['applied', 'interview', 'accepted'];
 
 function Dashboard() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const [stats, setStats] = useState(null);
   const [recentCompanies, setRecentCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  useEffect(() => {
+    document.title = 'TechPark Hunter | Dashboard';
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -28,7 +36,10 @@ function Dashboard() {
         setStats(statsData);
         setRecentCompanies(companiesData.companies ?? []);
       } catch (err) {
-        if (!cancelled) setError(err.message);
+        if (!cancelled) {
+          setError(err.message);
+          showToast('Dashboard verileri yüklenemedi', 'error');
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -38,6 +49,7 @@ function Dashboard() {
     return () => {
       cancelled = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const totalApplied = stats
@@ -66,28 +78,42 @@ function Dashboard() {
       {error && <div className="empty-state">❌ Hata: {error}</div>}
 
       <div className="stats-grid">
-        {statCards.map(({ label, value, icon: Icon }) => (
-          <div key={label} className="card stat-card">
-            <div className="stat-card-icon">
-              <Icon />
-            </div>
-            <div>
-              <div className="stat-card-value">
-                {loading ? <span className="pulse">–</span> : value}
+        {loading
+          ? Array.from({ length: 4 }).map((_, i) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <Skeleton key={i} className="skeleton-stat-card" />
+            ))
+          : statCards.map(({ label, value, icon: Icon }) => (
+              <div key={label} className="card stat-card">
+                <div className="stat-card-icon">
+                  <Icon />
+                </div>
+                <div>
+                  <div className="stat-card-value">{value}</div>
+                  <div className="stat-card-label">{label}</div>
+                </div>
               </div>
-              <div className="stat-card-label">{label}</div>
-            </div>
-          </div>
-        ))}
+            ))}
       </div>
 
       <div className="card">
         <h4 style={{ marginBottom: '1rem' }}>Son Eklenen Şirketler</h4>
 
         {loading ? (
-          <div className="loading-state pulse">Yükleniyor...</div>
+          <>
+            <Skeleton className="skeleton-row" />
+            <Skeleton className="skeleton-row" />
+            <Skeleton className="skeleton-row" />
+            <Skeleton className="skeleton-row" />
+          </>
         ) : recentCompanies.length === 0 ? (
-          <div className="empty-state">Henüz şirket verisi yok.</div>
+          <EmptyState
+            icon={FolderOpen}
+            title="Henüz veri yok"
+            message="Scraping panelinden veri çekmeye başlayın"
+            actionLabel="Scraping Paneline Git"
+            onAction={() => navigate('/scraping')}
+          />
         ) : (
           <div className="table-wrapper">
             <table className="data-table">

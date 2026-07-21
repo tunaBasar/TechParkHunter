@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { api } from '../services/api';
+import { useToast } from './Toast';
 
 function simpleMarkdownToHtml(markdown) {
   const escaped = markdown
@@ -48,6 +49,7 @@ function simpleMarkdownToHtml(markdown) {
 }
 
 function AIGeneratorPanel({ companyId, companyName }) {
+  const { showToast } = useToast();
   const [brief, setBrief] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -60,8 +62,11 @@ function AIGeneratorPanel({ companyId, companyName }) {
     try {
       const result = await api.generateBrief(companyId);
       setBrief(result.brief_markdown);
+      showToast('Başvuru brief\'i oluşturuldu', 'success');
     } catch (err) {
-      setError(err.message || 'Brief oluşturulamadı.');
+      const message = err.message || 'Brief oluşturulamadı.';
+      setError(message);
+      showToast(message, 'error');
     } finally {
       setLoading(false);
     }
@@ -71,6 +76,7 @@ function AIGeneratorPanel({ companyId, companyName }) {
     if (!brief) return;
     navigator.clipboard.writeText(brief);
     setCopied(true);
+    showToast('Panoya kopyalandı!', 'info');
     setTimeout(() => setCopied(false), 2000);
   };
 

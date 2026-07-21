@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, SearchX } from 'lucide-react';
 import { api } from '../services/api';
 import AIGeneratorPanel from '../components/AIGeneratorPanel';
+import Skeleton from '../components/Skeleton';
+import EmptyState from '../components/EmptyState';
+import { useToast } from '../components/Toast';
 
 const STATUS_OPTIONS = [
   { value: 'not_applied', label: 'Başvurulmadı' },
@@ -15,6 +18,7 @@ const STATUS_OPTIONS = [
 function CompanyDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { showToast } = useToast();
 
   const [company, setCompany] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -39,6 +43,7 @@ function CompanyDetail() {
         setCompany(data);
         setStatus(data.application_status ?? 'not_applied');
         setNotes(data.notes ?? '');
+        document.title = `TechPark Hunter | ${data.name}`;
       } catch {
         if (!cancelled) setNotFound(true);
       } finally {
@@ -58,8 +63,10 @@ function CompanyDetail() {
     try {
       await api.updateCompany(id, { application_status: status });
       setStatusSaved(true);
+      showToast('Şirket durumu güncellendi', 'success');
       setTimeout(() => setStatusSaved(false), 2000);
     } catch (err) {
+      showToast('Durum güncellenemedi', 'error');
       // eslint-disable-next-line no-console
       console.error(err);
     } finally {
@@ -73,8 +80,10 @@ function CompanyDetail() {
     try {
       await api.updateCompany(id, { notes });
       setNotesSaved(true);
+      showToast('Notlar kaydedildi', 'success');
       setTimeout(() => setNotesSaved(false), 2000);
     } catch (err) {
+      showToast('Notlar kaydedilemedi', 'error');
       // eslint-disable-next-line no-console
       console.error(err);
     } finally {
@@ -85,7 +94,17 @@ function CompanyDetail() {
   if (loading) {
     return (
       <div className="page fade-in">
-        <div className="loading-state pulse">Yükleniyor...</div>
+        <Skeleton className="skeleton-title" />
+        <div className="detail-layout">
+          <div className="detail-column">
+            <Skeleton className="skeleton-block" />
+            <Skeleton className="skeleton-block" />
+          </div>
+          <div className="detail-column">
+            <Skeleton className="skeleton-block" />
+            <Skeleton className="skeleton-block" />
+          </div>
+        </div>
       </div>
     );
   }
@@ -96,7 +115,13 @@ function CompanyDetail() {
         <button type="button" className="detail-back-btn" onClick={() => navigate('/companies')}>
           <ArrowLeft size={16} /> Geri
         </button>
-        <div className="empty-state">Şirket bulunamadı</div>
+        <EmptyState
+          icon={SearchX}
+          title="Şirket bulunamadı"
+          message="Bu şirket kaydı mevcut değil veya silinmiş olabilir."
+          actionLabel="Şirketlere Dön"
+          onAction={() => navigate('/companies')}
+        />
       </div>
     );
   }

@@ -1,13 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FolderSearch } from 'lucide-react';
 import { api } from '../services/api';
+import Skeleton from '../components/Skeleton';
+import EmptyState from '../components/EmptyState';
+import { useToast } from '../components/Toast';
 
 function ScrapingPanel() {
+  const { showToast } = useToast();
   const [sites, setSites] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [jobs, setJobs] = useState({}); // slug -> { jobId, status, progress, total_found, error }
   const intervalsRef = useRef({}); // slug -> intervalId
+
+  useEffect(() => {
+    document.title = 'TechPark Hunter | Scraping';
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -19,7 +28,10 @@ function ScrapingPanel() {
         const data = await api.getSites();
         if (!cancelled) setSites(data ?? []);
       } catch (err) {
-        if (!cancelled) setError(err.message);
+        if (!cancelled) {
+          setError(err.message);
+          showToast('Site listesi yüklenemedi', 'error');
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -29,6 +41,7 @@ function ScrapingPanel() {
     return () => {
       cancelled = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -50,6 +63,14 @@ function ScrapingPanel() {
         if (statusData.status === 'completed' || statusData.status === 'failed') {
           clearInterval(intervalId);
           delete intervalsRef.current[slug];
+          if (statusData.status === 'completed') {
+            showToast(
+              `${slug}: ${statusData.total_found ?? 0} şirket bulundu`,
+              'success'
+            );
+          } else {
+            showToast(`${slug} scraping başarısız oldu`, 'error');
+          }
         }
       } catch (err) {
         setJobs((prev) => ({
@@ -58,6 +79,7 @@ function ScrapingPanel() {
         }));
         clearInterval(intervalId);
         delete intervalsRef.current[slug];
+        showToast(`${slug} scraping başarısız oldu`, 'error');
       }
     }, 2000);
 
@@ -95,9 +117,18 @@ function ScrapingPanel() {
       {error && <div className="empty-state">❌ Hata: {error}</div>}
 
       {loading ? (
-        <div className="loading-state pulse">Yükleniyor...</div>
+        <div className="sites-grid">
+          {Array.from({ length: 3 }).map((_, i) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <Skeleton key={i} className="skeleton-card" />
+          ))}
+        </div>
       ) : sites.length === 0 ? (
-        <div className="empty-state">Hiç site config'i bulunamadı.</div>
+        <EmptyState
+          icon={FolderSearch}
+          title="Hiç site config'i bulunamadı"
+          message="backend/app/scraping/sites/ dizinine YAML config ekleyerek yeni siteler tanımlayabilirsiniz."
+        />
       ) : (
         <div className="sites-grid">
           {sites.map((site) => {

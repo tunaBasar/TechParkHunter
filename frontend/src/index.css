@@ -952,3 +952,198 @@ table.data-table {
     transform: rotate(360deg);
   }
 }
+
+/* ==========================================================================
+   Toast Notifications
+   ========================================================================== */
+
+.toast-stack {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 360px;
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+  animation: toast-slide-in 0.25s ease-out;
+}
+
+.toast-closing {
+  animation: toast-fade-out 0.25s ease-in forwards;
+}
+
+.toast-icon {
+  flex-shrink: 0;
+}
+
+.toast-message {
+  flex: 1;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+
+.toast-close {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.toast-close:hover {
+  color: var(--text-primary);
+}
+
+.toast-success {
+  border-left: 3px solid var(--success);
+}
+.toast-success .toast-icon {
+  color: var(--success);
+}
+
+.toast-error {
+  border-left: 3px solid var(--error);
+}
+.toast-error .toast-icon {
+  color: var(--error);
+}
+
+.toast-info {
+  border-left: 3px solid var(--info);
+}
+.toast-info .toast-icon {
+  color: var(--info);
+}
+
+.toast-warning {
+  border-left: 3px solid var(--warning);
+}
+.toast-warning .toast-icon {
+  color: var(--warning);
+}
+
+@keyframes toast-slide-in {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toast-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
+/* ==========================================================================
+   Loading Skeletons
+   ========================================================================== */
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bg-tertiary) 25%,
+    var(--bg-secondary) 50%,
+    var(--bg-tertiary) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-stat-card {
+  height: 88px;
+}
+
+.skeleton-row {
+  height: 20px;
+  margin: 0.5rem 0;
+}
+
+.skeleton-card {
+  height: 160px;
+}
+
+.skeleton-title {
+  height: 32px;
+  width: 40%;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton-block {
+  height: 140px;
+}
+
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ==========================================================================
+   Empty States
+   ========================================================================== */
+
+.empty-state-rich {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 3rem 1.5rem;
+  color: var(--text-secondary);
+}
+
+.empty-state-rich svg {
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.empty-state-rich h3 {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+.empty-state-rich p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  max-width: 360px;
+}
+
+.empty-state-rich .btn {
+  margin-top: 0.75rem;
+}
+

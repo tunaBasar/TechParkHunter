@@ -1,12 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Download } from 'lucide-react';
+import { Download, SearchX } from 'lucide-react';
 import { api } from '../services/api';
 import FilterBar from '../components/FilterBar';
 import CompanyCard from '../components/CompanyCard';
+import Skeleton from '../components/Skeleton';
+import EmptyState from '../components/EmptyState';
+import { useToast } from '../components/Toast';
 
 function Companies() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const [filters, setFilters] = useState({ search: '', source: '', status: '' });
   const [companies, setCompanies] = useState([]);
   const [sources, setSources] = useState([]);
@@ -16,6 +20,10 @@ function Companies() {
   const [error, setError] = useState(null);
   const [exportOpen, setExportOpen] = useState(false);
   const exportRef = useRef(null);
+
+  useEffect(() => {
+    document.title = 'TechPark Hunter | Şirketler';
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -34,7 +42,10 @@ function Companies() {
         setCompanies(data.companies ?? []);
         setTotalPages(data.total_pages || 1);
       } catch (err) {
-        if (!cancelled) setError(err.message);
+        if (!cancelled) {
+          setError(err.message);
+          showToast('Şirket listesi yüklenemedi', 'error');
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -44,6 +55,7 @@ function Companies() {
     return () => {
       cancelled = true;
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, page]);
 
   useEffect(() => {
@@ -75,6 +87,7 @@ function Companies() {
     if (filters.status) params.set('status', filters.status);
     window.open(`/api/companies/export?${params.toString()}`, '_blank');
     setExportOpen(false);
+    showToast(`${format.toUpperCase()} export başlatıldı`, 'success');
   };
 
   const pageNumbers = useMemo(() => {
@@ -119,14 +132,20 @@ function Companies() {
       {error && <div className="empty-state">❌ Hata: {error}</div>}
 
       {loading ? (
-        <div className="loading-state pulse">Yükleniyor...</div>
-      ) : companies.length === 0 ? (
-        <div className="empty-state">
-          <p>Henüz şirket verisi yok. Scraping panelinden başlayın!</p>
-          <button type="button" className="btn btn-primary" onClick={() => navigate('/scraping')}>
-            Scraping Paneline Git
-          </button>
+        <div className="skeleton-grid">
+          {Array.from({ length: 6 }).map((_, i) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <Skeleton key={i} className="skeleton-card" />
+          ))}
         </div>
+      ) : companies.length === 0 ? (
+        <EmptyState
+          icon={SearchX}
+          title="Henüz veri yok"
+          message="Scraping panelinden veri çekmeye başlayın"
+          actionLabel="Scraping Paneline Git"
+          onAction={() => navigate('/scraping')}
+        />
       ) : (
         <>
           <div className="company-grid">
