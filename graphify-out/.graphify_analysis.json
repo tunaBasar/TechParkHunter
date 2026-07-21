@@ -1,0 +1,417 @@
+{
+  "communities": {
+    "0": [
+      "backend_app_ai_brief_template",
+      "backend_app_ai_brief_template_build_application_brief",
+      "backend_app_ai_brief_template_bullet_list",
+      "backend_app_ai_brief_template_rationale_14",
+      "backend_app_ai_brief_template_save_brief",
+      "backend_app_ai_profile",
+      "backend_app_ai_profile_candidateprofile",
+      "backend_app_ai_profile_load_profile",
+      "backend_app_ai_profile_profileconfig",
+      "backend_app_ai_profile_py_basemodel",
+      "backend_app_ai_service",
+      "backend_app_ai_service_briefservice",
+      "backend_app_ai_service_briefservice_generate_brief",
+      "backend_app_ai_service_briefservice_init",
+      "backend_app_ai_service_briefservice_load_brief",
+      "backend_app_ai_service_briefserviceerror",
+      "backend_app_ai_service_rationale_13",
+      "backend_app_api_routes_ai",
+      "backend_app_api_routes_ai_ai_root",
+      "backend_app_api_routes_ai_companyidrequest",
+      "backend_app_api_routes_ai_generate_brief",
+      "backend_app_api_routes_ai_get_brief",
+      "backend_app_api_routes_ai_get_profile",
+      "backend_app_api_routes_ai_load_company",
+      "backend_app_api_routes_ai_py_basemodel",
+      "backend_app_api_routes_ai_py_databasemanager",
+      "backend_app_storage_json_store_jsonstore_init",
+      "backend_app_storage_models_company",
+      "exception",
+      "path"
+    ],
+    "1": [
+      "frontend_src_app",
+      "frontend_src_app_app",
+      "frontend_src_components_aigeneratorpanel",
+      "frontend_src_components_aigeneratorpanel_aigeneratorpanel",
+      "frontend_src_components_aigeneratorpanel_simplemarkdowntohtml",
+      "frontend_src_components_emptystate",
+      "frontend_src_components_emptystate_emptystate",
+      "frontend_src_components_skeleton",
+      "frontend_src_components_skeleton_skeleton",
+      "frontend_src_components_toast",
+      "frontend_src_components_toast_toast_icons",
+      "frontend_src_components_toast_toastcontext",
+      "frontend_src_components_toast_toastprovider",
+      "frontend_src_components_toast_usetoast",
+      "frontend_src_main",
+      "frontend_src_pages_companies",
+      "frontend_src_pages_companies_companies",
+      "frontend_src_pages_companydetail",
+      "frontend_src_pages_companydetail_companydetail",
+      "frontend_src_pages_companydetail_status_options",
+      "frontend_src_pages_dashboard",
+      "frontend_src_pages_dashboard_applied_statuses",
+      "frontend_src_pages_dashboard_dashboard",
+      "frontend_src_pages_scrapingpanel",
+      "frontend_src_pages_scrapingpanel_scrapingpanel",
+      "ref_react"
+    ],
+    "2": [
+      "backend_app_storage_db",
+      "backend_app_storage_db_databasemanager",
+      "backend_app_storage_db_databasemanager_get_companies",
+      "backend_app_storage_db_databasemanager_get_company",
+      "backend_app_storage_db_databasemanager_get_stats",
+      "backend_app_storage_db_databasemanager_init",
+      "backend_app_storage_db_databasemanager_init_db",
+      "backend_app_storage_db_databasemanager_update_company_status",
+      "backend_app_storage_db_databasemanager_upsert_companies",
+      "backend_app_storage_json_store",
+      "backend_app_storage_json_store_jsonstore",
+      "backend_app_storage_json_store_jsonstore_get_all_companies",
+      "backend_app_storage_json_store_jsonstore_list_sources",
+      "backend_app_storage_json_store_jsonstore_load_scraped_data",
+      "backend_app_storage_json_store_jsonstore_save_scraped_data",
+      "backend_app_storage_json_store_jsonstore_update_company",
+      "backend_app_storage_models",
+      "backend_app_storage_models_applicationstatus",
+      "backend_app_storage_models_companyfilter",
+      "backend_app_storage_models_py_basemodel",
+      "backend_app_storage_models_scrapeddata",
+      "enum",
+      "str"
+    ],
+    "3": [
+      "backend_app_scraping_config_loader",
+      "backend_app_scraping_config_loader_list_available_sites",
+      "backend_app_scraping_config_loader_load_site_config",
+      "backend_app_scraping_config_models",
+      "backend_app_scraping_config_models_detailpageconfig",
+      "backend_app_scraping_config_models_fieldselector",
+      "backend_app_scraping_config_models_filterconfig",
+      "backend_app_scraping_config_models_navigationconfig",
+      "backend_app_scraping_config_models_navigationtype",
+      "backend_app_scraping_config_models_py_basemodel",
+      "backend_app_scraping_config_models_py_enum",
+      "backend_app_scraping_config_models_py_str",
+      "backend_app_scraping_config_models_selectorsconfig",
+      "backend_app_scraping_config_models_siteconfig",
+      "backend_app_scraping_config_models_siteinfo",
+      "backend_app_scraping_parser",
+      "backend_app_scraping_parser_extract_field",
+      "backend_app_scraping_parser_extract_fields",
+      "backend_app_scraping_parser_parse_company",
+      "backend_app_scraping_parser_slugify",
+      "backend_app_scraping_parser_tag_sectors"
+    ],
+    "4": [
+      "frontend_package",
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_lucide_react",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_react_router_dom",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_lint",
+      "frontend_package_scripts_preview",
+      "frontend_package_type",
+      "frontend_package_version",
+      "lucide_react",
+      "react",
+      "react_dom",
+      "react_router_dom"
+    ],
+    "5": [
+      "backend_app_scraping_engine",
+      "backend_app_scraping_engine_py_basemodel",
+      "backend_app_scraping_engine_py_siteconfig",
+      "backend_app_scraping_engine_rationale_34",
+      "backend_app_scraping_engine_scrapingengine",
+      "backend_app_scraping_engine_scrapingengine_collect_companies",
+      "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
+      "backend_app_scraping_engine_scrapingengine_goto_with_retry",
+      "backend_app_scraping_engine_scrapingengine_parse_element",
+      "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "backend_app_scraping_engine_scrapingengine_wait_for_container",
+      "backend_app_scraping_engine_scrapingresult",
+      "company",
+      "scrapeddata"
+    ],
+    "6": [
+      "backend_app_api_routes_scraping",
+      "backend_app_api_routes_scraping_get_job_status",
+      "backend_app_api_routes_scraping_get_sites",
+      "backend_app_api_routes_scraping_py_siteconfig",
+      "backend_app_api_routes_scraping_run_scraping_job",
+      "backend_app_api_routes_scraping_start_scraping",
+      "backend_app_main",
+      "backend_app_main_health",
+      "backend_app_main_lifespan",
+      "backend_app_main_root",
+      "backgroundtasks",
+      "fastapi"
+    ],
+    "7": [
+      "applicationstatus",
+      "backend_app_api_routes_companies",
+      "backend_app_api_routes_companies_companyupdate",
+      "backend_app_api_routes_companies_export_companies",
+      "backend_app_api_routes_companies_get_company",
+      "backend_app_api_routes_companies_get_stats",
+      "backend_app_api_routes_companies_list_companies",
+      "backend_app_api_routes_companies_py_basemodel",
+      "backend_app_api_routes_companies_update_company",
+      "databasemanager",
+      "jsonstore"
+    ],
+    "8": [
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_oxlint",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_types_react_dom",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitejs_plugin_react",
+      "oxlint",
+      "types_react",
+      "types_react_dom",
+      "vite",
+      "vitejs_plugin_react"
+    ],
+    "9": [
+      "backend_app_api_deps",
+      "backend_app_api_deps_get_brief_service",
+      "backend_app_api_deps_get_db",
+      "backend_app_api_deps_get_json_store",
+      "backend_app_api_deps_get_settings",
+      "backend_app_api_deps_py_databasemanager",
+      "backend_app_config",
+      "backend_app_config_config",
+      "backend_app_config_settings",
+      "basesettings"
+    ],
+    "10": [
+      "frontend_oxlintrc",
+      "frontend_oxlintrc_plugins",
+      "frontend_oxlintrc_rules",
+      "frontend_oxlintrc_rules_react_only_export_components",
+      "frontend_oxlintrc_rules_react_rules_of_hooks",
+      "frontend_oxlintrc_schema",
+      "ref_oxc",
+      "ref_warn"
+    ],
+    "11": [
+      "frontend_src_components_companycard",
+      "frontend_src_components_companycard_companycard",
+      "frontend_src_components_statusbadge",
+      "frontend_src_components_statusbadge_status_config",
+      "frontend_src_components_statusbadge_statusbadge"
+    ],
+    "12": [
+      "backend_app_utils_logger",
+      "backend_app_utils_logger_get_logger",
+      "logger"
+    ],
+    "13": [
+      "frontend_src_components_filterbar",
+      "frontend_src_components_filterbar_filterbar",
+      "frontend_src_components_filterbar_status_options"
+    ],
+    "14": [
+      "frontend_src_components_sidebar",
+      "frontend_src_components_sidebar_navitems",
+      "frontend_src_components_sidebar_sidebar"
+    ],
+    "15": [
+      "frontend_src_services_api",
+      "frontend_src_services_api_api",
+      "frontend_src_services_api_request"
+    ],
+    "16": [
+      "backend_app_ai_init"
+    ],
+    "17": [
+      "backend_app_api_init"
+    ],
+    "18": [
+      "backend_app_api_routes_init"
+    ],
+    "19": [
+      "backend_app_init"
+    ],
+    "20": [
+      "backend_app_scraping_init"
+    ],
+    "21": [
+      "backend_app_scraping_jobs"
+    ],
+    "22": [
+      "backend_app_storage_init"
+    ],
+    "23": [
+      "backend_app_storage_models_py_enum"
+    ],
+    "24": [
+      "backend_app_storage_models_py_str"
+    ],
+    "25": [
+      "backend_app_utils_init"
+    ],
+    "26": [
+      "frontend_vite_config"
+    ],
+    "27": [
+      "pkg_backend"
+    ]
+  },
+  "cohesion": {
+    "0": 0.11264367816091954,
+    "1": 0.2123076923076923,
+    "2": 0.13043478260869565,
+    "3": 0.15714285714285714,
+    "4": 0.10526315789473684,
+    "5": 0.27472527472527475,
+    "6": 0.19696969696969696,
+    "7": 0.3090909090909091,
+    "8": 0.18181818181818182,
+    "9": 0.28888888888888886,
+    "10": 0.25,
+    "11": 0.5,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 0.6666666666666666,
+    "15": 0.6666666666666666,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0
+  },
+  "gods": [
+    {
+      "id": "backend_app_storage_models_company",
+      "label": "Company",
+      "degree": 12
+    },
+    {
+      "id": "frontend_src_components_toast_usetoast",
+      "label": "useToast()",
+      "degree": 11
+    },
+    {
+      "id": "backend_app_storage_db_databasemanager",
+      "label": "DatabaseManager",
+      "degree": 10
+    },
+    {
+      "id": "backend_app_storage_json_store_jsonstore",
+      "label": "JsonStore",
+      "degree": 9
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 9
+    },
+    {
+      "id": "backend_app_ai_service_briefservice",
+      "label": "BriefService",
+      "degree": 9
+    },
+    {
+      "id": "backend_app_scraping_engine_scrapingengine",
+      "label": "ScrapingEngine",
+      "degree": 8
+    },
+    {
+      "id": "backend_app_storage_models_scrapeddata",
+      "label": "ScrapedData",
+      "degree": 7
+    },
+    {
+      "id": "backend_app_ai_brief_template_build_application_brief",
+      "label": "build_application_brief()",
+      "degree": 6
+    },
+    {
+      "id": "backend_app_ai_service_briefserviceerror",
+      "label": "BriefServiceError",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "lifespan()",
+      "target": "get_db()",
+      "source_files": [
+        "backend/app/main.py",
+        "backend/app/api/deps.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "tag_sectors()",
+      "target": "Company",
+      "source_files": [
+        "backend/app/scraping/parser.py",
+        "backend/app/storage/models.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities; peripheral node `tag_sectors()` unexpectedly reaches hub `Company`"
+    },
+    {
+      "source": "JsonStore",
+      "target": "Company",
+      "source_files": [
+        "backend/app/storage/json_store.py",
+        "backend/app/storage/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "get_profile()",
+      "target": "load_profile()",
+      "source_files": [
+        "backend/app/api/routes/ai.py",
+        "backend/app/ai/profile.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `get_profile()` unexpectedly reaches hub `load_profile()`"
+    },
+    {
+      "source": "_run_scraping_job()",
+      "target": "ScrapingEngine",
+      "source_files": [
+        "backend/app/api/routes/scraping.py",
+        "backend/app/scraping/engine.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

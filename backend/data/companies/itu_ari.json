@@ -1,0 +1,2335 @@
+{
+  "source": "itu_ari",
+  "source_name": "İTÜ ARI Teknokent",
+  "scraped_at": "2026-07-21T18:45:30.499984Z",
+  "total_companies": 129,
+  "companies": [
+    {
+      "id": "itu_ari_acrome",
+      "name": "ACROME",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Acrome Robotik, ileri robotik ve mekatronik sistemlerin tasarım, prototipleme ve üretimini yaparak yenilikçi ürün ve hizmetler sunan bir teknoloji şirketidir. Yapay zeka destekli entegrasyonlar, modüler aktüatör sistemleri, hassas konumlayıcılar ve motor kontrol platformları geliştirir. NASA, Boston Dynamics, Meta, Intel ve Amazon gibi küresel liderler ile üniversiteler ve araştırma laboratuvarlarıyla stratejik ortaklıklar kurmaktadır. Ayrıca Riders.ai platformuyla, simülasyon tabanlı altyapı sunarak dünya genelinde gençlerin dijital çağ yetkinliklerini geliştiren özelleştirilebilir eğitim çözümleri sağlamaktadır. Riders.ai, önümüzdeki yıl Türkiye başta olmak üzere Avrupa ve Amerika’da 100 binden fazla öğrenciye ulaşarak eğitimde dönüşüme liderlik edecektir.",
+      "website": "http://www.acrome.net/",
+      "logo_url": "/storage/logos/NqOiMBjKLiuqUXVkNZ2rSkfOYglJDS8Tjg3a9MO2.png",
+      "contact_email": "mailto:info@acrome.net",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/acrome-robotik-mekatronik-sistemleri-san-ve-tic-as",
+      "full_description": "2,3 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_agito",
+      "name": "AGİTO",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Agito, 28 yıllık sigortacılık deneyimi, %35 pazar payı ve 250’den fazla uzman çalışanıyla, elementer, sağlık ve hayat emeklilik branşlarında yenilikçi sigortacılık çözümleri sunan bir teknoloji şirketidir. Global standartlara uygun, esnek ve ölçeklenebilir teknolojileriyle sigorta şirketlerinin operasyon süreçlerini dijitalleştirirken, müşteri odaklı yaklaşımıyla sektöre değer katmaktadır. Güçlü Ar-Ge yapısı, yenilikçi ürünleri ve danışmanlık hizmetleriyle fark yaratan Agito, sigortacılığın geleceğini şekillendirirken lider konumunu sürekli güçlendirerek ve gelişen müşteri beklentilerine hızla uyum sağlayarak sektördeki başarısını sürdürmektedir.",
+      "website": "http://www.agito.com.tr",
+      "logo_url": "/storage/logos/agito-bilgisayar-yazilim-ve-danismanlik-hizmetleri-as-logo-white-1743660746.png",
+      "contact_email": "mailto:insankaynaklari@agito.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/agito-bilgisayar-yazilim-ve-danismanlik-hizmetleri-as",
+      "full_description": "120,6 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_aiatus",
+      "name": "AIATUS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "AIATUS, yapay zeka tabanlı çözümler sunarak işletmelerin dijital dönüşümünü hızlandıran yenilikçi bir teknoloji firmasıdır. Geliştirdiğimiz kurumsal yapay zeka çözümleri, müşteri etkileşimlerini optimize ederken operasyonel verimliliği artırır. Özelleştirilebilir LLM tabanlı chatbotlarımız, sektörünüze özel veriyle eğitilir ve müşteri hizmetleri, bilgi yönetimi ve iş süreçlerinde devrim yaratır. Konuşma analitiği, duygu analizi ve kimlik doğrulama gibi ileri düzey özelliklerle işletmenize rekabet avantajı kazandırır. AIATUS olarak, yapay zekayı sadece bir araç değil, işletmenizi geleceğe taşıyan bir stratejik ortak olarak konumlandırıyoruz.",
+      "website": "https://aiatus.com/",
+      "logo_url": "/storage//logos/company_10_logo_white.png",
+      "contact_email": "mailto:deger.ayata@aiatus.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/aiatus-yapay-zeka-ve-bilgi-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_aid_core",
+      "name": "AID CORE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "AId Core Solutions, retina hastalıklarının erken teşhisine yönelik yapay zekâ destekli SaaS çözümleri geliştiren bir sağlık teknolojileri girişimidir. Ana ürünü RetinEye AId, elektronik sağlık kayıtlarını (ESK) analiz ederek riskli ancak henüz tanı almamış hastaları erkenden belirler, kliniklere yeni hasta kazandırır ve risk seviyelerine göre ideal tarama sıklığı önererek hasta önceliklendirme sağlar. Riskli bulunan hastaların fundus taraması yapıldıktan sonra retina görüntüleri ve ESK'larını birlikte analiz ederek %95'in üzerinde hassasiyet (sensitivity) ile hastalığın evresini belirler; doktorlara kapsamlı bir karar destek sistemi sunar. Optos, Canon ve Topcon gibi cihazlarla uyumlu SaaS altyapısıyla klinik operasyonları optimize eder. Sağlıklı gözler, sağlıklı yarınlar için AId Core Solutions.",
+      "website": null,
+      "logo_url": "/storage//logos/company_11_logo_white.png",
+      "contact_email": "mailto:aerenkaradag@gmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/aid-core-solutions-teknoloji-anonim-sirketi",
+      "full_description": "27,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_akceon",
+      "name": "AKCEON",
+      "sector": "Malzeme",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Endüstriyel tesislerde hidrolik sistem arızaları, yüzbinlerce dolarlık kayıplara ve müşteri güveninde ciddi erozyona neden oluyor. Üretim duruşlarının %15-20’sini oluşturan bu arızalar, sektörde, kritik bir açık yaratıyor. AKCEON olarak, 15’ten fazla sektörde yapay zeka destekli öngörücü bakım çözümümüzle bu sorunu kökten çözüyoruz. Özel simülasyon yazılımımızda 1000’den fazla arıza senaryosunu analiz ederek eğittiğimiz yapay zeka modellerimiz, hidrolik sistemlerde %90 doğrulukla nokta atışı arıza tespiti yapıyor ve böylece hidrolik sistem kaynaklı üretim duruşlarını %85’e varan oranda azaltıyoruz. Geliştirdiğimiz iş modelimiz, müşterilerimize yılda yüzbinlerce dolara varan kazanç sağlıyor. Hidrolik sistemler üzerine kuracağımız dominasyon ile kestirimci bakım ve üretim verimliliğinin alanlarına yayılarak dev haline gelmeyi hedefliyoruz.",
+      "website": "https://akceon.com/",
+      "logo_url": "/storage//logos/company_14_logo_white.png",
+      "contact_email": "mailto:furkanakcadogan@akceon.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/akceon-teknoloji-anonim-sirketi",
+      "full_description": "26,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_algopoly",
+      "name": "ALGOPOLY",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Algopoly'nin Özelleştirilmiş Zeka Modeli, yenilenebilir enerji sektöründe güvenilir tahmin çözümleri sunar. Enerji şirketleri, portföy yöneticileri ve şebeke operatörleri için özelleştirilmiş analizler sağlamak için verileri makine öğrenimi ve güçlü algoritmalarla işler. Algopoly, doğruluk ve hız odaklı yaklaşımı ile operasyonel verimliliği artırır, maliyetleri düşürür ve piyasa risklerini en aza indirir. Algopoly, enerji yönetiminde daha bilinçli kararlar almanıza yardımcı olmak için yanınızda.",
+      "website": "www.algopoly.com",
+      "logo_url": "/storage//logos/company_16_logo_white.png",
+      "contact_email": "mailto:info@algopoly.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/algopoly-yazilim-ve-danismanlik-limited-sirketi",
+      "full_description": "620,2 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_alkazar",
+      "name": "ALKAZAR",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Alkazar, yapı fiziği danışmanlığı sunarak binaların güvenli, konforlu ve enerji verimli olmasını sağlar. Bina aerodinamiği, enerji modelleme, yangın ve duman kontrolü, iç mekan hava kalitesi ve dış mekan konfor analizleri gibi alanlarda uzmanlaşmıştır. Bunun yanında, varlık yatırımcıları, sigorta şirketleri ve bankalar için iklim değişikliği kaynaklı risklere uyum sağlamak amacıyla veriye dayalı yazılım çözümleri geliştirir. UrClimate markasıyla, iklim risk analizleri sunarak sürdürülebilir finans ve yatırım kararlarını destekler. Alkazar, mühendislik uzmanlığını veriyle birleştirerek, şehirlerin ve yapıların geleceğini güvence altına alır.",
+      "website": "www.alkazar.com.tr",
+      "logo_url": "/storage/logos/alkazar-muhendislik-ve-danismanlik-limited-sirketi-logo-white-1743660805.png",
+      "contact_email": "mailto:info@alkazar.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/alkazar-muhendislik-ve-danismanlik-limited-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_amani",
+      "name": "AMANI",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Amani, KYC, AML ve kimlik doğrulamayı gelişmiş yapay zeka teknolojisi ile birleştiren yeni nesil bir uyumluluk çözümüdür. Platformumuz belge kontrollerini kolaylaştırır, kimlik ve AML iş akışlarını otomatikleştirir ve gerçek zamanlı risk değerlendirmeleri sağlar. Bu yaklaşım manuel iş yükünü azaltır, maliyetli hataları ortadan kaldırır ve müşteri edinimini hızlandırır. Gerçek zamanlı risk uyarıları ve uçtan uca denetim izleri ile Amani, kuruluşların sürekli değişen küresel düzenlemelerle uyumlu kalmasını sağlar. Tüm uyumluluk görevlerini tek ve sezgisel bir arayüzde birleştiren Amani, işletmelerin bürokrasiye değil büyümeye odaklanmasını sağlar.",
+      "website": "www.amani.ai",
+      "logo_url": "/storage/logos/amani-ai-yapay-zeka-teknolojileri-anonim-sirketi-logo-white-1743660812.png",
+      "contact_email": "mailto:support@amani.ai",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/amani-ai-yapay-zeka-teknolojileri-anonim-sirketi",
+      "full_description": "200,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_apollo_iot",
+      "name": "APOLLO IOT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "AI desteğiyle enerji maliyetlerini optimize edin, verimliliği artırın ve karbon salımınızı yönetin.",
+      "website": "www.iotapollo.com",
+      "logo_url": "/storage//logos/company_24_logo_white.png",
+      "contact_email": "mailto:info@iotapollo.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/apollo-iot-yazilim-ve-enerji-teknolojileri-as",
+      "full_description": "1,4 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_argenit",
+      "name": "ARGENİT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "ARGENIT gelişmiş biyomedikal görüntüleme sistemleri ile hekimlerin en iyi tanıyı en hızlı koymasına yardımcı olmayı hedefler. Klinik ve araştırma toplulukları için yüksek kalitede klinik değer ve kullanıcı deneyimi sağlayan, laboratuvar ihtiyaçlarına göre uyarlanmış, yeni tanı çözümleri geliştirir. ARGENIT’in ürettiği dijital sistemler, günümüzde laboratuvarların katlanarak artan sayıda teşhislerini ve taleplerini ölçeklendirmek ve kolaylaştırmak için ihtiyaç duyduğu gerekli araçları sağlar.",
+      "website": "http://www.argenit.com.tr",
+      "logo_url": "/storage//logos/company_29_logo_white.png",
+      "contact_email": "mailto:info@argenit.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/argenit-teknoloji-anonim-sirketi",
+      "full_description": "42,4 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_beespenser",
+      "name": "BEESPENSER",
+      "sector": "Telekomünikasyon ve Teknolojik Donanım",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Beespenser, eklemeli imalat teknikleriyle elektronik üretimini dönüştürmeye odaklanan yenilikçi bir teknoloji girişimidir. Son teknoloji katmanlı üretim yöntemlerini kullanarak sert veya esnek yüzeylerde PCB üretim süreçlerini optimize ediyor, hızlı prototipleme imkanı sunuyor, maliyetleri önemli ölçüde azaltıyoruz. Özel olarak formüle ettiğimiz iletken mürekkeplerimiz, farklı araştırma laboratuvarları ve endüstriyel uygulamalarda üstün performans, hassasiyet ve kullanım kolaylığı sağlayacak şekilde titizlikle tasarlanmıştır. Beespenser olarak, sürdürülebilirliği destekleyen daha akıllı üretim süreçlerini benimsiyoruz. Çözümlerimiz, çevre dostu üretim pratiklerini ön plana çıkararak ürün geliştirme sürelerini hızlandırıyor, üretim sürelerini belirgin ölçüde kısaltıyor ve malzeme israfını minimuma indiriyor.",
+      "website": "https://beespenser.com/",
+      "logo_url": "/storage//logos/company_41_logo_white.png",
+      "contact_email": "mailto:info@beespenser.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/beespenser-teknoloji-as",
+      "full_description": "141,5 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_bilge_adam",
+      "name": "BİLGE ADAM",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "BilgeAdam Teknoloji, 1.800'den fazla profesyonelden oluşan ekibiyle global bir yazılım ve teknoloji hizmetleri şirketidir. Yazılım geliştirme, kalite mühendisliği ve teknoloji servislerinde 25 yılı aşkın deneyim sahibi olan BilgeAadam Teknoloji, mühendislik becerileri ve sektör bilgisini bir arada kullanarak, müşterilerinin başarıya ulaşmalarına yardımcı olur. BilgeAdam Teknoloji; yurt içinde İstanbul ve Ankara’daki teknokent ofislerinde hizmet vermektedir. Global operasyonlarını ise Londra ve Sheffield – İngiltere, Den Haag – Hollanda ve Düsseldorf – Almanya’daki ofisleriyle yürütmektedir. Müşterilerine kaliteli, verimli, yenilikçi ve sonuç odaklı hizmetler sunarak katma değer yaratmayı ilke edinen BilgeAdam Teknoloji, 15 global ödül sahibidir ve Bilişim 500 araştırmasına göre Türkiye’nin en büyük bağımsız yazılım şirketlerinden biridir.",
+      "website": "https://bgts.com/tr/",
+      "logo_url": "/storage/logos/bilge-adam-yazilim-ve-teknoloji-anonim-sirketi-logo-white-1743660859.png",
+      "contact_email": "mailto:info-tr@bgts.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/bilge-adam-yazilim-ve-teknoloji-anonim-sirketi",
+      "full_description": "1,2 Milyar $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_black_paw",
+      "name": "BLACK PAW",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Black Paw, eğitim teknolojileri ve uygulamaları geliştiren, dijitalleşmeyi eğitimde ileri taşımayı hedefleyen yenilikçi bir teknoloji girişimidir. İlk ve en önemli projesi Spectre, veteriner fakültesi öğrencileri için gerçek kadavralardan oluşturulmuş yüksek detaylı 3D anatomik modelleri artırılmış gerçeklik (AR) teknolojisiyle sunan bir mobil uygulamadır. Yapay zeka desteğiyle hem laboratuvar içinde hem de dışında kullanılabilir. Black Paw, etik ve sürdürülebilir kadavra kullanımına katkı sağlarken, veteriner anatomi eğitiminde AR ve AI teknolojilerini birleştiren benzersiz bir çözüm sunar.",
+      "website": "https://blackpawtech.com/",
+      "logo_url": "/storage//logos/company_48_logo_white.png",
+      "contact_email": "mailto:aslihandemirsoy@blackpawtech.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/black-paw-egitim-teknolojileri-as",
+      "full_description": "10,7 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_boni",
+      "name": "BONİ",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "WasherDrone, yüksek bina cepheleri, güneş panelleri ve rüzgar türbinleri gibi zorlu yüzeyler için yenilikçi drone temizlik hizmetleri sunar. Geleneksel yöntemlere kıyasla daha güvenli, hızlı ve maliyet etkin çözümler sağlayarak sektörde fark yaratıyoruz. Özel geliştirilmiş kimyasallar, yüksek basınçlı yıkama sistemleri ve yapay zeka destekli operasyonlarımız sayesinde, temizlik süreçlerini otomatikleştirerek kaliteyi en üst seviyeye çıkarıyoruz. Franchise modeliyle büyüyen WasherDrone, akıllı şehirler ve sürdürülebilir temizlik anlayışıyla geleceğin teknolojisini bugünden hayata geçiriyor. Dronelarımızla temizlikte devrim yaratıyoruz!",
+      "website": "http://boniglobal.com",
+      "logo_url": "/storage/logos/boni-teknoloji-as-logo-white-1743660903.png",
+      "contact_email": "mailto:info@boniglobal.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/boni-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_borda",
+      "name": "BORDA",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Sağlıkta IoT alanında 10 yılı aşkın deneyimiyle Borda Technology, hastanelerin dijital dönüşüm ve akıllı hastane süreçlerini destekleyerek, ödüllü IoT ve RTLS çözümleri sunuyor. Bu çözümler, üstün hasta bakımını sağlarken operasyonel verimliliği en üst düzeye çıkarıyor ve güvenliği artırarak hastalar için mükemmel deneyimler kazandırıyor. Borda’nın BLE ve AoA teknolojileriyle güçlendirilmiş RTLS çözümü, üstün takip yetenekleri sunarak sektörde öne çıkmasını sağlamaktadır. ABD, Kanada ve Türkiye’de ofisleri bulunan Borda, 15’ten fazla ülkede faaliyet göstermektedir. 35K+ yatak kapasitesine sahip hastanelerde hizmet verirken, 8M+ metre kare hastane alanını yönetmekte, 1M+ varlık takip etmekte, yıllık 4M+ iş emrini işlemekte ve dünya genelinde binlerce hasta ve hastane personeli sürecinin verimliliğini en üst düzeye çıkarmaktadır.",
+      "website": "http://www.bordatech.com",
+      "logo_url": "/storage/logos/borda-teknoloji-bilisim-as-logo-white-1743660927.png",
+      "contact_email": "mailto:akin.altunbas@bordatech.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/borda-teknoloji-bilisim-as",
+      "full_description": "772,0 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_callexper",
+      "name": "CALLEXPER",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "CallExper, müşteri ilişkilerinin performansını artırmak üzere geliştirilmiş, yapay zekâ teknolojisinin olanaklarını maksimum kullanarak konuşma analiz çözümleri sunar. Böylece kurumlara müşteri ile yapılan tüm konuşmalarda veri odaklı strateji geliştirme olanağı sağlar. Çağımızın en önemli iş hedeflerinden biri olan mükemmel müşteri deneyimi konusunda çözüm oluşturur. Sesi kaydeden, yazıya çeviren, hem kural tabanlı hem yapay zeka tabanlı analiz yapan, etkili, kolayca kullanılabilir ve ölçeklenebilir konuşma analitiği çözümlerimiz sayesinde, müşterilerinize memnuniyet, müşteri temsilcilerinize performans, süreçlerinize değer katmanızı sağlar.",
+      "website": "www.callexper.com",
+      "logo_url": "/storage//logos/company_57_logo_white.png",
+      "contact_email": "mailto:guray.altin@callexper.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/callexper-danismanlik-ve-bilisim-hizmetleri-santic-as",
+      "full_description": "1,5 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_commencis",
+      "name": "COMMENCIS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Commencis, dijital dönüşüm alanında lider bir teknoloji firmasıdır. Yazılım, kullanıcı deneyimi, yapay zekâ ve bulut bilişim alanındaki ürün ve çözümleriyle Türkiye’de ve dünyada önde gelen markaların dijitalde büyümelerine öncülük etmektedir. Commencis’in hayata geçirdiği çözümler, 20’den fazla ülkede finans, perakende, e-ticaret, sigorta ve havayolları gibi farklı sektörlerde faaliyet gösteren büyük ölçekli şirketler tarafından kullanılmaktadır. İstanbul, Londra ve Berlin ofislerinde, alanında uzman 400’den fazla çalışanıyla Commencis, teknoloji uzmanlığı ve tecrübelerini birleştirerek sunduğu ürünlerle, gelişmiş bir dijital topluma giden yolu inşa etmeyi amaçlamaktadır.",
+      "website": "http://www.commencis.com/",
+      "logo_url": "/storage//logos/company_64_logo_white.png",
+      "contact_email": "mailto:hr@commencis.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/commencis-teknoloji-as",
+      "full_description": "4,2 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_cool_nfc",
+      "name": "COOL NFC",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Cool Card, akıllı ve yapay zeka destekli dijital kimlik çözümleri ile networking süreçlerini dönüştüren yenilikçi bir platformdur. Şirketler ve bireyler için CRM entegrasyonu, AI destekli akıllı ağ yönetimi ve kurumsal analizler sunarak profesyonel bağlantıları güçlendiriyoruz. Sürdürülebilir ve dijital öncelikli yaklaşımımız sayesinde kağıt israfını ortadan kaldırırken, güvenli ve verimli iletişim yönetimi sağlıyoruz. On-premise ve bulut tabanlı çözümlerimizle, şirketlerin networking süreçlerini optimize etmelerine ve potansiyel müşteri yönetimlerini kolaylaştırmalarına yardımcı oluyoruz. Kurumsal ekipler veya bireysel profesyoneller için, bağlantılarınızı zahmetsizce paylaşmanızı, takip etmenizi ve yönetmenizi sağlayan yeni nesil networking deneyimini sunuyoruz.",
+      "website": "www.usecoolcard.com",
+      "logo_url": "/storage/logos/cool-nfc-bilgi-teknolojileri-as-logo-white-1743660984.png",
+      "contact_email": "mailto:info@usecoolcard.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/cool-nfc-bilgi-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_counterfake",
+      "name": "COUNTERFAKE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Counterfake, yapay zeka destekli online marka koruma çözümüdür. Gelişmiş görüntü işleme ve yapay zeka tabanlı analiz yöntemleriyle, ürünleri birçok yönden inceleyerek sahte, yanlış kategorilendirilmiş veya yetkisiz ürünleri otomatik olarak tespit eder ve kaldırma sürecini başlatır. Türkiye’nin ilk ve dünyanın en gelişmiş sahte ürün tespit platformu olan Counterfake, Eren Perakende, Beymen ve Trendyol gibi markaların gelir ve itibar kaybını önlemelerine yardımcı olur. Ayrıca, e-ticaret platformlarının güvenliğini artırarak ürünlerin doğruluğunu kontrol eder, yanlış kategorilendirmeleri önler ve yasaklı ürünlerin satışını engeller. Counterfake, tamamen otomatik ve ölçeklenebilir bir çözüm sunarak online pazarları daha güvenli ve güvenilir hale getirir.",
+      "website": "https://counterfake.ai/",
+      "logo_url": "/storage/logos/counterfake-yazilim-teknolojileri-anonim-sirketi-logo-white-1743660993.png",
+      "contact_email": "mailto:info@counterfake.ai",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/counterfake-yazilim-teknolojileri-anonim-sirketi",
+      "full_description": "100,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_dataroid",
+      "name": "DATAROİD",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Dataroid, şirketlerin farklı kanallarda gerçekleşen müşteri etkileşimi ve deneyimini ölçerek, veriye dayalı analizler yapma ve gerçek zamanlı aksiyon alma imkânı tanıyan bir etkileşim yönetimi ve büyük veri analitiği platformudur. Zenginleştirilmiş tekil müşteri verisi, davranışsal analitik, uygulama performans yönetimi ve veri modelleme gibi özellikleri tek bir platformda buluşturan Dataroid, pazarlama, ürün ve teknoloji ekiplerinin uçtan uca müşteri iç görüsü elde etmesine olanak sunuyor. Başta bankacılık ve finansal servisler olmak üzere, hava yolları, e-ticaret gibi farklı alanlarda faaliyet gösteren birçok büyük ve orta ölçekli şirket tarafından kullanılan Dataroid, 120 milyondan fazla kullanıcının dijital deneyimini şekillendiriyor. Daha fazla bilgi için www.dataroid.com",
+      "website": "www.dataroid.com",
+      "logo_url": "/storage/logos/dataroid-teknoloji-anonim-sirketi-logo-white-1743661015.png",
+      "contact_email": "mailto:info@dataroid.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/dataroid-teknoloji-anonim-sirketi",
+      "full_description": "71,2 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_deepwise",
+      "name": "DEEPWISE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Lokasyon bazlı çalışan Enerji, Telekom firmalarının ve yerel yönetim sahalarının dijital ikizini oluşturan, yapay zeka destekli algoritması ile yatırım ve arıza tahminlemesi sunan platformdur. Milyarlarca dolarlık yatırım gerektirdiği için uzaktan erişim ihtiyaçları ihmal edilen sektörlere yeni bir soluk getirmek için yola çıktık. Normalde ithal IoT cihazlar ve ek saha ziyaretleri ile kurulan sistemin muadili olarak yapay zeka destekli görüntü işleme içeren dijital ikiz yöntemi geliştirdik. Kurumsal deneyimi inovasyonla birleştiren eğlenceli bir kurucu ekibimiz var. Bir şirketin en hassas noktası olan varlık yönetimi ve yatırım planı iyileştirme alanında çığır açan bir modele sahibiz.",
+      "website": "www.deep-wise.com",
+      "logo_url": "/storage//logos/company_74_logo_white.png",
+      "contact_email": "mailto:zafer.tuylu@deep-wise.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/deepwise-teknoloji-ve-yazilim-anonim-sirketi",
+      "full_description": "5,5 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_eatron",
+      "name": "EATRON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Eatron, dünya çapındaki tüm araç ve batarya üreticileri için akıllı yazılımlar ile bataryaların tam potansiyelini açığa çıkarmaya adanmış hızla büyüyen bir teknoloji şirketidir. Eatron olarak otomotiv, mobilite ve daha fazlası için daha iyi, daha güvenli, daha dayanıklı ve daha yeşil bataryalar geliştiren AI destekli, uçtan buluta bağlı bir yazılım platformu geliştiriyoruz. Eatron’un uçtaki (örneğin, BMS içindeki) her yazılım fonksiyonu, ileri düzey SoX veya RUL gibi, entegre bağlantı ve analizlerle bir bulut karşılığına sahip olacak şekilde tasarlanmıştır. Bu, bataryaların ve elektrikli araçların ömrü boyunca üstün performans, güvenlik ve güvenilirlik sağlamak amacıyla düzenli yazılım iyileştirmeleri açığa çıkarmak için OTA güncellemelerini mümkün kılar.",
+      "website": "www.eatron.com",
+      "logo_url": "/storage//logos/company_82_logo.png",
+      "contact_email": "mailto:info@eatron.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/eatron-yazilim-ve-muhendislik-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_elaves",
+      "name": "ELAVES",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Elaves, 0-3 yaş arası çocukların dil becerilerini ve bilişsel gelişimlerini destekleyen, ekransız ve bilimsel temellere dayalı yenilikçi bir deneyim sunar. Akıllı oyuncaklarımız, çocukların oyun ve etkileşim yoluyla dili doğal bir şekilde öğrenmelerine yardımcı olurken, yapay zeka destekli mobil uygulamamız ebeveynlere kişiselleştirilmiş rehberlik sunar ve oyuncakların yönetimini sağlar. Yapay zeka destekli sistemiyle Elaves, çocukların her dilde ilk oyun, ritüel, uyku ve dil arkadaşı olur. Dil gelişimini güvenli ve eğlenceli bir şekilde desteklerken, akademik başarılarının temelini sağlam bir şekilde oluşturur.",
+      "website": "https://www.elaves.com/",
+      "logo_url": "/storage/logos/elaves-egitim-ve-teknoloji-as-logo-white-1743661050.png",
+      "contact_email": "mailto:hello@elaves.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/elaves-egitim-ve-teknoloji-as",
+      "full_description": "394,3 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_enviculture",
+      "name": "ENVİCULTURE",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [],
+      "description": "Enviculture , tarımın geleceğini şekillendiren yenilikçi bir girişimdir. Biyobozunur kaplamalı kontrollü salınımlı gübre teknolojisi geliştirerek, toprak sağlığını koruyan, azot kaybını azaltan ve mikroplastik içermeyen çözümler sunuyoruz. Geleneksel gübrelerin çevresel etkilerini minimize eden ürünlerimiz, çiftçilere verimlilik, sürdürülebilirlik ve maliyet avantajı sağlarken, AB 2028 plastik kaplama düzenlemeleriyle tam uyum içindedir. Döngüsel ekonomi ilkelerine dayanan yaklaşımımızla, atık bazlı biyomalzemeleri değerlendirerek tarımı çevre dostu hale getiriyoruz. Geleceğin tarımını bugünden inşa eden Enviculture, gübre teknolojisinde yeşil dönüşümün öncüsü olmaya devam ediyor.",
+      "website": null,
+      "logo_url": "/storage/logos/yXZEHcUlQuDFddICpDnbaOjGLCQVVzMJM6Z4slSP.png",
+      "contact_email": "mailto:info@envagro.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/enviculture-tarim-teknolojileri-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_envis",
+      "name": "ENVİS",
+      "sector": "Araştırma ve Geliştirme",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Çevre ve enerji alanında yenilikçi ve sürdürülebilir çözümler üretmek amacıyla üniversite-sanayi işbirliği kurarak bilimsel bilgi ile endüstriyel uygulamaları birleştiriyor, ulusal ve uluslararası standartlara uyumlu teknolojik destek sağlıyor, kaynak verimliliğini artıran, atıkları en aza indiren ve enerji kullanımını optimize eden yaklaşımlar geliştirerek sürdürülebilir bir geleceğe katkı sunuyoruz.",
+      "website": "http://www.envis.com.tr",
+      "logo_url": "/storage/logos/vReGTdH81RKYB2bdqALciGF3NPCK2FPsolJmp7uU.png",
+      "contact_email": "mailto:sozen@envis.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/envis-cevre-ve-enerji-sistemleri-arastirma-ve-gelistirme-limited-sirketi",
+      "full_description": "9,6 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_erg",
+      "name": "ERG",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "YIKA, el hijyeni faaliyetlerini proaktif olarak takip eden ve raporlayan kapsamlı bir platformdur. Bu yenilikçi platform, el hijyeni takip prosedürlerini kesintisiz ve dijitalize hale getirerek aksiyon alınabilir veriler üretir.",
+      "website": "www.ergcontrols.net",
+      "logo_url": "/storage//logos/company_95_logo_white.png",
+      "contact_email": "mailto:batuhan@ergcontrols.net",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/erg-kontrol-sistemleri-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": "16,1 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_etcbase",
+      "name": "ETCBASE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "1995 yılında kurulmuş olan etcBASE, yasal takip süreçlerini kurumsal yaklaşım ile ilk kez ele alan ve bu alanda kurumsal ürünü başarı ile üretmiş %100 yerli ilk yazılım firmasıdır. Yasal Takip Sistemi hizmetini günümüz teknolojileri ile geliştirmeye devam etmiş ve sektör bağımsız olarak, tahsilatı geciken kurum alacaklarının, birinci gecikme gününden başlayan ve yasal yol ile tahsilatına kadar uzanan zorlu bir operasyonun uçtan uca yönetimine imkan veren bir \"tahsilat platformu\" haline getirmeyi başarmıştır. Ürünlerini her birinin kendine özel dinamikleri ve işlevi olan finans, enerji, telekomünikasyon, medya, perakende, otoyol işletmeleri gibi farklı sektörlerin kullanımına uyarlamış, kredi alacakları, fatura alacakları, çek/senet alacakları, otoyol ihlali geçiş alacakları gibi farklılaşan alacak türlerine göre özelleştirmiştir.",
+      "website": "http://www.etcbase.com",
+      "logo_url": "/storage/logos/fP8M1VksIzaurDw8sEBvMOu0LIfNjLEgUJURyO3a.png",
+      "contact_email": "mailto:yucel.ozcan@etcbase.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/etcbase-yazilim-ve-bilisim-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_eteration",
+      "name": "ETERATION",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Eteration, 2002 yılından bu yana işletmelere dijital dönüşüm yolculuklarında rehberlik eden bir teknoloji şirketidir. Yapay zeka, bulut bilişim, DevOps gibi ileri teknoloji çözümlerini iş süreçlerine entegre ederek operasyonel verimliliği artırır, maliyetleri optimize eder ve ölçeklenebilir, sürdürülebilir büyüme imkanı sunar. Eclipse tabanlı araçlardan mobil ve web uygulamalarına kadar geniş bir uzmanlığa sahip olan Eteration, farklı sektörlerdeki tecrübesiyle, her kurumun özel ihtiyaçlarına uygun çözümler geliştiren güvenilir ve stratejik bir iş ortağıdır.",
+      "website": "http://www.eteration.com",
+      "logo_url": "/storage/logos/zxLDWt13FIEqEsGhfj3owoyMaiZyajXrJaqYj1f3.png",
+      "contact_email": "mailto:info@eteration.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/eteration-bilisim-cozumleri-ticaret-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_eyedius",
+      "name": "EYEDİUS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Eyedius, iş yerlerinizin farklı ihtiyaçlarına yönelik akıllı çözümler sunan, trafik yönetiminden ekip hareketliliğine, geçiş kontrolünden güvenliğe kadar tüm süreçlerinizi optimize etmenize yardımcı olan yapay zeka platformudur.",
+      "website": "www.eyedius.com",
+      "logo_url": "/storage//logos/company_108_logo_white.png",
+      "contact_email": "mailto:info@eyedius.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/eyedius-teknoloji-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_ezcam",
+      "name": "EZCAM",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "EZ-CAM firması olarak, ülkemizin yerli ilk ve tek CAM programının geliştirilmesi, dünya çapındaki satış, pazarlama ve teknik destek hizmetlerin sürdüren firmamız yurtiçi ve yurtdışında hizmet vermektedir. 35 yıllık programcılık tecrübesi ışığında kullanıcılarına güçlü, kolay ve ekonomik CAD/CAM sistemleri sunmayı hedefleyen EZ-CAM, 2,5-3-4 ve 5 eksen frezeleme, 2 ve 4 eksen tornalama, tel erozyon ve G-kodu filtreleme alanlarında pratik çözümler üretmekte olup dünya çapında 10.000’in üzerinde kullanıcıya ulaşmıştır. Deneyimli mühendis kadromuz, Geniş referans listemiz ve teknik destek sistemimizle işletmenizin CAD/CAM çözümünü sunmaya hazırız. Öğrenmesi ve kullanması en kolay CAD-CAM sistemlerini müşterilerimize ekonomik mükemmelliği ile üstün müşteri memnuniyetini yakalayarak ve kaliteden kesinlikle ödün vermeden sunmayı hedefliyoruz.",
+      "website": "www.ezcam.com.tr",
+      "logo_url": "/storage/logos/ezcam-bilgisayar-yazilim-ticaret-ltd-sti-logo-white-1743661129.png",
+      "contact_email": "mailto:info@ezcam.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/ezcam-bilgisayar-yazilim-ticaret-ltd-sti",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_fev_tr",
+      "name": "FEV TR",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "FEV Türkiye, otomotiv mühendisliği ve mobilite çözümlerinde öncü bir global Ar-Ge ve danışmanlık şirketidir. Elektrifikasyon, otonom sürüş, bağlantılı araç teknolojileri ve sürdürülebilir mobilite alanlarında yenilikçi çözümler sunarak sektörde fark yaratmaktadır. Motor ve aktarma organları, batarya yönetim sistemleri, hidrojen yakıt hücreleri ve araç içi yazılım geliştirme konularında uzmanlaşan FEV, mühendislik mükemmeliyeti ile müşterilerine geleceğin teknolojilerini sunmaktadır. Türkiye’deki teknik yetkinlikleri ve küresel ağı ile sanayiye değer katan FEV, sürdürülebilir ve akıllı ulaşım çözümlerine odaklanarak mobilitenin geleceğini şekillendirmektedir.",
+      "website": "http://www.fev.com",
+      "logo_url": "/storage//logos/company_110_logo_white.png",
+      "contact_email": "mailto:fev-turkey@fev.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/fev-tr-otomotiv-ve-enerji-arastirma-ve-muhendislik-limited-sirketi",
+      "full_description": "2,7 Milyar $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_fineksus",
+      "name": "FINEKSUS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Fineksus, İstanbul, Dubai, Kuveyt City ve Bakü’deki ofisleriyle Hong Kong’dan Birleşik Krallık’a uzanan 32 ülkede ürün ve hizmet sunmaktadır. 23 yıllık uzmanlığıyla RegTech sektörünün sürekli değişen taleplerine yanıt veren Fineksus, AML uyumluluğu ve finansal mesajlaşma süreçlerini daha verimli ve etkili hale getiren yenilikçi çözümler geliştirmektedir.",
+      "website": "http://www.fineksus.com",
+      "logo_url": "/storage//logos/company_112_logo_white.png",
+      "contact_email": "mailto:info@fineksus.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/fineksus-bilisim-cozumleri-ticaret-as",
+      "full_description": "1,8 Milyar $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_fonoklik",
+      "name": "FONOKLİK",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "TeamGram CRM, küçük ve orta ölçekli işletmelere yönelik bulut tabanlı CRM çözümleri sunan bir yazılımdır. İşletmelerin müşteri ilişkilerini ve satış süreçlerini yönetmelerini sağlar. Şirket içi iletişimin ve ekip verimliliğinin arttırılmasına yardımcı olur. Kullanıcı dostu arayüzü, esnek özelleştirme seçenekleri ve güçlü entegrasyonlarıyla öne çıkan TeamGram CRM’in temel amacı, işletmelerin satış süreçlerini daha verimli hale getirerek büyümelerini hızlandırmaktır.",
+      "website": "http://www.phonoclick.com",
+      "logo_url": "/storage//logos/company_116_logo_white.png",
+      "contact_email": "mailto:info@phonoclick.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/fonoklik-iletisim-hizmetleri-ve-tic-as",
+      "full_description": "469,1 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_genpute",
+      "name": "GENPUTE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "GENPUTE genetik verilerin (DNA verilerinin) hesaplanması için laboratuvarlar ve hastaneler de kullanılmak üzere projeler geliştirmek ve kompleks hesaplamalar için algoritma tasarlama ve arama motorları geliştirme şeklinde iki teknoloji alalnında çözümler üretmektedir. Son yıllarda büyük ve karmaşık veriler üzerindeki tecrübe ve birikimi ile geçmişten günümüze tüm müzik eserlerinin kayıt altında tutulduğu ve telif ücretlerinin hesaplamalarının yapıldığı yeni bir alanda yazılımlar üretmektedir.",
+      "website": "https://genpute.com/",
+      "logo_url": "/storage//logos/company_123_logo_white.png",
+      "contact_email": "mailto:info@genpute.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/genpute-hesaplama-teknolojileri-as",
+      "full_description": "3,2 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_guven_komurgoz",
+      "name": "GÜVEN KÖMÜRGÖZ",
+      "sector": "Telekomünikasyon ve Teknolojik Donanım",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Elektrik makineleri teknolojisinde yenilikçi çözümler sunuyoruz! Yüksek verimlilikle çalışan, dayanıklı ve akıllı sistemlerle entegre elektrik makineleri tasarlıyor, geliştiriyor ve optimize ediyoruz. Sadece tasarım değil, aynı zamanda işletim süreçlerinizi en verimli hale getirmek, kestirimci bakım ve gelişmiş arıza tespit sistemlerimizle arızaları minimuma indirmek için de buradayız. Makinalarınızın ömrünü uzatmak, kesintisiz performans sağlamak ve maliyetlerinizi düşürmek için en son teknolojilerle sizi destekliyoruz. Güvenilir, akıllı ve sürdürülebilir elektrik makinaları çözümleri için bize ulaşın!",
+      "website": "http://www",
+      "logo_url": "/storage//logos/company_127_logo_white.png",
+      "contact_email": "mailto:komurgoz@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/guven-komurgoz-kiris",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_h3m",
+      "name": "H3M",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "H3M olarak, teknoloji ve inovasyonu kullanarak finansal suçlara karşı küresel mücadeleyi dönüştürüyoruz. \"Üst Sağ Köşe\" vizyonumuzdan ilham alarak, 2034’e kadar 1.000 kurumu finansal suçları önlemede öncü hale getirmeyi hedefliyoruz. Gelişmiş platformumuz KROTON, AI & ML destekli Aktif Öğrenme ve Federated Learning yöntemleriyle üstün doğrulukta finansal suç tespiti sağlar. Maliyetleri düşürürken tespit oranlarını artırarak uyumluluk verimliliğini maksimize ediyoruz. Sadece bir yazılım sağlayıcısı değil, stratejik iş ortağınızız. İleri seviye İşlem İzleme, KYC & AML Çözümleri ve Yaptırım Tarama Sistemleri ile kurumunuza özel çözümler sunuyoruz.",
+      "website": "www.h3m.io",
+      "logo_url": "/storage//logos/company_130_logo_white.png",
+      "contact_email": "mailto:tolga.kurt@h3m.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/h3m-yazilim-danismanlik-san-ve-tic-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_het_peyzaj",
+      "name": "HET PEYZAJ",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "H.E.T. Peyzaj ve Kentsel Tasarım Ar-Ge Ltd. Şti. HABİTAT, EKOLOJİ ve TEKNOLOJİ ekseninde kentsel ve bölgesel ölçekte yenilikçi projeler üreten bir firmadır. Küresel ısınma ve gittikçe artan çevre sorunlarının baskısı altındaki habitatların korunması, onarılması ve dengeli bir şekilde kullanımını sağlayan- ekoloji ve çevre kalitesine katkıda bulunan- sosyal, ekonomik, ekolojik ilişkiler ağının sürdürülebilir şekilde kurulmasında en son teknolojiyi kullanan tasarım ve planlama projelerinin üretilmesi firmanın misyonudur.",
+      "website": "www.hetpeyzaj.com",
+      "logo_url": "/storage/logos/het-peyzaj-kentsel-tasarim-ar-ge-ltd-sti-logo-white-1743661201.png",
+      "contact_email": "mailto:info@hetpeyzaj.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/het-peyzaj-kentsel-tasarim-ar-ge-ltd-sti",
+      "full_description": "11,1 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_hitit",
+      "name": "HİTİT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "1994’te kurulan Hitit, teknolojik bağımlılıktan kurtulma felsefesiyle yola çıkmış olup, bugün dünyanın en büyük havayolu ve seyahat teknolojileri sağlayıcılarından biri olarak kabul görmektedir. Havayolu ve seyahat sektörlerindeki şirketlere yeni nesil yazılım çözümleri sunmaktadır. Rezervasyon, biletleme, check-in, yolcu kalkış kontrolü, ekip planlama, sadakat yönetimi, gelir ve gider muhasebesi, tarife planlama, operasyon kontrolü, tur operatörü/charter yönetimi, geniş kapsamlı performans ölçümü ve kargo gibi ihtiyaçlara Crane markalı yazılımlarıyla tek noktadan hizmet veren Hitit, aynı zamanda hosting ve danışmanlık hizmetleri de sağlamaktadır. Altı kıtada 70’i aşkın şirkete hizmet vererek her yıl milyonlarca insanın seyahat etmesini sağlayan Hitit, Borsa İstanbul’da işlem görmektedir.",
+      "website": "https://hitit.com/",
+      "logo_url": "/storage//logos/company_139_logo_white.png",
+      "contact_email": "mailto:hitit@hititcs.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/hitit-bilgisayar-hizmetleri-as",
+      "full_description": "1,4 Milyar $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_holything",
+      "name": "HOLYTHING",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "E-ticaret sadece bir satış süreci değil, markalar ve müşterileri arasında kusursuz ve keyifli bir deneyim yaratma sanatıdır. Holly Palm olarak, işte tam da bu noktada devreye giriyoruz! Türkiye'nin ilk ve tek Shopify Plus partneri olarak; Holly Connect – E-ticaret operasyonlarınızı kolaylaştıran yenilikçi entegrasyon çözümü sunuyoruz. ERP sistemlerinizi Shopify ve pazaryerleri ile entegre ederek stok yönetimini, sipariş süreçlerini ve lojistiği tek bir noktadan kontrol etmenizi sağlıyoruz. Böylece siz, işinizi büyütmeye odaklanabilirsiniz! Peki, neden Holly Palm? Deneyimli e-ticaret uzmanlarımız, markanızın dijital dünyada başarılı olması için yanınızda! Kolay, keyifli ve sonuç odaklı bir iş birliği sunuyoruz. Bizimle iletişime geçin ve e-ticarette fark yaratmaya başlayın!",
+      "website": "hollyconnect.com",
+      "logo_url": "/storage//logos/company_140_logo_white.png",
+      "contact_email": "mailto:hello@hollypalm.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/holything-dijital-yazilim-gelistirme-ve-e-ticaret-ltd-sti",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_hummingdrone",
+      "name": "HUMMINGDRONE",
+      "sector": "Araştırma ve Geliştirme",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "İklim krizi ile mücadele etme ve tüm canlıların refahını artırma misyonu ile yola çıkan Hummingdrone, sürdürülebilir bir gelecek için mühendislik çözümleri geliştiriyor. Otonom drone ve özgün yapay zeka çözümleri ile güneş enerjisi santrallerinin (GES) denetimini gerçekleştiriyor, endüstrinin dijital dönüşümüne liderlik ediyor. İleri teknoloji denetim çözümü INSPECT ile EPC, O&M, OEM firmalarının ve GES yatırımcılarının veriye dayalı aksiyon planları hazırlamasını sağlıyor; üretim performanslarını artırırken olası risklerin önüne geçmelerine ve yatırım getirilerini artırmalarına olanak tanıyor. Sosyal etkiyi işin merkezine yerleştiren Hummingdrone, iş gücü verimliliğini artırırken sürdürülebilir ekonomik büyümeyi güvence altına almak adına endüstrileri dönüştürme hedefiyle ilerlemeye devam ediyor.",
+      "website": "https://hummingdrone.co/",
+      "logo_url": "/storage/logos/hummingdrone-havacilik-arge-ve-yazilim-as-logo-1743661254.png",
+      "contact_email": "mailto:hello@hummingdrone.co",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/hummingdrone-havacilik-arge-ve-yazilim-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_hyperever",
+      "name": "HYPEREVER",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Hyperever, eklemli yapay zeka robotları ve robotik alt sistemler alanında çalışan, tasarım ve uygulamalarıyla geleceğin teknolojilerine öncülük etmeyi amaçlayan bir şirkettir. Robotlarımız özgün mekanik ve elektronik tasarımlar, özel geliştirilmiş yazılım ve yapay zeka uygulamaları ile zorlu koşullarda dünyada kullanılan diğer robotlarla en üst seviyede rekabet edebilecek şekilde geliştirilmektedir. 2023'teki kuruluşumuzdan bu yana geliştirdiğimiz quadruped robot Proteo'yu 2025 yılı içerisinde piyasaya sunmak ve 2027 yılında bir insansı humanoid robotu ülkemizin ve dünyanın hizmetine sunmak önceliklerimiz arasındadır.",
+      "website": "hyperever.com",
+      "logo_url": "/storage/logos/hyperever-makina-sanayi-ve-ticaret-anonim-sirketi-logo-white-1743661275.png",
+      "contact_email": "mailto:info@hyperever.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/hyperever-makina-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": "211,1 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_icron",
+      "name": "ICRON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "savunma"
+      ],
+      "description": "ICRON, karar merkezli optimizasyon çözümlerinde lider bir global oyuncu olup Hollanda, Türkiye, Almanya ve Singapur’daki ofisleriyle faaliyet göstermektedir. Organizasyonlara operasyonel verimlilik, kârlılık ve sürdürülebilirlik sağlarken, yapay zeka ve makine öğrenimini stratejik, taktik ve operasyonel planlamaya entegre ederek planlama süreçlerini kolaylaştırır. ICRON, uçtan uca Tedarik Zinciri Planlama çözümlerinin yanı sıra Havacılık ve İş Gücü Yönetimi alanlarında da yenilikçi çözümler sunmaktadır. Gıda ve içecek, kimya, ilaç, otomotiv, yapı malzemeleri, perakende, saha hizmetleri, ileri teknoloji, elektronik ve havacılık gibi çeşitli sektörlerdeki şirketlere hizmet vermektedir.",
+      "website": "http://www.icrontech.com",
+      "logo_url": "/storage/logos/ljRCsquUlCitrcDEwahByynMAuG3YQk6W6W8HZQK.png",
+      "contact_email": "mailto:ebru.kutluca@icrontech.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/icron-teknoloji-bilisim-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_imovasyon",
+      "name": "İMOVASYON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "2015 yılında geliştirmeye başladığımız, 2016'da ilk müşterimize ulaştığımız Kobisi olarak, işletmelere kolay ve hızlı bir e-ticaret deneyimi sunuyoruz. SaaS (Software as a Service) modeli ile sunduğumuz altyapımız, zahmetsiz stok yönetimi sağlar ve sürekli güncellenerek teknolojik yeniliklere uyum sağlar. İşletmelerden gelen verileri işleyerek satış trendleri ve müşteri davranışlarını analiz eder, dijital pazarlama uzmanlarına ipuçları sunarız. Google sertifikalı, sonuç odaklı ve dinamik ekibimizle müşterilerimize her zaman en iyi hizmeti vermeyi hedefliyoruz. Yenilikleri takip eden ekibimiz sayesinde on binlerce satış gerçekleştirdik ve her geçen gün büyüyerek E-ticaret siteleri arasında adımızdan söz ettirmeye devam ediyoruz.",
+      "website": "www.imovasyon.com",
+      "logo_url": "/storage/logos/JVE54JnKdrS1LyCJ7qKvLUoV1tsAV2CBT4lRJSwL.png",
+      "contact_email": "mailto:kurumsal@imovasyon.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/imovasyon-bilisim-ve-danismanlik-hiz-san-tic-ltd-sti",
+      "full_description": "3,4 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_invent",
+      "name": "İNVENT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Invent.ai, perakendecilere satışları, gelirleri ve kâr marjlarını artıracak en iyi planlama ve operasyonel kararları alma gücü veren öncü bir yapay zeka platformudur. Teknoloji çözümleriyle hızlı ve ölçülebilir değer sunan invent.ai, perakende planlama verilerini bir araya getirir, sonuçları öngörür ve envanter, fiyatlandırma ve ürün yönetimini optimize eder.",
+      "website": "http://www.inventanalytics.com",
+      "logo_url": "/storage/logos/invent-yazilim-danismanlik-anonim-sirketi-logo-white-1743661306.png",
+      "contact_email": "mailto:gurhan@inventanalytics.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/invent-yazilim-danismanlik-anonim-sirketi",
+      "full_description": "24,5 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_kolaj_co",
+      "name": "KOLAJ CO",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Kolaj, e-ticaret markalarını video içerik üreticileriyle buluşturan yapay zeka destekli bir pazaryeridir. Markaların reklam stratejilerini güçlendirmek için hızlı, etkili ve yüksek dönüşüm sağlayan video içerikler sunar. Markalar için hızlı içerik üretimi, doğru influencer eşleştirmesi ve veri analiziyle optimize edilmiş kampanyalar sağlarken, içerik üreticilerine düzenli iş fırsatları ve kazanç imkânı sunar. Resmi iş ortaklarımız arasında Iyzico bulunurken, Arabam.com ve Akbank gibi güçlü markalarla da iş birliği yapıyoruz. Kolaj, e-ticaret dünyasında daha fazla görünürlük, daha yüksek etkileşim ve daha iyi dönüşümler sağlamak isteyen markalar için ideal bir çözümdür.",
+      "website": "www.kolaj.co",
+      "logo_url": "/storage/logos/kolaj-co-ugc-video-reklam-sanayi-ve-ticaret-limited-sirketi-logo-white-1743661322.png",
+      "contact_email": "mailto:hello@kolaj.co",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/kolaj-co-ugc-video-reklam-sanayi-ve-ticaret-limited-sirketi",
+      "full_description": "2,0 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_kron",
+      "name": "KRON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "savunma"
+      ],
+      "description": "Kron, Ayrıcalıklı Erişim Yönetimi (PAM) ve Veri Güvenliği odaklı geniş bir ürün yelpazesi sunan, siber güvenlik alanında küresel çapta tanınan lider bir firmadır. Kron, altı kıtada 30'dan fazla ülkedeki geniş bir müşteri portföyüne hizmet vermektedir. Kron’un Kimlik Güvenliği ürünü Kron PAM ve Veri Güvenliği ürünleri DAM ve DDM, tek bir platformda sorunsuz bir şekilde çalışarak kuruluşların siber tehditlere karşı daha güçlü bir savunma oluşturmasına yardımcı olur. Kron’un yenilikçi siber güvenlik çözümleri, güvenlik tehditlerine karşı etkili bir koruma sağlamanın yanı sıra iş sürekliliğini artırmada ve operasyonel verimliliği geliştirmede de kritik bir rol oynar. Kron, İstanbul, Ankara ve İzmir ofislerinin yanı sıra, ABD ve BAE’de de faaliyet göstermekte olup, Pakistan, Malezya ve Endonezya’da satış ve destek operasyonlarına sahiptir.",
+      "website": "http://www.kron.com.tr",
+      "logo_url": "/storage/logos/kron-teknoloji-as-logo-white-1743661345.png",
+      "contact_email": "mailto:fuat.altioglu@krontech.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/kron-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_la2_dynamics",
+      "name": "LA2 DYNAMICS",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "savunma"
+      ],
+      "description": "Yapay Zeka ile bütünleştirilmiş bacaklı robot tasarımı ve üretimini hedefleyen LA2 DYNAMICS, başta savunma sektörü paydaşları tarafından kullanılmak üzere tüm fonksiyonları kontrol edilebilen ve farklı türden faydalı yüklerin entegre edilebildiği 4 bacaklı bir robot üretmiştir. Sarsılmaz firması ile işbirliği sonucunda Türkiye'nin ilk yerli ve milli silahlı robotu SARBOT'un lansmanını gerçekleştirmiştir. Firmamız, potansiyel müşteri geri bildirimleri doğrultusunda bacaklı robot üzerinde geliştirmelerine devam etmektedir.",
+      "website": "https://la2dynamics.com/",
+      "logo_url": "/storage//logos/company_177_logo_white.png",
+      "contact_email": "mailto:akduman@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/la2-dynamics-muhendislik-anonim-sirketi",
+      "full_description": "23,2 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_maslaking",
+      "name": "MASLAKİNG",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Pazarlama kampanyalarınızı maksimum verimlilikle optimize eden yapay zeka destekli bir çözümdür. Manuel analiz süreçlerini ortadan kaldırarak, reklam harcamalarınızı en iyi şekilde yönetmenizi sağlar. 🚀 Akıllı Bütçe Yönetimi – ROAS hedeflerinize göre reklam bütçenizi en verimli şekilde dağıtır. 📊 Gerçek Zamanlı Optimizasyon – Kampanya performansını anlık olarak analiz eder ve iyileştirir. 🔗 Platformlar Arası Entegrasyon – Meta, Google, TikTok gibi büyük platformlarla uyumludur. 📈 Tahmine Dayalı Analiz – Geçmiş verilerden öğrenerek gelecekteki performansı artırır.",
+      "website": "maslaking.com",
+      "logo_url": "/storage/logos/maslaking-yazilim-anonim-sirketi-logo-white-1743661375.png",
+      "contact_email": "mailto:info@maslaking.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/maslaking-yazilim-anonim-sirketi",
+      "full_description": "3,3 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_matriks",
+      "name": "MATRİKS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "2003 yılında veri dağıtımı odağıyla sektöre giriş yapan Matriks, yıllar içinde bütünleşik deneyimi, profesyonel yönetim anlayışı ve yenilikçi teknoloji geliştirme yetkinliği ile uçtan uca hizmet sunan bir finansal teknoloji şirketine dönüşmüştür. Kısa sürede finansal veri analizi ve işlem platformları alanında, uluslararası rekabete rağmen yerel pazarda liderliğe ulaşan Matriks, inovatif çözümleri ve sermaye piyasalarının tüm paydaşlarını iş ortağı gören yatırımcı odaklı yaklaşımıyla konumunu günümüzde de güçlendirerek taşımaktadır. Matriks’in ana faaliyet alanı; Türkiye ve küresel finans piyasalarında oluşan veriler ile bu piyasalara ilişkin haber ve analizleri, kullanıcılara anlık olarak sunmak; ayrıca bu piyasalara yönelik işlem platformları, emir ile risk yönetim sistemleri gibi kapsamlı teknolojik çözümler geliştirmektir.",
+      "website": "http://www.matriks.web.tr/",
+      "logo_url": "/storage//logos/company_189_logo_white.png",
+      "contact_email": "mailto:info@matriksdata.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/matriks-finansal-teknolojiler-as",
+      "full_description": "25,3 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_memsis",
+      "name": "MEMSİS",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "MEMSİS Çevre Teknolojileri: Suyun Geleceğini Şekillendiriyoruz 2014 yılında İTÜ Teknokent’te kurulan MEMSİS, atıksu arıtımı ve geri kazanımı için yenilikçi membran teknolojileri geliştirir, üretir ve dünya çapında sunar. 2018’de İstanbul Sanayi Odası tarafından çevre ödülüne layık görülen firmamız, İstanbul’daki merkez ofisi ve Esenyurt’taki üretim tesisiyle sektörde fark yaratmaktadır.Yüksek Verimli Arıtma Çözümleri:Düşük alanlarda maksimum arıtma kapasitesi sunan GENMBR® Membran Biyoreaktör Modülleri, GENPAKET® MBR Paket Arıtma Sistemleri ve GENGRİ® Gri Su Arıtma Sistemleri ile suyun sürdürülebilir kullanımını destekliyoruz.Atıksu arıtma ve geri kazanım sistemlerimizle membran teknolojilerinde öncü çözümler üretiyor, çevre dostu inovasyonlarla geleceğe yön veriyoruz.",
+      "website": "http://www.memsis.com.tr",
+      "logo_url": "/storage//logos/company_198_logo_white.png",
+      "contact_email": "mailto:info@memsis.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/memsis-cevre-teknolojileri-arastirma-ve-gelistirme-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_meta_sapien",
+      "name": "META SAPIEN",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Meta Sapien Games, İstanbul merkezli bağımsız bir oyun stüdyosudur. Şirket, bilgisayar ve konsol oyunları geliştirme konusunda uzmanlaşmış olup, aynı zamanda yayıncılık görevlerini de üstlenmektedir.",
+      "website": "https://metasapiengames.com/",
+      "logo_url": "/storage//logos/company_200_logo_white.png",
+      "contact_email": "mailto:info@metasapiengames.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/meta-sapien-games-bilisim-anonim-sirketi",
+      "full_description": "387,8 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_metatip",
+      "name": "METATIP",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "MetaTıp Sağlık Teknolojileri A.Ş., tıp eğitimi ve cerrahi simülasyon alanında VR, AR ve 3D baskı teknolojilerini birleştirerek yenilikçi ve maliyet etkin eğitim çözümleri sunan bir sağlık teknolojileri girişimidir. Gerçek MR/CT taramalarına dayalı dijital kadavralar ve 3D baskı organ modelleriyle, tıp fakülteleri ve sağlık profesyonellerine sınırsız pratik yapma imkânı sağlar. Geleneksel kadavra ihtiyacını ortadan kaldırarak, eğitimde fırsat eşitliği yaratır ve tıbbi hataları azaltmaya yardımcı olur. TÜBİTAK desteği, uluslararası ödüller ve WISH 2024 seçkisiyle tanınan MetaTıp, küresel sağlık eğitiminde dijital dönüşüm sağlamayı hedeflemektedir. 🚀",
+      "website": "https://metatip.tr/",
+      "logo_url": "/storage/logos/metatip-saglik-teknolojileri-anonim-sirketi-logo-1743661413.png",
+      "contact_email": "mailto:mustafa.sanverdi@st.uskudar.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/metatip-saglik-teknolojileri-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_mild_games",
+      "name": "MİLD GAMES",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Mobil oyun geliştirme sürecinde hız ve verimlilik kritik öneme sahiptir. Unity, İOS ve Android tabanlı Seviye Veri Editörümüz, seviyelerin kolayca oluşturulmasını, düzenlenmesini ve test edilmesini sağlayarak geliştirme sürecini hızlandırır. Oyun motoruna bağımlılığı azaltan bu sistem, güncellemeleri anında uygulama ve yayıncı taleplerine hızlı yanıt verme imkanı sunar. Seviye dengesi ve içerik güncellemelerini optimize ederek, oyuncu bağlılığını artırır ve rekabette öne çıkmanıza yardımcı olur. Platform bağımsız yapısıyla veri uyumluluğunu sağlar, maliyetleri düşürür ve süreci kolaylaştırır. Oyunlarınızı hızlı ve verimli şekilde büyütmek için Seviye Veri Editörümüzü keşfedin!",
+      "website": "https://mildgamesturkey.com",
+      "logo_url": "/storage/logos/mild-games-yazilim-danismanlik-sanayi-ve-ticaret-anonim-sirketi-logo-white-1743661438.png",
+      "contact_email": "mailto:info@mildgamesturkey.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/mild-games-yazilim-danismanlik-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": "24,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_net_satis",
+      "name": "NET SATIŞ",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Mobilexpress, online ve mağaza içi ödemeler için Türkiye'deki tüm bankalar, grup şirketi Lidio ve başlıca ödeme kuruluşları ile entegre güçlü ödeme omurgası ile, sanal - fiziksel POS ve açık bankacılık çözümleri başta olmak üzere, yerli ve global birçok ödeme metodu desteği ile uçtan uca ödeme orkestrasyonu ve tamamlayıcı katma değerli çözümler sunmaktadır. 15 yılı aşkın süredir Türkiye’nin önde gelen marka ve kurumlarına PCI DSS Level 1 güvenlik standartlarına sahip ve TCMB yerel mevzuatları ile uyumlu ödeme teknolojileri çözümleri sağlamaktadır. Aynı zamanda platform iş kolu ile, ödeme ve elektronik para kuruluşları ile fintech alanında faaliyet gösteren tüm firmalara ödeme yazılım altyapıları sunmaktadır.",
+      "website": "www.mobilexpress.com.tr",
+      "logo_url": "/storage/logos/net-satis-iletisim-ve-danismanlik-ticaret-as-logo-white-1743661448.png",
+      "contact_email": "mailto:info@mobilexpress.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/net-satis-iletisim-ve-danismanlik-ticaret-as",
+      "full_description": "1,7 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_nexustech",
+      "name": "NEXUSTECH",
+      "sector": "Telekomünikasyon ve Teknolojik Donanım",
+      "sector_tags": [
+        "yazilim",
+        "savunma"
+      ],
+      "description": "Nexustech, GNSS anti-jamming çözümleri geliştirmek amacıyla kurulmuş, yenilikçi bir teknoloji şirketidir. Amiral gemisi ürünümüz, GPS, Galileo, BeiDou ve GLONASS gibi uydu sistemlerine yönelik karıştırma, aldatma ve parazitlenme tehditlerine karşı üstün koruma sağlayan, kompakt ve yüksek performanslı bir anti-jamming sistemidir. Bu sistem, mini İHA, sürü İHA ve mikro İHA gibi küçük boyutlu insansız hava araçlarında kullanılabilecek şekilde tasarlanmıştır. Ayrıca, iç mekan navigasyonu (indoor navigation) ve görsel navigasyon (visual navigation) çözümleri de geliştirerek, müşterilerimize entegre ve güvenilir navigasyon hizmetleri sunuyoruz. Nexustech olarak, savunma ve havacılık sektörlerinde güvenilir, yenilikçi ve yüksek kaliteli çözümler sunma misyonuyla hareket ediyoruz.",
+      "website": null,
+      "logo_url": "/storage/logos/nexustech-elektronik-haberlesme-ve-bilisim-teknolojileri-anonim-sirketi-logo-1743661462.png",
+      "contact_email": "mailto:egoncu@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/nexustech-elektronik-haberlesme-ve-bilisim-teknolojileri-anonim-sirketi",
+      "full_description": "408,1 Bin ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_nutriente",
+      "name": "NUTRİENTE",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Yaptığı Ar-Ge çalışmaları ile yüksek biyoyararlanıma (biyolojik emilime) sahip gıda takviyelerinin üretilmesi, gıda etken maddelerin sulu ortamda çözünürlüğünün artırılması, sağlığı destekleyen bitkisel ekstrakt ürünlerinin geliştirilmesi ve gıda güvenliği konusunda çözümlerin üretilmesi alanlarında faaliyet göstermektedir. Özellikle, suda çözünmeyen ve biyoyararlanımı oldukça düşük kurkumin ve resveratrol gibi etken maddelerin fonksiyonel moleküler taşıyıcılar (miseller) vasıtasıyla bağırsak emilimi ve biyoyararlanımının artırılması ve geliştirilen gıda takviyesi ürünlerin biyolojik aktivite testlerinin yapılması yoluyla Ar-Ge çalışmaları gerçekleştirmektedir.",
+      "website": "https://www.nutrientelife.com/",
+      "logo_url": "/storage//logos/company_235_logo_white.png",
+      "contact_email": "mailto:elifsahkulubey@gmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/nutriente-life-gida-biyoteknoloji-kimya-anonim-sirketi",
+      "full_description": "26,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_odakent",
+      "name": "ODAKENT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "ODAKENT, “Akıllı Şehir/Devlet” teknolojisinin “Çevre, Şehir ve Altyapı Yönetimi” alanında giderek artan kaliteli planlama ve nitelikli işletmecilik ihtiyacını karşılamak üzere hizmet veren bir Ar-Ge firmasıyız. Türkiye’nin kendi tecrübesini içeren Akıllı Harita teknolojisi tabanlı “Kurumsal” çözüm ve ürünleri geliştirmekte, uzman personel yetiştirmekteyiz.",
+      "website": "http://www.odakent.com.tr",
+      "logo_url": "/storage//logos/company_238_logo_white.png",
+      "contact_email": "mailto:afaydin@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/odakent-cevre-bilisim-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_omni_kanal",
+      "name": "OMNİ KANAL",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Related Digital, global markalara pazarlama teknoloji ve servisleri alanında tek platform üzerinden omni-channel pazarlama otomasyonu sunabilen dünya üzerindeki az sayıdaki şirketten biridir. Related Digital, e-posta pazarlama şirketi olarak 2002 yılında kurulmuştur. Sonrasında veriye dayalı pazarlama otomasyonu sağlayan Related Marketing Cloud (RMC) platformuna dönüşerek, Doğuş Grubu çatısı altında çok-kanallı dijital pazarlama yönetiminde Türkiye’nin öncü şirketi olmuştur. Flo Group, Aydınlı Grup, Coca Cola, Turkcell, Hepsiburada, Pegasus, Otokoç, English Home, Kiko, Under Armour, Blue Diamond, Togg, Agesa, Audi, Chakra, Lacoste, Superstep Garanti BBVA gibi markalar dahil olmak üzere çeşitli sektörlerde her ölçekteki 1000'den fazla markaya hizmet vermektedir.",
+      "website": "www.relateddigital.com",
+      "logo_url": "/storage/logos/omni-kanal-dijital-teknoloji-ve-arge-yazilim-hizmetleri-as-logo-white-1743661484.png",
+      "contact_email": "mailto:info@omnikanal.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/omni-kanal-dijital-teknoloji-ve-arge-yazilim-hizmetleri-as",
+      "full_description": "2,0 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_odeal",
+      "name": "ÖDEAL",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "2014 yılında Türkiye Cumhuriyet Merkez Bankası (TCMB) lisansı ile kurulan Ödeal, 6493 sayılı kanun kapsamında ödeme hizmetleri sunan yenilikçi bir finansal teknoloji markasıdır. Güçlü yatırımcıları arasında Türkiye’nin köklü ailelerinden Konukoğlu Ailesi (SANKO) yer alırken, 2021 yılında İngiltere merkezli SPG Holdings’ten yatırım alarak uluslararası ortaklık yapısına kavuşmuştur. Bugün 125.000’den fazla üye iş yerine hizmet veren Ödeal, küçük ve orta ölçekli işletmelere (KOBİ'lere) finansal hizmetlere erişimi kolaylaştırarak rekabet güçlerini artırmayı hedefliyor. İşletmelere pratik, hızlı ve güvenilir ödeme çözümleri sunarak satış süreçlerini kolaylaştırıyor, Türkiye’nin en kapsamlı finansal çözüm alternatiflerini tek bir platformda bir araya getiriyor.",
+      "website": "https://ode.al/",
+      "logo_url": "/storage//logos/company_253_logo_white.png",
+      "contact_email": "mailto:info@ode.al",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/odeal-yazilim-ve-bilisim-anonim-sirketi",
+      "full_description": "25,0 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_pardon",
+      "name": "PARDON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Pardon AI, dijital müşteri davranışlarını anlık içgörülere dönüştürerek kârlılığı artıran, sektör bağımsız otonom bir yapay zeka ajansıdır. 5 yılı aşkın sürdir 40 milyon saatlik kullanıcı etkileşimiyle eğitilen modelleri, web, mobil, POS ve API verilerini saniyeler içinde analiz eder; fiyatlama, UX, kampanya ve sıralama önerileri sunar. Ortaklarında AOV’de %22 artış sağlarken, her ay 1.000+ markadan öğrenmeye devam eder. Avrupa ve Kuzey Amerika’da Marriott, DoorDash ve Toast gibi devlerle çalışır. 2025’te çıkacak Pardon AI 4.0, çevrimdışı pazarlama ve bütçe karar desteği sunacaktır. Pardon AI, veriden kâra giden en hızlı yolu işletmelere sunar.",
+      "website": "https://pardon-app.com/",
+      "logo_url": "/storage//logos/company_256_logo_white.png",
+      "contact_email": "mailto:info@pardon-app.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/pardon-mobil-teknoloji-hizmetleri-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_parton",
+      "name": "PARTON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Parton Büyük Veri Analitiği ve Danışmanlık A.Ş., büyük veri, yapay zeka ve veri mühendisliği alanlarında uzmanlaşmış, ITU Arı Teknokent’te yer alan yenilikçi bir teknoloji şirketidir. Akademik ve sektörel deneyimi birleştirerek kurumlara veri odaklı dijital dönüşüm çözümleri sunar. Büyük veri analitiği, yapay zeka, veri yönetimi ve karar destek sistemleriyle işletmelerin karmaşık verilerini anlamlı bilgiye dönüştürür. Açık kaynak tabanlı platformlar ve mikro servis mimarisiyle esnek, ölçeklenebilir çözümler geliştirir. Parton, kurumların rekabet gücünü artıran, yenilikçi ve sürdürülebilir veri çözümleriyle geleceği şekillendirir.",
+      "website": "https://partonbigdata.com",
+      "logo_url": "/storage//logos/company_258_logo_white.png",
+      "contact_email": "mailto:altan.cakir@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/parton-buyuk-veri-analitigi-ve-danismanlik-as",
+      "full_description": "44,4 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_pixselect",
+      "name": "PIXSELECT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "PIXSelect Yapay Zeka alanında faaliyet gösteren, Finans, Retail ve Güvenlik(Kamera İzleme) alanında platformlar üretir. Finans için Kimlik ve Yüz Tanıma, Retail için İnsansız Kasa ve Mağaza, Güvenlik için CCTV kameralarını izleyen ve bu kameraları akıllandıran yapay zeka analizlerinin çalıştığı platformlardır.",
+      "website": "www.pixselect.com.tr",
+      "logo_url": "/storage//logos/company_264_logo_white.png",
+      "contact_email": "mailto:solution.center@pixselect.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/pixselect-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_pina_minds",
+      "name": "PİNA MİNDS",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Pina Minds, İTÜ ARI Teknokent merkezli, yenilikçi teknolojilerle endüstriyel dönüşüm yaratmayı hedefleyen bir teknogirişimdir. TÜBİTAK BİGG FONU ve KOSGEB desteğiyle geliştirilen Mimic Master 1.0 ile, robotların gösterim yoluyla öğrenme yaklaşımıyla değişen görevler sonrasında programlanma gereksinimini ortadan kaldırarak hızlı ve kullanıcı dostu otomasyon imkanı sağlamaktadır. Farklı sektörler için yapay zeka destekli kestirimci bakım platformları, yazılım hizmetleri ve robotik otomasyon çözümleri ile Pina Minds, farklı sektörler için esnek ve uygun maliyetli endüstriyel çözümleri sunarak fark yaratmayı amaçlamaktadır. Açık iş birliği anlayışıyla küresel pazarda güçlü bir ekosistem kurarak sürdürülebilir etki yaratmayı hedefleyen Pina Minds, kapsamlı Ar-Ge çalışmalarıyla endüstriyel problemlere yenilikçi çözümler sunmaktadır.",
+      "website": "https://www.pinaminds.com/",
+      "logo_url": "/storage//logos/company_266_logo_white.png",
+      "contact_email": "mailto:ozgurceylan@eskisehir.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/pina-minds-teknoloji-otomasyon-anonim-sirketi",
+      "full_description": "5,8 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_poder",
+      "name": "PODER",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Poder, inşaat şantiyelerindeki fotoğraf kaosunu yapay zeka ile çözen bir belgeleme platformudur. Günlük 3.500'den fazla fotoğrafı otomatik olarak sınıflandırır, analiz eder ve proje paydaşlarıyla paylaşılabilir raporlara dönüştürür.Geç teslimatlara, anlaşmazlıklara ve bilgi kayıplarına yol açan dağınık fotoğraf yönetimini ortadan kaldıran Poder; proje yöneticilerine geriye dönük görünürlük, müteahhitlere ise hukuki bir güvence sunuyor.TÜBİTAK 1812 BiGG destekli, iki patent başvurusuna sahip Poder; Türkiye ve Özbekistan'da aktif müşterilerle büyümesini sürdürüyor.",
+      "website": "https://poder.com.tr/",
+      "logo_url": "/storage//logos/company_268_logo_white.png",
+      "contact_email": "mailto:hilalkurt@irfanoglu.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/poder-bilisim-teknolojileri-san-ve-tic-as",
+      "full_description": "3,2 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_prolit",
+      "name": "PROLİT",
+      "sector": "Gıda, Tarım ve Hayvancılık Teknolojileri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Prolit, inovatif ve fonksiyonel sakız çeşitleriyle sağlıklı tüketim anlayışına yeni bir boyut kazandırıyor. Gıda mühendisliği ve bilimsel araştırmalarla geliştirilen yenilikçi formüllerimiz, ağız ve diş sağlığını desteklerken fonksiyonel bileşenleriyle ekstra faydalar sunuyor. Yapay katkı maddelerinden uzak, modern ve bilimsel yaklaşımlarla tasarlanan ürünlerimiz, sağlıklı yaşamı benimseyen bireyler için güvenilir bir alternatiftir. Yenilikçiliği ve üstün kaliteyi merkeze alarak, sakız kategorisinin yanı sıra takviye edici gıda alanında da fark yaratan çözümler sunuyoruz.",
+      "website": "https://www.prolit.com.tr/",
+      "logo_url": "/storage//logos/company_272_logo_white.png",
+      "contact_email": "mailto:info@prolit.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/prolit-gida-saglik-urunleri-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_rasyonet",
+      "name": "RASYONET",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Rasyonet, Türkiye’nin önde gelen fin-tech şirketlerindendir. 25 yıllık sektör deneyimiyle sermaye piyasalarında güven inşa etmiştir. Bankacılık, yatırım danışmanlığı, risk yönetimi ve portföy yönetimi gibi sektörlerdeki güçlü iş birlikleri sayesinde geniş bir kullanıcı ağına sahiptir. Yurtiçinde ve yurtdışında her yerden erişilebilen, kullanıcı dostu ve uygun maliyetli finansal veri ve analiz araçları sunmaktadır.",
+      "website": "http://www.rasyonet.com",
+      "logo_url": "/storage//logos/company_276_logo_white.png",
+      "contact_email": "mailto:info@rasyonet.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/rasyonet-bilgisayar-yazilim-ve-danismanlik-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_raymare",
+      "name": "RAYMARE",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Raymare Biyoteknoloji, sürdürülebilir tarımsal çözümler geliştiren bir derin teknoloji firmasıdır. RayCore teknolojisi ile tarımsal atıkları yüksek verimli biyostimülantlara dönüştürerek mahsul verimini artırırken su ve gübre kullanımını optimize eder, karbon ayak izini azaltır. İklim değişikliği, toprak bozulması ve nüfus artışı gibi küresel zorluklara karşı yenilikçi biyostimülant çözümleri sunar. Bitki stres yönetimi ve çevresel sürdürülebilirlik odaklı ürünleriyle, çiftçilerin üretim süreçlerini daha dirençli hale getirir. Bilim ve teknolojiyi doğayla birleştirerek tarımsal üretimin geleceğini şekillendirir.",
+      "website": "www.raymare.com",
+      "logo_url": "/storage/logos/raymare-biyoteknoloji-anonim-sirketi-logo-1743661582.png",
+      "contact_email": "mailto:info@raymare.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/raymare-biyoteknoloji-anonim-sirketi",
+      "full_description": "347,6 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_ricon",
+      "name": "RİCON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Ricon İletişim AŞ; Şirketler, işletmeler için telekomünikasyon/network yazılım ve ekipmanları konusunda uzmanlaşmış, uluslararası bir yerli üreticidir. Merkezi yönetim ve buluttan yönetim yazılımları ile Kurumların internet veya uzak ofis bağlantıları için yüksek kaliteli mobil yönlendiricileri (Router), Fiber Optik çoklayıcı/yönlendiricileri (Swicth), IoT cihazları, M2M yönetim yazılım ürünleri üretmektedir. 2022 yılında ArGe amaçlı kurulan Ricon; 20 yılı aşan tecrübesi ile, kurumların ihtiyacına göre yüksek kalite ve performansa sahip özelleştirilmiş Hardware, Firmware ve Yazılımlar üreten Türkiye’nin ilk ve tek yerli kuruluşudur. Türkiye ve Kanada merkez ofisleri, Dubai ve Çin’deki ofisleri ile dünya çapında deneyimli ve yaratıcı insan gücüne sahip, orta büyüklükte bir Türk firmasıdır.",
+      "website": "www.riconmobile.com",
+      "logo_url": "/storage//logos/company_283_logo_white.png",
+      "contact_email": "mailto:logistics@riconmobile.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/ricon-iletisim-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_robogusto",
+      "name": "ROBOGUSTO",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "RoboGusto, dondurulmuş yoğurt ve soğuk içeceklerin hızlı, hijyenik ve tutarlı bir şekilde sunulmasını sağlayan yenilikçi bir otomasyon sistemidir. HoReCa (otel, restoran, kafe) sektörüne özel tasarladığımız sistem, işbirlikçi robotları kullanarak siparişten servise kadar tüm süreci otomatize eder. Gelişmiş yazılım, özel tasarım tutucular ve akıllı yönetim paneliyle, işletmelere verimlilik, maliyet avantajı ve kesintisiz müşteri deneyimi sunar. Geleneksel yöntemlerin zorluklarını ortadan kaldırarak sürdürülebilir ve yenilikçi bir çözüm sağlıyoruz. RoboGusto ile dondurulmuş yoğurt servisi şimdi daha akıllı ve verimli!",
+      "website": null,
+      "logo_url": "/storage//logos/company_285_logo_white.png",
+      "contact_email": "mailto:ebru@robogusto.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/robogusto-endustriyel-teknoloji-anonim-sirketi",
+      "full_description": "8,2 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_robusta",
+      "name": "ROBUSTA",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Robusta, işletmelere dijital iş gücü sunan yenilikçi bir RPA ve GenAI platformudur. Süreç otomasyonu, belge işleme, akıllı asistanlar ve chatbot çözümleriyle, operasyonel verimliliği artırır ve çalışanların stratejik işlere odaklanmasını sağlar. Robusta’nın kullanıcı dostu arayüzüyle teknik bilgiye gerek kalmadan iş süreçleri kolayca modellenip otomatikleştirilebilir. ERP sistemleri, e-posta ve web portallarıyla entegre çalışarak uçtan uca otomasyon imkânı sunar. GenAI destekli doküman anlama ve karar mekanizmalarıyla yalnızca görevleri değil, düşünme süreçlerini de devralır.",
+      "website": "https://robusta.com.tr/",
+      "logo_url": "/storage/logos/robusta-yazilim-otomasyon-danismanlik-sanayi-ve-tic-as-logo-1743661631.png",
+      "contact_email": "mailto:info@robusta.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/robusta-yazilim-otomasyon-danismanlik-sanayi-ve-tic-as",
+      "full_description": "117,2 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_rownd",
+      "name": "ROWND",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Rownd Precision, masaüstü CNC tezgâhlar geliştiren bir teknoloji girişimidir. Tezgâhalarımız, özel bir uzmanlık gerektirmeksizin herkes tarafından kolaylıkla kullanılabilmektedir. Genellikle endüstriyel alanlarda profesyonellerin kullandığı üretim tezgâhlarını, herkes için erişilebilir ve kullanıcı dostu hale getiriyoruz. 2021 yılında faaliyetlerimize başladık. 2023 yılında ilk modelimiz Rownd Lathe’i piyasaya sunduk ve Kickstarter kampanyamız aracılığıyla 123 sipariş alarak 600.000 dolar fon topladık. Üretim ve Ar-Ge süreçlerimizi hızlandırmak amacıyla 2024 yılı Şubat ayında yeni tesisimize taşındık ve seri üretime başladık. CES 2025'te tanıttığımız ikinci ürünümüz, Rownd Mill’i bu yılın sonunda satışa sunacağız. Hedefimiz, her yıl en az bir yeni model piyasaya sürerek sektörde hızla güçlü bir konuma ulaşmak.",
+      "website": "https://www.rowndprecision.com",
+      "logo_url": "/storage//logos/company_287_logo_white.png",
+      "contact_email": "mailto:info@rowndprecision.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/rownd-precision-makine-sanayi-ve-ticaret-as",
+      "full_description": "24,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_rumitech",
+      "name": "RUMİTECH",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "RumiTech, güneş ve rüzgar enerjisini birleştirerek IoT cihazlarını şebekeden bağımsız çalıştırabilen akıllı direkler üretir. Bu sayede, enerji altyapısı olmayan veya maliyetli olan yerlerde bile aydınlatma, güvenlik kameraları, acil durum sistemleri gibi cihazlar kesintisiz çalışabilir. RumiTech, enerji maliyetlerini düşürürken çevreyi koruyan sürdürülebilir çözümler sunar.",
+      "website": "https://rumitech.co/",
+      "logo_url": "/storage/logos/rumitech-enerji-ve-teknoloji-as-logo-white-1743661665.png",
+      "contact_email": "mailto:enes@rumitech.co",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/rumitech-enerji-ve-teknoloji-as",
+      "full_description": "859,5 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_scoutium",
+      "name": "SCOUTIUM",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Maç görüntülerini yakalayan ve yapay zeka destekli analizlerle oyuncu ve takım performansı hakkında üst düzey içgörüler sunan, uygun fiyatlı ve son derece kolay kullanımlı bir analiz platformu. Ayrıca, entegre sohbet ve takvim araçlarıyla sporcular ve antrenörler için iletişimi ve günlük görevleri basitleştirir. Genç sporcular için mükemmel. Profesyoneller için bile.",
+      "website": "www.scoutium.com",
+      "logo_url": "/storage//logos/company_294_logo_white.png",
+      "contact_email": "mailto:info@scoutium.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/scoutium-futbol-teknolojileri-as",
+      "full_description": "498,6 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_scp",
+      "name": "SCP",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "SCP, uydu ve yapay zeka tabanlı çözümler geliştiren yenilikçi bir teknoloji şirketidir. Derin teknoloji ve çift kullanımlı sistemleri birleştirerek, çevresel risk yönetimi, altyapı izleme, akıllı şehirler ve enerji sektörüne yönelik veri odaklı çözümler sunar. Kullanıcılar, karmaşık analiz süreçlerine ihtiyaç duymadan stratejik kararlarını optimize edebilir. Avrupa ve global pazarlarda faaliyet gösteren SCP, sürdürülebilir ve akıllı çözümlerle kamu ve özel sektörün ihtiyaçlarına yönelik yenilikçi yaklaşımlar sunmaktadır.",
+      "website": "https://www.smartcityandpartners.com/",
+      "logo_url": "/storage//logos/company_295_logo.png",
+      "contact_email": "mailto:anilsevinc@smartcityandpartners.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/scp-is-gelistirme-yazilim-ve-sistem-cozumleri-anonim-sirketi",
+      "full_description": "860,1 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_sensemore",
+      "name": "SENSEMORE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Sensemore, makine sağlığı analizi için özel olarak tasarlanmış donanım, yazılım ve yapay zeka destekli araçlara sahip, güvenilirliğe odaklı bir varlık yönetim platformudur. Arıza süresini ortadan kaldırarak, makine ömrünü artırarak ve karbon ayak izini azaltarak genel verimliliği artırmak için dijital bir bakım kültürünü destekliyoruz.",
+      "website": "https://sensemore.io",
+      "logo_url": "/storage/logos/sensemore-teknoloji-as-logo-white-1743661702.png",
+      "contact_email": "mailto:hello@sensemore.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/sensemore-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_sfs",
+      "name": "SFS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "SFS, 30 yılı aşkın tecrübesiyle tüm sigorta ekosistemine tüm branşlarda kompozit sigortacılık ürünleri ve yeni nesil teknolojik çözümler sunan bir teknoloji şirketidir.",
+      "website": "http://www.sfs.com.tr",
+      "logo_url": "/storage//logos/company_302_logo_white.png",
+      "contact_email": "mailto:info@sfs.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/sfs-danismanlik-bilgi-islem-san-ve-dis-tic-as",
+      "full_description": "506,2 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_silverberrytech",
+      "name": "SILVERBERRYTECH",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "ilverberryTech, bilim ve doğanın gücünü birleştirerek yenilikçi ve güvenilir takviye edici gıdalar geliştirir. İğde (Elaeagnus angustifolia) bitkisinin yüksek antioksidan kapasitesini ileri teknolojiyle birleştirerek, metabolizmayı destekleyen ve kilo yönetimine yardımcı çözümler sunar. Ürünlerimiz, süperkritik ekstraksiyon ve nano taşıyıcı sistemler gibi ileri üretim yöntemleriyle formüle edilmiştir. Yüksek kalite standartlarına bağlı kalarak, sağlık profesyonelleri ve eczaneler aracılığıyla tüketicilere ulaşır. Güvenli, etkili ve bilimsel yaklaşımımızla sağlıklı bir yaşamı destekleyen doğal çözümler sunuyoruz. 🚀✨",
+      "website": null,
+      "logo_url": "/storage//logos/company_304_logo_white.png",
+      "contact_email": "mailto:demet.akalgan@gmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/silverberrytech-saglik-kozmetik-ve-gida-sanayi-anonim-sirketi",
+      "full_description": "25,4 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_smart_advice",
+      "name": "SMART ADVICE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Smart Advice, bankacılık, yatırım, sigorta, emeklilik, aracı kurum ve varlık yönetimi sektörlerine finansal çözümler sunan öncü bir finans teknolojileri şirketidir. Ana hedefi, yapay zeka ve davranışsal finans ile desteklenen robo danışmanlar, varlık yönetimi ve finansal analiz platformları gibi yenilikçi finansal ürünler geliştirmektir.",
+      "website": "smartadvice.com.tr",
+      "logo_url": "/storage//logos/company_307_logo_white.png",
+      "contact_email": "mailto:info@smartadvice.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/smart-advice-finansal-teknolojiler-as",
+      "full_description": "2,1 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_soft_robotics",
+      "name": "SOFT ROBOTİCS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Bankalardan fintech'lere ve yeni kurulan girişimlere kadar herkesin ödeme hizmetleri oluşturmasına olanak tanıyan ödeme teknolojisi teknik bilgisini sunuyoruz.",
+      "website": "https://softrobotics.com.tr/",
+      "logo_url": "/storage//logos/company_312_logo_white.png",
+      "contact_email": "mailto:zeynep.sandikci@sipay.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/soft-robotics-inovasyon-yazilim-ve-danismanlik-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_solvoyo",
+      "name": "SOLVOYO",
+      "sector": "Perakende ve Distribütör Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Misyonumuz, tedarik zinciri yetkinliğini isteyen herkes için erişilebilir hale getirmektir. Basit, etkili ve kullanıcı dostu bir çözüm sunmak amacıyla, yeni nesil yapay zeka destekli bir platform geliştirdik. Hedefimiz net: Müşterilerimizin ihtiyaç duyacağı tek tedarik zinciri planlama platformu olmak.",
+      "website": "http://www.solvoyo.com",
+      "logo_url": "/storage//logos/company_316_logo_white.png",
+      "contact_email": "mailto:info@solvoyo.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/solvoyo-yazilim-arastirma-ve-gelistirme-san-ve-tic-ltd-sti",
+      "full_description": "384,8 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_seffaf_aparey",
+      "name": "ŞEFFAF APAREY",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Orthero plakları metal diş telleri olmadan dişleri olması gereken ideal pozisyona getirecek en yeni ortodontik çözümdür.",
+      "website": "http://www.orthero.com.tr",
+      "logo_url": "/storage//logos/company_326_logo_white.png",
+      "contact_email": "mailto:info@orthero.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/seffaf-aparey-ortodonti-ve-elektronik-san-ve-tic-as",
+      "full_description": "815,7 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_tahsilist",
+      "name": "TAHSİLİST",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Tahsilist, B2B vadeli çalışan firmaların ticari alacaklarını zamanında sorunsuz tahsil edebilmelerini sağlayan, otomasyon, risk analiz ve yapay zeka araçlarına sahip, ticari yazılımlarla entegre çalışan bir alacak süreç otomasyon yazılımıdır.",
+      "website": "www.tahsilist.com",
+      "logo_url": "/storage//logos/company_331_logo_white.png",
+      "contact_email": "mailto:muhasebe@tahsilist.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/tahsilist-yazilim-as",
+      "full_description": "55,4 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_trend",
+      "name": "TREND",
+      "sector": "Finans ve Sigorta Teknolojileri",
+      "sector_tags": [
+        "finans"
+      ],
+      "description": "Mobil Ödeme ve Açık Bankacılık lisanslarıyla ve en güncel teknolojilerle sürekli geliştirilen ödeme platformumuz diğer tamamlayıcı fonksiyon ve modüllerle birlikte üye iş yerlerine satış ve tahsilat arttırıcı çözümler sunar. En uygun, en kullanıcı dostu akışları, yüksek başarılı ücretlendirme oranları, etkin ve hızlı tahsilat vadeleri ile birleştirir. Üye iş yerlerine değer katar.",
+      "website": "https://payguru.com/",
+      "logo_url": "/storage//logos/company_345_logo_white.png",
+      "contact_email": "mailto:info@payguru.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/trend-odeme-kurulusu-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_turkguven",
+      "name": "TURKGÜVEN",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Türkgüven Yazılım Hizmetleri Türkiye'de ve 11 ülkede iş güvenliği, iş sağlığı ve sürdürülebilirlik alanlarında 300'den fazla firmanın kullandığı yazılım çözümlerini sağlamaktadır.",
+      "website": "http://www.turkguven.com/",
+      "logo_url": "/storage//logos/company_347_logo_white.png",
+      "contact_email": "mailto:info@turkguven.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/turkguven-yazilim-teknolojileri-as",
+      "full_description": "4,6 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_ucgen_otomasyon",
+      "name": "ÜÇGEN OTOMASYON",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Üçgen Otomasyon, işletmelerin dijital dönüşümünü hızlandırarak Endüstri 4.0 standartlarına uygun yenilikçi çözümler sunar. RPA, endüstriyel otomasyon ve IoT teknolojileriyle süreçlerinizi optimize eder, verimliliği artırır ve maliyetleri düşürürüz. Açık kaynak kodlu yazılımlar sayesinde esnek, ölçeklenebilir ve maliyet avantajı sağlayan çözümler geliştirerek, işletmelerin bağımsız ve sürdürülebilir teknolojilere sahip olmasını sağlıyoruz. Üretimden kurumsal süreç yönetimine kadar geniş bir yelpazede, akıllı otomasyon ve veri analitiği entegrasyonlarımızla rekabet gücünüzü artırın. Dijital geleceğe bugünden adım atın!",
+      "website": "www.ucgenotomasyon.com",
+      "logo_url": "/storage/logos/ucgen-otomasyon-elektrik-elektronik-bilisim-sanayi-ve-ticaret-ltd-sti-logo-white-1743661831.png",
+      "contact_email": "mailto:seda.canigur@ucgenotomasyon.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/ucgen-otomasyon-elektrik-elektronik-bilisim-sanayi-ve-ticaret-ltd-sti",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_vatut",
+      "name": "VATUT",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Vatut AI Deneyimin Dijital Hafızası: Vatut AI, yapay zekâ destekli bilgi yönetimi platformudur. Şirketlerin kritik uzmanlıklarını koruyarak operasyonel verimliliğini %50’ye kadar artırır. Deneyim madenciliği teknolojimiz, dokümanlarda yer almayan ancak çalışan deneyimlerinde saklı bilgileri açığa çıkarır ve kurumsal hafızaya kazandırır. Yapay zekâ destekli sohbet arayüzümüz çalışanların sorularına %98 doğrulukla anında yanıt verir. Bilgi akışını hızlandırır, adaptasyon sürecini kısaltır ve iş süreçlerini optimize eder. Sonuç: %60 daha hızlı bilgi transferi, güçlü kurumsal hafıza ve sürdürülebilir kurumsal öğrenme. Vatut AI ile bilgi sermayenizi rekabet avantajına dönüştürün!",
+      "website": "vatut.com",
+      "logo_url": "/storage//logos/company_358_logo_white.png",
+      "contact_email": "mailto:info@vatut.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/vatut-teknoloji-anonim-sirketi",
+      "full_description": "6,8 Bin ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_venuex",
+      "name": "VENUEX",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Fiziksel Mağaza Verilerini Dijital Platformlara Entegre Ederek Omnichannel Performansınızı Artırın!",
+      "website": "https://www.venuex.io/",
+      "logo_url": "/storage/logos/venuex-bilisim-teknolojileri-anonim-sirketi-logo-white-1743661866.png",
+      "contact_email": "mailto:kursad.arman@venuex.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/venuex-bilisim-teknolojileri-anonim-sirketi",
+      "full_description": "7,5 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_vivo",
+      "name": "VIVO",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Vivoo, idrar yoluyla vücudunun temel biyobelirteçlerini analiz eder ve kişiye özel, bilimsel olarak desteklenmiş yaşam tarzı ve beslenme önerileri sunar. Sadece 90 saniyede; su tüketimi, pH dengesi, magnezyum, kalsiyum gibi parametreler hakkında bilgi edinebilirsin. Vivoo, bedenine dair içgörü kazanmanı kolaylaştırır ve sürdürülebilir sağlıklı alışkanlıklar geliştirmen için seni destekler. Üstelik bunu bir idrar stripi, bir mobil uygulama ve saniyeler içinde ulaşabileceğin sonuçlar aracılığıyla yapar..",
+      "website": "https://www.vivoo.io",
+      "logo_url": "/storage//logos/company_363_logo_white.png",
+      "contact_email": "mailto:gozde@vivoo.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/vivo-biyoteknoloji-yazilim-sanayi-ve-ticaret-limited-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_vidobu",
+      "name": "VİDOBU",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Vidobu Eğitim Teknolojileri A.Ş. kurumlara özel altyapı ve yazılım ürünleri, en güncel ve en geniş dijital eğitim kataloğu ile tüm eğitim ihtiyaçlarınıza yönelik anahtar teslim çözümler sunar.",
+      "website": "https://www.vidobu.com/",
+      "logo_url": "/storage/logos/vidobu-egitim-teknolojileri-as-logo-1743661897.png",
+      "contact_email": "mailto:busra.bakay@vuvy.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/vidobu-egitim-teknolojileri-as",
+      "full_description": "5,0 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_wavegenx",
+      "name": "WAVEGENX",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Wavegenx, deniz ve okyanuslardaki dalgaların kinetik enerjisinden faydalanarak yenilenebilir enerji çözümleri sunmaktadır. Her bir türbinimiz, 100 kW enerji üretebilmekte ve verimlilik ile maliyet açısından rakiplerine kıyasla üstün performans sergilemektedir. 1 MW enerji üretimi için sadece 50 metre genişliğinde bir alan yeterli olmaktadır. Ayrıca, sunduğumuz yapay zeka ve donanım desteğiyle, sistemi insan müdahalesini minimuma indirerek tamamen verimli bir şekilde yönetiyoruz. Yenilenebilir enerji sektöründe sürdürülebilir bir gelecek için inovatif çözümler sunuyoruz.",
+      "website": "www.wavegenx.com",
+      "logo_url": "/storage/logos/Wqo5VRcVTx3TzHAlZpWhLdszlVmVETx7Y37z9Adl.png",
+      "contact_email": "mailto:furkan.besik@wavegenx.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/wavegenx-teknoloji-anonim-sirketi",
+      "full_description": "5,5 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_winfluencer",
+      "name": "WINFLUENCER",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Winfluencer, yapay zeka ve MarTech entegrasyonu ile influencer iş birliklerine teknolojik çözüm getirerek dijital pazarlama dünyasında devrim yaratıyor. Anlık raporlama, şeffaf etkileşim takibi ve yalnızca performansa dayalı ödeme modeli sunarak markaların pazarlama bütçelerini etkin bir şekilde yönetmelerine olanak tanıyor. Yenilikçi iş yapış modeli ve teknolojik altyapısı ile öne çıkan Winfluencer, her geçen gün daha fazla reklamverenin tercihi haline geliyor. Farklı sektörlerden markalar, Winfluencer’ı kullanarak hedef kitlelerine hızla ulaşıyor. Pazarlama ajansları ise markalarına platform üzerinden şeffaf ve etkili çözümler sunabiliyor. Türkiye pazarındaki başarılarıyla kendini kanıtlayan Winfluencer, küresel pazarda da teknoloji transferi yoluyla ölçeklenmeyi hedefliyor.",
+      "website": "www.winfluencer.app",
+      "logo_url": "/storage//logos/company_374_logo_white.png",
+      "contact_email": "mailto:info@winfluencer.app",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/winfluencer-dijital-pazarlama-hizmetleri-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_wise",
+      "name": "WİSE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Wiseback, işletmeler için kritik öneme sahip geri bildirimleri omni-channel bir yapıda tüm temas noktalarından toplamasını ve yapay zeka desteğiyle içgörülere dönüştürmesini sağlayan bir deneyim yönetim çözümüdür. Müşteri deneyimini zirveye taşımayı hedefler. Tüm temas noktalarından geri bildirimleri toplayarak, bunları değerli içgörülere dönüştürür. Omni-channel yapısı sayesinde, müşterilerle her platformda etkileşim kurmayı mümkün kılar. Wiseback, işletmelerin müşteri memnuniyetini artırmasına, sadakati güçlendirmesine ve rekabette öne geçmesine yardımcı olur.",
+      "website": "https://www.wiseback.com/",
+      "logo_url": "/storage/logos/wise-bilisim-teknolojileri-anonim-sirketi-logo-1743661926.png",
+      "contact_email": "mailto:hasan.genc@wiseback.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/wise-bilisim-teknolojileri-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_yugen",
+      "name": "YUGEN",
+      "sector": "Malzeme",
+      "sector_tags": [],
+      "description": "Yugen olarak, döngüsel ve sürdürülebilir malzeme inovasyonu alanında değer yaratıyoruz. Patentli ilk ürünümüz POMECO, meyve suyu üretiminden arta kalan nar kabuklarını yüksek performanslı bir biyomalzemeye dönüştürüyor. Ölçeklenebilir ve özelleştirilebilir yapısıyla moda, otomotiv ve iç tasarım gibi sektörlere dayanıklı ve çevre dostu bir alternatif sunuyoruz. POMECO, geleneksel üretim süreçlerinin çevresel etkilerini azaltırken, doğanın sunduğu kaynakları daha verimli kullanmamıza olanak tanıyor. Döngüsel tasarımı merkeze alarak,yeni nesil malzemelerin sektöre entegrasyonu hedefiyle çalışıyoruz.",
+      "website": "www.yugencompany.com",
+      "logo_url": "/storage/logos/3H0yJlHzfBNUjJyTOvm4BnXuf5DOHrcLUWr8OOWO.png",
+      "contact_email": "mailto:hello@yugencompany.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/yugen-biyolojik-ve-kimyasal-teknolojileri-sanayi-ticaret-anonim-sirketi",
+      "full_description": "35,2 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_delivers",
+      "name": "DELİVERS",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "DELIVERS.AI, iç ve dış mekânlar için otonom lojistik çözümleri geliştiren, yapay zekâ tabanlı bir robotik şirketidir. Platformumuz, posta, gıda, endüstriyel tesisler ve havaalanları gibi sektörlerde teslimat, malzeme taşıma ve veri toplama süreçlerini robot bağımsız şekilde dijitalleştirir. Navigasyon, filo yönetimi, teleoperasyon ve MLOps gibi yazılım modüllerini lisanslayarak, donanıma bağlı kalmadan ölçeklenebilir çözümler sunarız. 8 ülkede aktif operasyonlarımız ve EVRi, DPD, SOCAR gibi müşterilerimizle, yüksek marjlı SaaS modeliyle otonom iş gücünü yeniden tanımlıyoruz.",
+      "website": "https://delivers.ai/index.html",
+      "logo_url": "/storage/logos/delivers-ai-robotik-otonom-surus-bilgi-teknolojileri-as-logo-1746620845.png",
+      "contact_email": "mailto:oral.yigitkus@delivers.ai",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/delivers-ai-robotik-otonom-surus-bilgi-teknolojileri-as",
+      "full_description": "111,9 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_from_your_eyes",
+      "name": "FROM YOUR EYES",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "NeuroVision AI Tech Inc., biyolojik görüş ile yapay görüş arasındaki boşluğu kapatarak akıllı mobilite, erişilebilirlik ve gömülü zekâ alanlarında kullanılmak üzere kenar (edge) tabanlı, gizlilik öncelikli ve bağlam farkındalığına sahip yapay görme sistemleri geliştiren bir yapay görme şirketidir.",
+      "website": "https://fromyoureyes.app/",
+      "logo_url": "/storage/logos/from-your-eyes-yapay-zeka-ve-yazilim-teknolojileri-ticaret-anonim-sirketi-logo-1746620860.png",
+      "contact_email": "mailto:info@fromyoureyes.app",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/from-your-eyes-yapay-zeka-ve-yazilim-teknolojileri-ticaret-anonim-sirketi",
+      "full_description": "725,0 Bin ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_inserv",
+      "name": "INSERV",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "InServ A.Ş. 2010 yılından beri, merkezinde Finans, Sigorta ve Kamu kurumları olmak üzere kurumların işleyişine vakıf duayen yönetici ve uzman kadroya sahiptir. Gurubumuz bu sektörlere 44 yıldan beri teknoloji üretmektedir. Şirketimiz son 5 yıldan beri ülkemiz ticaretinin endişesiz, güvenilir(tekin) ve sürdürülebilirlik ilkelerine uygun şekilde oluşturulacağı teknolojik platform sistemler üzerinde çalışmaktadır.",
+      "website": "www.inserv.com.tr",
+      "logo_url": "/storage/logos/inserv-organizasyon-destek-egitim-ve-danismanlik-hizmetleri-as-logo-1746620873.png",
+      "contact_email": "mailto:gultekin.gunal@inserv.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/inserv-organizasyon-destek-egitim-ve-danismanlik-hizmetleri-as",
+      "full_description": "7,7 Milyar ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_kaizen",
+      "name": "KAIZEN",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Kaizen Teknoloji, 2016 yılında markaların müşteri sadakatini güçlendirmek amacıyla kurulmuş bir teknoloji şirketidir. Sadakat programları ve mobil tabanlı çözümler geliştirme konusunda uzmanlaşan Kaizen, global markalarla yürüttüğü projelerle büyümeye devam etmektedir. Markalara sunduğu çözümlerde esneklik, veri odaklılık ve sektöre özel yaklaşımıyla öne çıkan Kaizen, teknolojik yeniliklere hızla adapte olabilen yapısıyla fark yaratmaktadır. Bu yaklaşım, Kaizen’i yalnızca bir yazılım sağlayıcısı değil; markaların sadakat stratejilerini birlikte inşa ettiği güvenilir bir iş ortağı haline getirmektedir.",
+      "website": "www.kaizentech.net",
+      "logo_url": "/storage/logos/kaizen-tasarim-ve-teknoloji-as-logo-white-1746620883.png",
+      "contact_email": "mailto:loran@kaizentech.net",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/kaizen-tasarim-ve-teknoloji-as",
+      "full_description": "147,4 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_norm_cevre",
+      "name": "NORM ÇEVRE",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "1990 yılında kurulan Norm A.Ş. çeyrek yüzyıllık deneyimiyle özel sektör ve kamu kuruluşları için teknik ve ekonomik açıdan sürdürülebilir çözümler üretiyor. Çevre teknolojilerinde Türkiye’nin ilk yatırımcı firmaları arasında yer alan Norm;danışmanlık, projelendirme, uygulama, ürün/teknoloji geliştirme ve yatırım hizmetleri sunuyor. Firmamız ulusal ve uluslararası platformlarda, kamu ve özel sektör yatırımlarına hizmet sağlayarak pek çok önemli çevre koruma projesinde yer almıştır. Norm Çevre sektörün gelişimine katkıda bulunmak amacıyla AR-GE çalışmalarına ve üniversitelerle işbirliğine büyük önem vermektedir.",
+      "website": "http://www.normcevre.com",
+      "logo_url": "/storage/logos/norm-cevre-teknolojileri-sanayi-ve-ticaret-as-logo-1746620891.png",
+      "contact_email": "mailto:muhasebe@normcevre.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/norm-cevre-teknolojileri-sanayi-ve-ticaret-as",
+      "full_description": "188,7 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_oroya",
+      "name": "OROYA",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Yok",
+      "website": "http://oroya.com.tr/",
+      "logo_url": "/storage/logos/oroya-tunelcilik-ve-yer-bilimleri-teknolojileri-as-logo-white-1746620914.png",
+      "contact_email": "mailto:info@oroya.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/oroya-tunelcilik-ve-yer-bilimleri-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_teknobe",
+      "name": "TEKNOBE",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "TechnoBee® ulusal ve uluslararası düzeyde, sektörel ve sektörler arası alanlarda proje ve teknoloji geliştirme, yönetme, danışmanlık ve eğitim vermek üzere kurulmuş akademik tabanlı bir firmadır.",
+      "website": "http://www.technobee.com",
+      "logo_url": "/storage/logos/teknobe-proje-ve-teknoloji-gelistirme-yonetim-danismanlik-ve-egitim-hizmetleri-san-ve-tic-ltd-sti-logo-white-1746620923.png",
+      "contact_email": "mailto:dikbas@technobe.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/teknobe-proje-ve-teknoloji-gelistirme-yonetim-danismanlik-ve-egitim-hizmetleri-san-ve-tic-ltd-sti",
+      "full_description": "3,0 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_yapi_kredi",
+      "name": "YAPI KREDİ",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "• Yapı Kredi Teknoloji A.Ş. finans sektöründe yenilikçi, patentlenebilir, kaliteli ve yüksek katma değerli yaratıcı ürün ve çözümler üretmek üzere, 2015 yılında ARI Teknokent Teknoloji Geliştirme Bölgesi’nde kurulmuş bir teknoloji şirketidir. Çözüm ve ürünlerinde, ağırlıklı olarak mobil yazılım geliştirme, doğal dil işleme, makine öğrenmesi, yapay zeka, üretken yapay zeka ve veri madenciliği teknolojilerini kullanmaktadır. Geliştirmekte olduğu projelerde akademik kurumlarla ve yerli/yabancı Ar-Ge şirketleriyle işbirliği yapmaktadır. Başarı sağladığı teknik ilerlemeleri bilimsel makalelerle, uluslararası konferanslarla, ulusal ve uluslararası projeleriyle yaygınlaştırmaktadır.",
+      "website": "http://www.ykteknoloji.com.tr/",
+      "logo_url": "/storage/logos/yapi-kredi-teknoloji-as-logo-1746620930.png",
+      "contact_email": "mailto:ituariteknokent@ykteknoloji.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/yapi-kredi-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_revy",
+      "name": "REVY",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Revy ile Emlakçılar için her şey tek platformda! Dijital Emlakçılık Platformu",
+      "website": "www.revy.com.tr",
+      "logo_url": "/storage/logos/revy-teknoloji-ve-danismanlik-anonim-sirketi-logo-white-1748350075.png",
+      "contact_email": "mailto:ozge@revy.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/revy-teknoloji-ve-danismanlik-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_altay",
+      "name": "ALTAY",
+      "sector": "Araştırma ve Geliştirme",
+      "sector_tags": [
+        "yazilim",
+        "savunma"
+      ],
+      "description": "ALTAY, Havacılık sektörüne yönelik emniyet-kritik sistemler geliştirmeye odaklanan uzmanlaşmış bir Ar-Ge firmasıdır. Hızlı jetler için insanlı ve insansız hava araçlarına yönelik yapay zeka tabanlı GNC (Güdüm, Navigasyon ve Kontrol) ve Otonomi yazılımları sunmaktadır. Bu doğrultuda, ALTAY, Türkiye'nin insanlı hava araçlarına hayat kurtarıcı ekipmanların entegrasyonu konusunda aktif bir iş ortağıdır. Sivil havacılık alanında ise ALTAY, dijital ikiz modelleme, uçuş verimliliği ve uçuş planlaması konularında OEM’lere (orijinal ekipman üreticilerine) yönelik çok sayıda patentli yapay zeka çözümü geliştirmiştir. Şu anda, yapay zekâ ve tarihsel verilerden yararlanarak havacılık operasyonlarını optimize eden öngörüsel modeller geliştiren Londra merkezli girişimi Rozetta.ai’yi kuluçka sürecinde desteklemektedir.",
+      "website": "https://altaytechgroup.com",
+      "logo_url": "/storage/logos/altay-havacilik-ve-uzay-teknolojileri-as-logo-1750259203.png",
+      "contact_email": "mailto:inalhan@altaytechgroup.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/altay-havacilik-ve-uzay-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_datum",
+      "name": "DATUM",
+      "sector": "Malzeme",
+      "sector_tags": [
+        "savunma"
+      ],
+      "description": "Datum, 2013 yılında hem askeri hem de ticari kullanım için insanlı ve insansız mini denizaltılar tasarlamak amacıyla kuruldu. Datum'un ana odağı mini denizaltı tasarımı ve geliştirmesidir, şirket 2014'ten beri Savunma Bakanlığı ile üç projede yer aldı. Datum, MILGEM ve I Sınıfı Fırkateyn dahil olmak üzere Türk ve Pakistan donanmaları için hidrodinamik test sistemleri tasarladı ve inşa etti. Ayrıca Datum, Akya Torpido ve MILDEN Denizaltı Projesi'nin hidrodinamik iyileştirmesi için test sistemini tasarladı. Datum \"Çok Amaçlı Mini Denizaltı Geliştirme Projesi\" kapsamında 12 m'lik bir mini denizaltı tasarım/üretiminin liman testlerine 2025'in üçüncü çeyreğinde hazır olması planlanmaktadır.",
+      "website": "www.datum-subs.com",
+      "logo_url": "/storage/logos/datum-denizalti-teknolojileri-uygulama-ve-muhendislik-anonim-sirketi-logo-1750259218.png",
+      "contact_email": "mailto:cansinozden@gmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/datum-denizalti-teknolojileri-uygulama-ve-muhendislik-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_envagro",
+      "name": "ENVAGRO",
+      "sector": "Araştırma ve Geliştirme",
+      "sector_tags": [],
+      "description": "Enviculture , tarımın geleceğini şekillendiren yenilikçi bir girişimdir. Biyobozunur kaplamalı kontrollü salınımlı gübre teknolojisi geliştirerek, toprak sağlığını koruyan, azot kaybını azaltan ve mikroplastik içermeyen çözümler sunuyoruz. Geleneksel gübrelerin çevresel etkilerini minimize eden ürünlerimiz, çiftçilere verimlilik, sürdürülebilirlik ve maliyet avantajı sağlarken, AB 2028 plastik kaplama düzenlemeleriyle tam uyum içindedir. Döngüsel ekonomi ilkelerine dayanan yaklaşımımızla, atık bazlı biyomalzemeleri değerlendirerek tarımı çevre dostu hale getiriyoruz. Geleceğin tarımını bugünden inşa eden Enviculture, gübre teknolojisinde yeşil dönüşümün öncüsü olmaya devam ediyor.",
+      "website": null,
+      "logo_url": "/storage/logos/envagro-tarim-teknolojileri-sanayi-ve-ticaret-anonim-sirketi-logo-1750259230.png",
+      "contact_email": "mailto:info@envagro.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/envagro-tarim-teknolojileri-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": "252,0 Bin ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_kavaken",
+      "name": "KAVAKEN",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Kavaken, işletmelere enerji tasarrufu ve sürdürülebilirlik alanında dönüşüm sunar. Yapay zekâ destekli analizler ve özelleştirilmiş enerji çözümleriyle, karbon ayak izinizi azaltırken maliyetlerinizi optimize etmenizi sağlar. Güneş enerjisi yatırımını dijitalleştiren platformumuz sayesinde, hızlı fizibilite analizi, yatırım getirisi hesaplaması ve en uygun tedarikçi eşleştirmesini tek ekrandan sunar. Kavaken, işletmenizi yeşil geleceğe taşırken karar alma süreçlerinizi hızlandırır ve şeffaflaştırır. Enerji verimliliğinde yeni bir standart arayan şirketler için güvenilir bir teknoloji ortağıdır.",
+      "website": "www.kavaken.com",
+      "logo_url": "/storage/logos/kavaken-yazilim-anonim-sirketi-logo-1750259235.png",
+      "contact_email": "mailto:murat@kavaken.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/kavaken-yazilim-anonim-sirketi",
+      "full_description": "8,5 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_octo",
+      "name": "OCTO",
+      "sector": "Sağlık Teknolojileri ve Biyoteknoloji",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "PCR Tanı Kitleri",
+      "website": "www.octobiotechnology.com",
+      "logo_url": "/storage/logos/octo-biyoteknoloji-arge-sanayi-ve-ticaret-anonim-sirketi-logo-1750259249.png",
+      "contact_email": "mailto:emrah.yelboga@octobiotechnology.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/octo-biyoteknoloji-arge-sanayi-ve-ticaret-anonim-sirketi",
+      "full_description": "3,1 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_payten",
+      "name": "PAYTEN",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Payten, 4100 çalışanı ve 27 ülkedeki operasyonu ile Avrupa’nın en büyük bilişim firması olan Asseco South Eastern Europe (ASEE) grup şirketidir. Bankalara, finans kuruluşlarına, e-ticaret firmalarına, pazaryerlerine ve online B2B ödeme alan tüm markalara yönelik uçtan uca ve özelleştirebilir ödeme çözümleri sunar. Türkiye’nin ilk banka bağımsız online ödeme altyapısını sunan Payten Türkiye, 25 yılı aşkın yerel tecrübesiyle e-ödeme ekosisteminin kurucularındandır.",
+      "website": "http://www.payten.com",
+      "logo_url": "/storage/logos/payten-teknoloji-anonim-sirketi-logo-1750259251.png",
+      "contact_email": "mailto:tr.marcom@payten.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/payten-teknoloji-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_peny",
+      "name": "PENY",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Peny yapay zeka destekli bir kurumsal harcama yonetimi platformudur.",
+      "website": null,
+      "logo_url": "/storage/logos/peny-yazilim-ve-teknoloji-anonim-sirketi-logo-1750259263.png",
+      "contact_email": "mailto:g.onurdemiralay@gmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/peny-yazilim-ve-teknoloji-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_tazi",
+      "name": "TAZİ",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "TAZI, finansal kurumların müşteri kaybını azaltmalarına, dolandırıcılığı önlemelerine ve müşteri etkileşimini artırmalarına yardımcı olan Tahmine Dayalı Yapay Zeka Platformudur. İş kullanıcıları için tasarlanan TAZI, büyük teknik ekipler gerektirmeden modellerin oluşturulup güncellenmesini sağlar. Patentli Human-in-the-Loop teknolojisi sayesinde modeller gerçek zamanlı öğrenir ve piyasa koşullarına uyum sağlar. Açıklanabilir yapay zeka ile şeffaflık, regülasyon uyumu ve güven sağlanır. SOC 2 uyumluluğu, edge computing yetenekleri ve geleneksel modellere göre 100 kata kadar daha yüksek enerji verimliliğiyle TAZI, yatırım getirisi, ölçeklenebilir büyüme ve sürdürülebilirlik sunar. TAZI, 30’dan fazla Gartner raporunda tanınmıştır.",
+      "website": "https://tazi.ai",
+      "logo_url": "/storage/logos/tazi-bilisim-teknolojileri-as-logo-white-1750259270.png",
+      "contact_email": "mailto:info@tazi.ai",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/tazi-bilisim-teknolojileri-as",
+      "full_description": "12,8 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_adbenchmarklab",
+      "name": "ADBENCHMARKLAB",
+      "sector": "Araştırma ve Geliştirme",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "AdBenchmarkLab, dijital reklam yatırımlarınızı sektör ortalamalarıyla karşılaştırmanızı sağlayan bir pazar araştırma platformudur. Google, Meta ve TikTok gibi platformlardan toplanan anonimleştirilmiş verilerle sektör bazlı benchmark raporları sunar. Böylece markalar, reklam maliyetlerini ve performanslarını objektif verilere göre analiz edebilir, bütçelerini optimize ederek daha verimli kampanyalar yürütebilir. AdBenchmarkLab, özellikle ölçümleme, içgörü ve veri görselleştirme alanlarında pazarlama ekiplerine karar destek aracı olarak hizmet verir.",
+      "website": "https://www.adbenchmarklab.com/",
+      "logo_url": "/storage/logos/adbenchmarklab-danismanlik-ticaret-anonim-sirketi-logo-1758160816.png",
+      "contact_email": "mailto:berk@adbenchmarklab.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/adbenchmarklab-danismanlik-ticaret-anonim-sirketi",
+      "full_description": "2,2 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_butiko",
+      "name": "BUTİKO",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Butiko, Türkiye'nin önde gelen yapay zeka destekli sosyal ticaret pazaryeri olarak, modayı yakından takip eden kadınları yerel tasarımcıların ve butiklerin özel koleksiyonlarıyla buluşturuyor. Kitlesel pazar ve lüks segment arasındaki boşluğu doldurarak, hem benzersiz hem de ulaşılabilir, özenle seçilmiş premium moda sunuyoruz. Yenilikçi platformumuz, Sanal Deneme gibi yapay zeka destekli araçlar kullanarak kişiselleştirilmiş ve güvenli bir alışveriş deneyimi yaratır. Teknolojiyi canlı bir toplulukla birleştiren Butiko, yerel yetenekleri güçlendirir ve modern kadınların favori parçalarını keşfetmeleri için güvenilir ve etkileşimli bir merkez sağlar.",
+      "website": "butiko.com.tr",
+      "logo_url": "/storage/logos/butiko-bilgi-teknoloji-pazarlama-tic-as-logo-white-1758160828.png",
+      "contact_email": "mailto:info@butiko.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/butiko-bilgi-teknoloji-pazarlama-tic-as",
+      "full_description": "25,9 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_deloitte",
+      "name": "DELOİTTE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Deloitte, çok disiplinli yapısıyla farklı sektör ve alanlarda faaliyet gösteren kuruluşlara entegre hizmetler sunar. Bu yapının teknoloji odağındaki stratejik çözüm sağlayıcısı olan Teknoloji ve Dönüşüm hizmetleri, farklı sektörlerde uygulama deneyimine sahip profesyonelleri ile Kurumsal Teknoloji ve Performans, Yapay Zeka ve Veri Mühendisliği, Siber, Müşteri ve İnsan Yönetimi portfolyolarıyla; SAP, ServiceNow, bulut çözümleri, platform geliştirme, yazılım varlık yönetimi, akıllı otomasyon, e-ticaret, dijital, satış ve servis, pazarlama ve ticaret, sızma testleri, siber operasyon, kurumsal güvenlik, müşteri stratejisi ve tasarımı alanlarında \"tavsiye-uygulama-çalıştırma\" yaklaşımıyla yapılandırılmış, uygulanabilir ve sürdürülebilir çözümler geliştirir.",
+      "website": "https://www.deloitte.com/tr/tr/services.html?icid=top_services",
+      "logo_url": "/storage/logos/deloitte-danismanlik-as-logo-1758160833.png",
+      "contact_email": "mailto:dedes@deloitte.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/deloitte-danismanlik-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_egitimde",
+      "name": "EĞİTİMDE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Eğitim teknolojileri, yazılım geliştirme ve eğitim yazılımları alanında yenilikçi çözümler üretiyor; yapay zekâ (AI), sanal gerçeklik (VR) gibi ileri teknolojileri eğitimle buluşturarak öğrenme deneyimini dönüştürüyoruz.",
+      "website": null,
+      "logo_url": "/storage/logos/egitimde-dijital-icerik-teknolojileri-as-logo-1758160839.png",
+      "contact_email": "mailto:bahtiyar@editedtech.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/egitimde-dijital-icerik-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_nebim_neyir",
+      "name": "NEBİM NEYİR",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Nebim olarak, Türkiye'nin en köklü yazılım üreticilerinden biriyiz. Perakende, toptan satış ve üretim sektörlerine özel, optimize edilmiş ERP (Kurumsal Kaynak Planlama) ve mağazacılık yazılımları geliştiriyoruz. 1966 yılından bu yana edindiğimiz tecrübe ile; hazır giyim, konfeksiyon, ayakkabı, büyük mağazacılık, ev tekstili, halı, mobilya, züccaciye, optik, kozmetik, aksesuar ve diğer perakende sektörlerinde uzmanlaşmış durumdayız. Bugün, geliştirdiğimiz yazılımlar 30'dan fazla ülkede, 8.000'in üzerinde firma, 30.000'den fazla mağaza ve 100.000'in üzerinde kullanıcı tarafından aktif olarak kullanılmaktadır.",
+      "website": "https://www.nebim.com.tr/",
+      "logo_url": "/storage/logos/nebim-neyir-bilgisayar-sanayii-ve-hizmetleri-as-logo-white-1762480820.png",
+      "contact_email": "mailto:nebim@nebim.com.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/nebim-neyir-bilgisayar-sanayii-ve-hizmetleri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_qready_kuantum",
+      "name": "QREADY KUANTUM",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Kuantum dünyası bugün, kuantum bilişim, kuantum iletişim ve kuantum algılama şeklinde üç eksende ilerlemektedir. Bu alanlar; klasiğin ötesinde olanaklar sunar. Qready, bu yetenekleri mühendislikle birleştirip somut endüstriyel çıktılara dönüştürür. Endüstriyel optimizasyon çözümleri, büyük ölçekli firmaların üretim ve operasyonel maliyetlerini %5–20 oranında azaltmayı hedefler",
+      "website": "https://qreadys.com/index.html",
+      "logo_url": "/storage/logos/qready-kuantum-teknolojileri-ve-danismanlik-anonim-sirketi-logo-white-1763517620.png",
+      "contact_email": "mailto:team@qreadys.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/qready-kuantum-teknolojileri-ve-danismanlik-anonim-sirketi",
+      "full_description": "900,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_gocreative",
+      "name": "GOCREATİVE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Corpowid, web sitelerini hem erişilebilir hem de SEO açısından güçlü hale getiren akıllı bir yapay zeka platformudur. Tek satır kod gerektirmeden çalışan çözümümüz; alt metin oluşturma, şema işaretlemeleri, meta başlık ve açıklamaları ekleme gibi teknik süreçleri otomatikleştirir. Markaların zaman ve maliyet kaybetmeden web performansını artırmasına, daha geniş bir kullanıcı kitlesine ulaşmasına ve yasal uyumluluğu kolayca sağlamasına yardımcı olur. E-ticaret, kurumlar ve ajanslar için tasarlanan Corpowid, kesintisiz entegrasyon yapısı ve çok dilli desteğiyle dijital deneyimi herkes için daha güçlü ve erişilebilir kılar.",
+      "website": "https://www.corpowid.com",
+      "logo_url": "/storage/logos/gocreative-dijital-tasarim-limited-sirketi-logo-1763690413.png",
+      "contact_email": "mailto:info@corpowid.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/gocreative-dijital-tasarim-limited-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_lifemote",
+      "name": "LİFEMOTE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Lifemote, internet servis sağlayıcılarına ev içi Wi-Fi deneyimini gerçek zamanlı ve hane bazında görme imkânı sunar; bu içgörüyü de aksiyona dönüştürür. Destek ekiplerinin çağrı yükünü azaltmasına, ilk temas çözüm oranını artırmasına ve müşteri deneyimini proaktif şekilde iyileştirmesine yardımcı olur. Platformumuz, abonelerin Wi-Fi’ı gerçekten nasıl yaşadığını anlamayı, sorunları şikâyete dönüşmeden tespit etmeyi ve dijital bakım süreçlerini uçtan uca optimize etmeyi sağlar. Lifemote ile servis sağlayıcılar, ağ içgörüsü ile müşteri deneyimi arasında güçlü bir bağ kurar; operasyonlarını verimli, müşterilerini daha memnun hâle getirir.",
+      "website": "lifemote.com",
+      "logo_url": "/storage/logos/lifemote-bilisim-ve-ticaret-as-logo-white-1764295214.png",
+      "contact_email": "mailto:info@lifemote.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/lifemote-bilisim-ve-ticaret-as",
+      "full_description": "250,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_holly_palm",
+      "name": "HOLLY PALM",
+      "sector": "Oyun, Medya ve Eğlence",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "E-ticaret sadece bir satış süreci değil, markalar ve müşterileri arasında kusursuz ve keyifli bir deneyim yaratma sanatıdır. Holly Palm olarak, işte tam da bu noktada devreye giriyoruz! Türkiye'nin ilk ve tek Shopify Plus partneri olarak; Holly Connect – E-ticaret operasyonlarınızı kolaylaştıran yenilikçi entegrasyon çözümü sunuyoruz. ERP sistemlerinizi Shopify ve pazaryerleri ile entegre ederek stok yönetimini, sipariş süreçlerini ve lojistiği tek bir noktadan kontrol etmenizi sağlıyoruz. Böylece siz, işinizi büyütmeye odaklanabilirsiniz! Peki, neden Holly Palm? Deneyimli e-ticaret uzmanlarımız, markanızın dijital dünyada başarılı olması için yanınızda! Kolay, keyifli ve sonuç odaklı bir iş birliği sunuyoruz. Bizimle iletişime geçin ve e-ticarette fark yaratmaya başlayın!",
+      "website": "hollyconnect.com",
+      "logo_url": "/storage/logos/holly-palm-teknoloji-as-logo-white-1766455218.png",
+      "contact_email": "mailto:hello@hollypalm.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/holly-palm-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_guven_komurgoz",
+      "name": "GÜVEN KÖMÜRGÖZ",
+      "sector": "Telekomünikasyon ve Teknolojik Donanım",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Elektrik makineleri teknolojisinde yenilikçi çözümler sunuyoruz! Yüksek verimlilikle çalışan, dayanıklı ve akıllı sistemlerle entegre elektrik makineleri tasarlıyor, geliştiriyor ve optimize ediyoruz. Sadece tasarım değil, aynı zamanda işletim süreçlerinizi en verimli hale getirmek, kestirimci bakım ve gelişmiş arıza tespit sistemlerimizle arızaları minimuma indirmek için de buradayız. Makinalarınızın ömrünü uzatmak, kesintisiz performans sağlamak ve maliyetlerinizi düşürmek için en son teknolojilerle sizi destekliyoruz. Güvenilir, akıllı ve sürdürülebilir elektrik makinaları çözümleri için bize ulaşın!",
+      "website": "http://www",
+      "logo_url": "https://firmalar.ariteknokent.com.tr/pdf.webp",
+      "contact_email": "mailto:komurgoz@itu.edu.tr",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/guven-komurgoz-kiris-elektrik-makina-kontrol-tasarim-ve-cozum",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_pnd_labs",
+      "name": "PND LABS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "PND Labs, karmaşık operasyonel problemleri veri, yapay zekâ ve optimizasyon odağında ele alarak kurumların karar alma ve yürütme biçimini dönüştüren bir teknoloji şirketidir. Veriyi merkeze alan mühendislik yaklaşımıyla planlama, karar destek ve otomasyon süreçlerinin daha tutarlı, öngörülebilir ve sürdürülebilir şekilde yönetilmesini sağlar; gerçek dünya kısıtlarını anlayan çözümleriyle operasyonel performansı kalıcı olarak artırmayı hedefler. PND Labs, veriyle çalışan, kısıtları anlayan ve operasyonel mükemmelliği hedefleyen kurumlar için güvenilir bir teknoloji ortağıdır.",
+      "website": null,
+      "logo_url": "/storage/logos/pnd-labs-teknoloji-yazilim-ve-danismanlik-anonim-sirketi-logo-white-1769133621.png",
+      "contact_email": "mailto:ozgurmehmetakif@hotmail.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/pnd-labs-teknoloji-yazilim-ve-danismanlik-anonim-sirketi",
+      "full_description": "8,2 Milyon ₺",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_vagustim",
+      "name": "VAGUSTİM",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Vagustim, nöromodülasyon alanında yenilikçi cihazlar geliştiren bir dijital sağlık girişimidir.",
+      "website": "https://vagustim.io/",
+      "logo_url": "/storage/logos/vagustim-saglik-teknolojileri-as-logo-1770194235.png",
+      "contact_email": "mailto:info@vagustim.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/vagustim-saglik-teknolojileri-as",
+      "full_description": "200,0 Bin $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_anadolu_inovasyon",
+      "name": "ANADOLU INOVASYON",
+      "sector": "Makine, Yapı ve Mühendislik",
+      "sector_tags": [],
+      "description": "Anadolu Innovation Ar-Ge A.Ş., 2020 yılında araştırma temelli ürün ve süreç geliştirmeye odaklanarak kurulmuştur. Şirket; Jeotermal Enerji, Hidrojen Enerjisi ve ileri malzeme teknolojileri alanlarında yenilikçi çözümler geliştirmektedir. Derin kuyu jeotermal sistemler ile enerji üretimi için uçtan uca mühendislik hesaplama kurulum ve devreye alma faaliyetleri yürütmektedir. Ayrıca geliştirdiği MOFSorb ve HydrogenMOF ürünleri ile gaz ayrıştırma, hidrojen depolama ve çevresel uygulamalara yönelik yüksek performanslı malzeme çözümleri sunmaktadır. Sağlık sektörüne yönelik ağırlık hissettirmeyen radyasyon koruma ürünü, ileri mühendislik yaklaşımının somut bir örneğidir.",
+      "website": "https://www.anadoluarge.com.tr/",
+      "logo_url": "/storage/logos/anadolu-inovasyon-arge-tic-as-logo-white-1770256815.png",
+      "contact_email": "mailto:zeynelozturk61@yahoo.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/anadolu-inovasyon-arge-tic-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_keyzy",
+      "name": "KEYZY",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Keyzy, küresel KOBİ’lerin yazılımlarını korumak ve ticarileştirmek amacıyla geliştirilen, Siber Güvenlik ve Lisanslama odaklı bütünleşik bir otomasyon platformudur. Platform; genellikle büyük ölçekli sistemlerde bulunan Binary Koruma, Obfuscation ve Anti-debugging teknolojilerini, farklı programlama dillerini destekleyen yüksek performanslı SDK mimarisi ile KOBİ dinamiklerine uyarlanmış bir yapıda sunarak Tersine Mühendisliği engeller. Yapay Zeka (LSTM) destekli analitik yetenekleriyle gelecek tahminleri oluştururken, kod yazmadan yönetilebilen e-ticaret entegrasyonları sayesinde satış süreçlerini hızlandırır. Geliştirdiği özgün çevrimdışı doğrulama algoritması ile internet bağlantısı olmayan ortamlarda dahi güvenliği sürdürebilen Keyzy, fikri mülkiyet haklarını koruma altına alırken lisans yönetimini uçtan uca otomatize eder.",
+      "website": null,
+      "logo_url": "/storage/logos/keyzy-teknoloji-anonim-sirketi-logo-white-1770256828.png",
+      "contact_email": "mailto:volkan@keyzy.io",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/keyzy-teknoloji-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_gullseye",
+      "name": "GULLSEYE",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "GullsEye, liman operasyonlarının tüm ihtiyaçlarını tek bir entegre platformda karşılayan kapsamlı Terminal İşletim Sistemi (TOS) çözümleri sunar. Farklı kargo tiplerinin aynı altyapı üzerinde sorunsuz şekilde yönetilmesini sağlayarak limanların daha hızlı, güvenli ve düşük maliyetli çalışmasına destek olur. Gelişmiş otomasyon yetenekleri sayesinde karar süreçlerini optimize eder, operasyonel verimliliği artırırken hata oranını azaltır. Sektörün en hızlı büyüyen TOS sağlayıcılarından biri olan GullsEye, yurt içi ve yurt dışında 35’ten fazla limana hizmet vermektedir. Yeni nesil TOS çözümü GEN2, güçlü optimizasyon modülüyle kaynakların verimli kullanımını sağlar; otomatik iş planları, gerçek zamanlı izleme ve kapsamlı raporlama ile operasyonlarda tam kontrol sunar.",
+      "website": "www.gullseye.com",
+      "logo_url": "/storage/logos/gullseye-lojistik-teknolojileri-as-logo-white-1771984817.png",
+      "contact_email": "mailto:info@gullseye.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/gullseye-lojistik-teknolojileri-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_mynet",
+      "name": "MYNET",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Mynet, 1999 yılında kurulan Türkiye’nin öncü dijital platformlarından biridir. Kullanıcılarına haber, finans, spor, magazin, oyun, video ve daha birçok alanda içerik sunarak geniş bir dijital ekosistem oluşturmuştur. Türkiye’nin en büyük internet portallarından biri olarak milyonlarca ziyaretçiye hizmet veren Mynet, teknoloji ve inovasyonu odağına alarak sürekli gelişmektedir. Kullanıcı dostu arayüzü ve zengin içerik yelpazesiyle internet dünyasında önemli bir yere sahiptir. Dijital medya, reklamcılık ve oyun sektörlerinde de güçlü bir varlık gösteren Mynet, Türkiye’de internet kullanımının yaygınlaşmasına öncülük eden platformlardan biri olmuştur.",
+      "website": "http://www.mynet.com",
+      "logo_url": "/storage/logos/mynet-internet-teknoloji-as-logo-1772157614.png",
+      "contact_email": "mailto:info@mynet.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/mynet-internet-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_forto",
+      "name": "FORTO",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Forto, global taşımacılığı hızlı, şeffaf ve verimli hâle getiren dijital lojistik platformudur. Deniz, hava ve kara taşımacılığını tek bir platformda sunarak, gönderilerinizi anında rezerve etmenizi, gerçek zamanlı takip etmenizi ve tüm dokümantasyonu kolayca yönetmenizi sağlar. Veri odaklı içgörüler ve otomatik iş akışlarıyla hataları azaltır, maliyetleri düşürür. Sürdürülebilirlik seçenekleri ile karbon ayak izinizi takip edebilir ve yeşil lojistiğe geçiş yapabilirsiniz. Forto, işletmelerin lojistik süreçlerini basitleştirerek global ölçekte büyümelerini ve hızlı, akıllı ve çevre dostu taşımacılık yapmalarını mümkün kılar.",
+      "website": "https://forto.com/en/",
+      "logo_url": "/storage/logos/forto-lojistik-hizmetleri-teknoloji-anonim-sirketi-logo-1772589617.png",
+      "contact_email": "mailto:tacettin.aksu@forto.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/forto-lojistik-hizmetleri-teknoloji-anonim-sirketi",
+      "full_description": "35,4 Milyon $",
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_whitehand",
+      "name": "WHITEHAND",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim",
+        "finans"
+      ],
+      "description": "Whitehand AI, ajentik yapay zeka sistemleri ve bilgi grafı tabanlı karar destek altyapıları geliştiren bir Ar-Ge teknoloji şirketidir. Kurumlara özel, güvenli ve doğrulanabilir yapay zeka çözümleri sunarak iş süreçlerini otomatikleştirir ve karar alma süreçlerini optimize eder. Geliştirdiği modüler platformlar; veri analizi, süreç otomasyonu ve yapay zeka entegrasyonunu bir araya getirir. Kamuoyu araştırma, sosyal medya, finans, sağlık turizmi ve e-ticaret gibi farklı sektörlere uyarlanabilen çözümleriyle kurumların verimliliğini artırır ve rekabet avantajı sağlar.",
+      "website": "www.whitehand.ai",
+      "logo_url": "/storage/logos/whitehand-ai-teknoloji-anonim-sirketi-logo-white-1775181620.png",
+      "contact_email": "mailto:info@whitehand.ai",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/whitehand-ai-teknoloji-anonim-sirketi",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    },
+    {
+      "id": "itu_ari_softpos",
+      "name": "SOFTPOS",
+      "sector": "Yazılım ve Hizmetleri",
+      "sector_tags": [
+        "yazilim"
+      ],
+      "description": "Global Payments Inc. çatısı altında faaliyet gösteren Softpos Teknoloji A.Ş., dünya genelindeki işletmeler için ödeme teknolojileri ve yazılım çözümleri sunan lider bir teknoloji organizasyonunun parçasıdır. İşletmelerin güvenle büyümesini desteklemek amacıyla online, mağaza içi ve çok kanallı ödeme kabulü, operasyon yönetimi ve müşteri deneyimini geliştiren yenilikçi çözümler geliştiriyoruz. Küresel ölçeğimizi yerel uzmanlığımızla birleştirerek, 175'ten fazla ülkede milyarlarca işlemi güvenli ve kesintisiz şekilde yönetiyoruz. Teknoloji odaklı yaklaşımımızla işletmelerin dijital dönüşümünü hızlandırıyor, verimliliği artırıyor ve sürdürülebilir büyümeyi destekliyoruz.",
+      "website": "www.yazara.com",
+      "logo_url": "/storage/logos/softpos-teknoloji-as-logo-white-1781229618.png",
+      "contact_email": "mailto:selin.ulgen@yazara.com",
+      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/softpos-teknoloji-as",
+      "full_description": null,
+      "application_status": "not_applied",
+      "notes": "",
+      "source": null,
+      "source_name": null
+    }
+  ]
+}

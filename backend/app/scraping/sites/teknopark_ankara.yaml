@@ -1,0 +1,49 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://www.teknoparkankara.com.tr/companies/
+# Bilinen sorunlar: Site Nuxt.js SPA olarak render ediliyor (client-side); "Sonraki
+#   sayfa" bir buton tıklamasıyla mevcut listeyi tamamen değiştiriyor (append değil,
+#   replace) — bu yüzden navigation "pagination" tipiyle modellendi ve next_button
+#   olarak sayfalama çubuğundaki "ileri" oku (sondan 2. buton) kullanıldı.
+#   Sektör bilgisi listede neredeyse her zaman "Bilinmeyen Sektör" olarak geliyor
+#   (siteye özgü, kaynak veri eksik). Detay sayfası (/companies/{id}) client-side
+#   routing sorunları nedeniyle canlı testte güvenilir şekilde açılamadı, bu yüzden
+#   detail_page tanımlanmadı — sadece liste kartındaki isim/sektör/website/logo
+#   kullanılıyor. TODO: Detay sayfası routing'i düzelirse full_description/
+#   contact_email için detail_page eklenebilir.
+
+site:
+  name: "Teknopark Ankara"
+  slug: "teknopark_ankara"
+  base_url: "https://www.teknoparkankara.com.tr"
+  company_list_url: "https://www.teknoparkankara.com.tr/companies/"
+
+navigation:
+  type: "pagination"
+  next_button: "nav[aria-label='Sayfalama'] button:nth-last-child(2)"
+  max_pages: 40
+
+selectors:
+  company_container: "div.grid.grid-cols-1 > div.group"
+  fields:
+    name:
+      selector: "h3"
+      type: "text"
+    sector:
+      # TODO: Sitede genellikle "Bilinmeyen Sektör" olarak geliyor, veri kaynağının
+      # kendi eksikliği
+      selector: "span.bg-primary\\/10"
+      type: "text"
+    website:
+      selector: "a[target='_blank']"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]
