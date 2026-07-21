@@ -1,0 +1,47 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://www.cyberpark.com.tr/firma-arsiv
+# Bilinen sorunlar: Kart içindeki <a> etiketi doğrudan şirketin dış web sitesine
+#   gidiyor (bazı firmalarda href boş/eksik olabiliyor — TODO: boşsa detay linki yok
+#   sayılmalı). Sabit e-posta/iletişim bilgisi ana listede yok, detay sayfası mevcut
+#   değil; bu yüzden detail_page bölümü tanımlanmadı.
+
+site:
+  name: "Bilkent Cyberpark"
+  slug: "bilkent_cyberpark"
+  base_url: "https://www.cyberpark.com.tr"
+  company_list_url: "https://www.cyberpark.com.tr/firma-arsiv"
+
+navigation:
+  type: "pagination"
+  next_button: "li.PagedList-skipToNext a"
+  max_pages: 50
+
+selectors:
+  # .NET PagedList tabanlı klasik sayfalama; her kart .col-md-3.col-sm-4.col-xs-12 içinde
+  company_container: "div.col-md-3.col-sm-4.col-xs-12"
+  fields:
+    name:
+      selector: "h3.title"
+      type: "text"
+    sector:
+      # TODO: Bazı firmalarda sektör etiketi boş geliyor (<p> boş) — placeholder olarak kaldı
+      selector: "div[style*='padding:10px'] p"
+      type: "text"
+    description:
+      selector: "div[style*='padding:10px'] p"
+      type: "text"
+    website:
+      # Kartın kendisi (<a>) dış siteye link veriyor
+      selector: "a"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img.img-responsive"
+      type: "attribute"
+      attribute: "src"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

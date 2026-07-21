@@ -1,0 +1,61 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://firmalar.ariteknokent.com.tr/
+# Bilinen sorunlar: Ana kartlarda sektör bilgisi birden fazla etiket (badge) olarak
+#   gelebiliyor; şu an ilk etiketi alıyoruz. Detay sayfasındaki "Şirket Mail Adresi"
+#   alanı bazı firmalarda boş olabilir.
+
+site:
+  name: "İTÜ ARI Teknokent"
+  slug: "itu_ari"
+  base_url: "https://firmalar.ariteknokent.com.tr"
+  company_list_url: "https://firmalar.ariteknokent.com.tr"
+
+navigation:
+  type: "pagination"
+  # Laravel standart pagination: ?page=N linki "Next »" metniyle rel="next" taşıyor
+  next_button: "a[rel='next']"
+  max_pages: 50
+
+selectors:
+  # Firma kartları grid içinde; her kart tıklanabilir absolute-link overlay içeriyor
+  company_container: "div.custom-blue-gradient"
+  fields:
+    name:
+      selector: "h3"
+      type: "text"
+    sector:
+      selector: "div.mb-4 span"
+      type: "text"
+    description:
+      # Tailwind sınıf adındaki "/" karakteri CSS selector'da sorun çıkarabildiği için
+      # kapsayıcı içindeki ilk <p> etiketini hedefliyoruz.
+      selector: "p"
+      type: "text"
+    website:
+      # Website ikonu <a target=_blank> olarak kart içinde yer alıyor
+      selector: "a[target='_blank']:not([href*='/pdf'])"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  # Detay sayfası: /companies/{slug} — e-posta burada mailto: linki olarak geçiyor
+  detail_page:
+    link_selector: "a.absolute.inset-0"
+    fields:
+      full_description:
+        # TODO: Detay sayfasındaki tam açıklama bloğunun kesin class'ı doğrulanmadı
+        selector: "div.info-circle-content p"
+        type: "text"
+      contact_email:
+        selector: "a[href^='mailto:']"
+        type: "attribute"
+        attribute: "href"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

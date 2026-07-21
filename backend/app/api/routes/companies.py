@@ -1,7 +1,12 @@
+import csv
+import io
+import json
+from datetime import date
 from math import ceil
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from app.api.deps import get_db, get_json_store
@@ -10,6 +15,17 @@ from app.storage.json_store import JsonStore
 from app.storage.models import ApplicationStatus, CompanyFilter
 
 router = APIRouter()
+
+EXPORT_CSV_COLUMNS = [
+    "id",
+    "name",
+    "source",
+    "sector",
+    "website",
+    "contact_email",
+    "application_status",
+    "notes",
+]
 
 
 class CompanyUpdate(BaseModel):
@@ -48,6 +64,71 @@ async def list_companies(
 @router.get("/stats")
 async def get_stats(db: DatabaseManager = Depends(get_db)):
     return await db.get_stats()
+
+
+@router.get("/export")
+async def export_companies(
+    format: str = "csv",
+    source: Optional[str] = None,
+    sector: Optional[str] = None,
+    status: Optional[ApplicationStatus] = None,
+    search: Optional[str] = None,
+    db: DatabaseManager = Depends(get_db),
+):
+    if format not in ("csv", "json"):
+        raise HTTPException(400, "format must be 'csv' or 'json'")
+
+    filter = CompanyFilter(
+        source=source,
+        sector=sector,
+        status=status,
+        search=search,
+        page=1,
+        per_page=1_000_000,
+    )
+    companies, _total = await db.get_companies(filter)
+
+    filename_date = date.today().isoformat()
+
+    if format == "json":
+        payload = json.dumps(companies, ensure_ascii=False, indent=2)
+        return StreamingResponse(
+            iter([payload]),
+            media_type="application/json",
+            headers={
+                "Content-Disposition": (
+                    f'attachment; filename="techpark_companies_{filename_date}.json"'
+                )
+            },
+        )
+
+    def generate_csv():
+        buffer = io.StringIO()
+        writer = csv.DictWriter(
+            buffer, fieldnames=EXPORT_CSV_COLUMNS, extrasaction="ignore"
+        )
+        # UTF-8 BOM so Excel opens the file with correct Turkish characters.
+        yield "\ufeff"
+        writer.writeheader()
+        yield buffer.getvalue()
+        buffer.seek(0)
+        buffer.truncate(0)
+
+        for company in companies:
+            writer.writerow(company)
+            yield buffer.getvalue()
+            buffer.seek(0)
+            buffer.truncate(0)
+
+    return StreamingResponse(
+        generate_csv(),
+        media_type="text/csv",
+        headers={
+            "Content-Disposition": (
+                f'attachment; filename="techpark_companies_{filename_date}.csv"'
+            )
+        },
+    )
 
 
 @router.get("/{company_id}")

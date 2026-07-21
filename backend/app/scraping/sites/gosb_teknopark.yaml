@@ -1,0 +1,61 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://gosbteknopark.com/firmalar
+# Bilinen sorunlar: Drupal 11 tabanlı site. Liste sayfasındaki her kart doğrudan bir
+#   <a class="company-list__card"> etiketi (ayrı bir wrapper div yok); bu yüzden
+#   "website"/"detail_url" alanları için kartın kendi href'ini almak amacıyla CSS
+#   ":scope" seçicisi kullanılıyor (Playwright destekliyor). Liste kartlarında
+#   sektör/açıklama/e-posta yok — hepsi detail_page üzerinden çekiliyor.
+
+site:
+  name: "GOSB Teknopark"
+  slug: "gosb_teknopark"
+  base_url: "https://gosbteknopark.com"
+  company_list_url: "https://gosbteknopark.com/firmalar"
+
+navigation:
+  type: "pagination"
+  # Drupal standart "pager" bileşeni; ?page=N (0-indexed) linki rel="next" taşıyor
+  next_button: "li.pager__item--next a"
+  max_pages: 50
+
+selectors:
+  company_container: "a.company-list__card"
+  fields:
+    name:
+      selector: "h3"
+      type: "text"
+    website:
+      # Kartın kendisi zaten firma detay sayfasına link veriyor (gerçek website değil)
+      # TODO: Gerçek şirket web sitesi sadece detail_page'de mevcut (aşağıya bakın)
+      selector: ":scope"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    # Kart zaten detay sayfasına link veriyor — kendi href'i (":scope") kullanılıyor
+    link_selector: ":scope"
+    fields:
+      sector:
+        selector: "span.company-hero__type"
+        type: "text"
+      full_description:
+        selector: "div.company-description__inner"
+        type: "text"
+      website:
+        selector: "a.company-contact-bar__item--website"
+        type: "attribute"
+        attribute: "href"
+      contact_email:
+        selector: "a[href^='mailto:']"
+        type: "attribute"
+        attribute: "href"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

@@ -32,6 +32,8 @@ async def start_scraping(site_slug: str, background_tasks: BackgroundTasks):
         "progress": 0,
         "total_found": 0,
         "error": None,
+        "errors": [],
+        "duration_seconds": None,
     }
 
     background_tasks.add_task(_run_scraping_job, job_id, config)
@@ -56,15 +58,22 @@ async def _run_scraping_job(job_id: str, config: SiteConfig):
         scraping_jobs[job_id]["progress"] = count
 
     try:
-        data = await engine.scrape_site(config, on_progress=on_progress)
-        json_store.save_scraped_data(data)
-        await db.upsert_companies(data)
+        data, result = await engine.scrape_site(config, on_progress=on_progress)
+
+        if data.companies:
+            json_store.save_scraped_data(data)
+            await db.upsert_companies(data)
+
+        job_status = "failed" if result.status == "failed" else "completed"
 
         scraping_jobs[job_id].update(
             {
-                "status": "completed",
+                "status": job_status,
                 "progress": data.total_companies,
                 "total_found": data.total_companies,
+                "errors": result.errors,
+                "duration_seconds": result.duration_seconds,
+                "scrape_status": result.status,
             }
         )
     except Exception as exc:

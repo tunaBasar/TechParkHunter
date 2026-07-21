@@ -1,11 +1,13 @@
 import asyncio
 import random
+import time
 from datetime import datetime, timezone
 from typing import Callable, Optional
 from urllib.parse import urljoin
 
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
 from playwright.async_api import async_playwright
+from pydantic import BaseModel
 
 from app.scraping.config_models import NavigationType, SiteConfig
 from app.scraping.parser import extract_fields, parse_company, tag_sectors
@@ -23,13 +25,27 @@ STEALTH_SCRIPT = "Object.defineProperty(navigator, 'webdriver', { get: () => und
 
 MAX_GOTO_RETRIES = 3
 GOTO_TIMEOUT_MS = 30000
+ELEMENT_WAIT_TIMEOUT_MS = 10000
+RETRY_BACKOFF_SECONDS = (1, 2, 4)
+PAGE_DELAY_RANGE = (1.0, 2.5)
+
+
+class ScrapingResult(BaseModel):
+    """Summary report of a completed (or failed) scraping run."""
+
+    status: str  # "completed" | "completed_with_errors" | "failed"
+    total_found: int
+    errors: list[dict]  # [{"page": 5, "error": "Timeout"}, ...]
+    duration_seconds: float
 
 
 class ScrapingEngine:
     async def scrape_site(
         self, config: SiteConfig, on_progress: Optional[Callable] = None
-    ) -> ScrapedData:
+    ) -> tuple[ScrapedData, ScrapingResult]:
+        started_at = time.monotonic()
         companies: list[Company] = []
+        errors: list[dict] = []
 
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
@@ -41,55 +57,117 @@ class ScrapingEngine:
                 await context.add_init_script(STEALTH_SCRIPT)
                 page = await context.new_page()
 
-                try:
-                    await self._goto_with_retry(page, config.site.company_list_url)
-                    companies = await self._collect_companies(page, config, on_progress)
+                ok = await self._goto_with_retry(
+                    page, config.site.company_list_url, errors, page_label="list"
+                )
+                if not ok:
+                    # Cannot even load the first listing page: total failure.
+                    duration = time.monotonic() - started_at
+                    data = ScrapedData(
+                        source=config.site.slug,
+                        source_name=config.site.name,
+                        scraped_at=datetime.now(timezone.utc),
+                        total_companies=0,
+                        companies=[],
+                    )
+                    result = ScrapingResult(
+                        status="failed",
+                        total_found=0,
+                        errors=errors,
+                        duration_seconds=duration,
+                    )
+                    return data, result
 
-                    if config.filters:
-                        companies = [
-                            tag_sectors(c, config.filters.sector_keywords)
-                            for c in companies
-                        ]
+                await self._wait_for_container(page, config.selectors.company_container, errors, "list")
 
-                    if config.selectors.detail_page:
-                        companies = await self._enrich_with_detail_pages(
-                            context, companies, config
-                        )
-                except Exception as exc:
-                    logger.error(f"Scraping error for {config.site.slug}: {exc}")
+                companies = await self._collect_companies(page, config, on_progress, errors)
+
+                if config.filters:
+                    companies = [
+                        tag_sectors(c, config.filters.sector_keywords) for c in companies
+                    ]
+
+                if config.selectors.detail_page:
+                    companies = await self._enrich_with_detail_pages(
+                        context, companies, config, errors
+                    )
+            except Exception as exc:
+                logger.error(f"Scraping error for {config.site.slug}: {exc}")
+                errors.append({"page": "unknown", "error": str(exc)})
             finally:
                 await browser.close()
 
-        return ScrapedData(
+        duration = time.monotonic() - started_at
+
+        if not companies and errors:
+            status = "failed"
+        elif errors:
+            status = "completed_with_errors"
+        else:
+            status = "completed"
+
+        data = ScrapedData(
             source=config.site.slug,
             source_name=config.site.name,
             scraped_at=datetime.now(timezone.utc),
             total_companies=len(companies),
             companies=companies,
         )
+        result = ScrapingResult(
+            status=status,
+            total_found=len(companies),
+            errors=errors,
+            duration_seconds=duration,
+        )
+        return data, result
 
-    async def _goto_with_retry(self, page, url: str):
-        delay = 2
-        for attempt in range(1, MAX_GOTO_RETRIES + 1):
+    async def _goto_with_retry(
+        self, page, url: str, errors: list[dict], page_label
+    ) -> bool:
+        last_error: Optional[str] = None
+        for attempt, delay in enumerate((*RETRY_BACKOFF_SECONDS, None), start=1):
             try:
                 await page.goto(url, wait_until="networkidle", timeout=GOTO_TIMEOUT_MS)
-                return
-            except PlaywrightTimeoutError:
+                return True
+            except PlaywrightTimeoutError as exc:
+                last_error = f"Timeout: {exc}"
                 logger.warning(
                     f"Timeout loading {url}, attempt {attempt}/{MAX_GOTO_RETRIES}"
                 )
-                if attempt == MAX_GOTO_RETRIES:
-                    raise
-                await asyncio.sleep(delay)
-                delay *= 2
+            except Exception as exc:
+                last_error = str(exc)
+                logger.warning(
+                    f"Error loading {url}, attempt {attempt}/{MAX_GOTO_RETRIES}: {exc}"
+                )
 
-    async def _parse_element(self, element, config: SiteConfig) -> Optional[Company]:
+            if attempt >= MAX_GOTO_RETRIES:
+                break
+            await asyncio.sleep(delay)
+
+        errors.append({"page": page_label, "error": last_error or "Unknown navigation error"})
+        return False
+
+    async def _wait_for_container(self, page, selector: str, errors: list[dict], page_label) -> bool:
+        try:
+            await page.wait_for_selector(selector, timeout=ELEMENT_WAIT_TIMEOUT_MS)
+            return True
+        except PlaywrightTimeoutError:
+            logger.warning(f"Container selector '{selector}' not found within timeout")
+            errors.append(
+                {"page": page_label, "error": f"Element not found: {selector}"}
+            )
+            return False
+
+    async def _parse_element(
+        self, element, config: SiteConfig, errors: list[dict], page_label
+    ) -> Optional[Company]:
         try:
             company = await parse_company(
                 element, config.selectors.fields, config.site.slug
             )
         except Exception as exc:
             logger.warning(f"Failed to parse company element: {exc}")
+            errors.append({"page": page_label, "error": f"Parse error: {exc}"})
             return None
 
         detail_page_config = config.selectors.detail_page
@@ -108,24 +186,28 @@ class ScrapingEngine:
         return company
 
     async def _collect_companies(
-        self, page, config: SiteConfig, on_progress: Optional[Callable]
+        self,
+        page,
+        config: SiteConfig,
+        on_progress: Optional[Callable],
+        errors: list[dict],
     ) -> list[Company]:
         nav = config.navigation
         selectors = config.selectors
         companies: list[Company] = []
 
-        async def parse_all_current_elements() -> list[Company]:
+        async def parse_all_current_elements(page_label) -> list[Company]:
             elements = await page.query_selector_all(selectors.company_container)
             parsed = []
             for element in elements:
-                company = await self._parse_element(element, config)
+                company = await self._parse_element(element, config, errors, page_label)
                 if company:
                     parsed.append(company)
             return parsed
 
         if nav.type == NavigationType.PAGINATION:
             for page_num in range(1, nav.max_pages + 1):
-                companies.extend(await parse_all_current_elements())
+                companies.extend(await parse_all_current_elements(page_num))
                 if on_progress:
                     on_progress(len(companies))
 
@@ -134,11 +216,20 @@ class ScrapingEngine:
                 next_btn = await page.query_selector(nav.next_button)
                 if not next_btn:
                     break
+
+                await asyncio.sleep(random.uniform(*PAGE_DELAY_RANGE))
+
                 try:
                     await next_btn.click()
                     await page.wait_for_load_state("networkidle", timeout=GOTO_TIMEOUT_MS)
+                    await self._wait_for_container(
+                        page, selectors.company_container, errors, page_num + 1
+                    )
                 except Exception as exc:
                     logger.warning(f"Pagination stopped at page {page_num}: {exc}")
+                    errors.append(
+                        {"page": page_num + 1, "error": f"Pagination failed: {exc}"}
+                    )
                     break
 
         elif nav.type == NavigationType.INFINITE_SCROLL:
@@ -155,8 +246,9 @@ class ScrapingEngine:
                 else:
                     stagnant_rounds = 0
                 seen_count = len(current)
+                await asyncio.sleep(random.uniform(*PAGE_DELAY_RANGE))
 
-            companies = await parse_all_current_elements()
+            companies = await parse_all_current_elements("scroll")
             if on_progress:
                 on_progress(len(companies))
 
@@ -173,20 +265,26 @@ class ScrapingEngine:
                     await asyncio.sleep(nav.scroll_pause_ms / 1000)
                 except Exception as exc:
                     logger.warning(f"Load more stopped: {exc}")
+                    errors.append({"page": "load_more", "error": str(exc)})
                     break
                 current = await page.query_selector_all(selectors.company_container)
                 if len(current) <= seen_count:
                     break
                 seen_count = len(current)
+                await asyncio.sleep(random.uniform(*PAGE_DELAY_RANGE))
 
-            companies = await parse_all_current_elements()
+            companies = await parse_all_current_elements("load_more")
             if on_progress:
                 on_progress(len(companies))
 
         return companies
 
     async def _enrich_with_detail_pages(
-        self, context, companies: list[Company], config: SiteConfig
+        self,
+        context,
+        companies: list[Company],
+        config: SiteConfig,
+        errors: list[dict],
     ) -> list[Company]:
         detail_fields = config.selectors.detail_page.fields
         company_model_fields = set(Company.model_fields)
@@ -199,7 +297,13 @@ class ScrapingEngine:
                     enriched.append(company)
                     continue
                 try:
-                    await self._goto_with_retry(detail_page, company.detail_url)
+                    ok = await self._goto_with_retry(
+                        detail_page, company.detail_url, errors, page_label=company.id
+                    )
+                    if not ok:
+                        enriched.append(company)
+                        continue
+
                     extra = await extract_fields(detail_page, detail_fields)
                     updates = {
                         key: value
@@ -213,9 +317,10 @@ class ScrapingEngine:
                     logger.warning(
                         f"Detail page fetch failed for {company.detail_url}: {exc}"
                     )
+                    errors.append({"page": company.id, "error": str(exc)})
                     enriched.append(company)
 
-                await asyncio.sleep(random.uniform(1, 2))
+                await asyncio.sleep(random.uniform(*PAGE_DELAY_RANGE))
         finally:
             await detail_page.close()
 
