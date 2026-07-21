@@ -1,0 +1,53 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://odtuteknokent.com.tr/tr/firmalarimiz
+
+site:
+  name: "ODTÜ Teknokent"
+  slug: "odtu_teknokent"
+  base_url: "https://odtuteknokent.com.tr"
+  company_list_url: "https://odtuteknokent.com.tr/tr/firmalarimiz"
+
+navigation:
+  type: "pagination"          # pagination | infinite_scroll | load_more
+  next_button: "a.next-page"  # TODO: Gerçek selector ile güncelle
+  max_pages: 50
+
+# TODO: Gerçek selector'lar ile güncelle — aşağıdakiler makul placeholder'lardır
+selectors:
+  company_container: "div.company-card"
+  fields:
+    name:
+      selector: "h3.company-name"
+      type: "text"
+    sector:
+      selector: "span.sector-tag"
+      type: "text"
+    description:
+      selector: "p.description"
+      type: "text"
+    website:
+      selector: "a.website-link"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img.company-logo"
+      type: "attribute"
+      attribute: "src"
+
+  # Opsiyonel: detay sayfası
+  detail_page:
+    link_selector: "a.detail-link"  # TODO: Gerçek selector ile güncelle
+    fields:
+      full_description:
+        selector: "div.company-detail-text"
+        type: "text"
+      contact_email:
+        selector: "a[href^='mailto:']"
+        type: "attribute"
+        attribute: "href"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

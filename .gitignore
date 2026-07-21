@@ -1,0 +1,22 @@
+architecture_plan.md
+phase_*.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+
+# DB
+*.db
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/

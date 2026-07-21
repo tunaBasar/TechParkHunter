@@ -1,0 +1,54 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://teknoparkistanbul.com.tr/firmalar
+
+site:
+  name: "Teknopark İstanbul"
+  slug: "teknopark_istanbul"
+  base_url: "https://teknoparkistanbul.com.tr"
+  company_list_url: "https://teknoparkistanbul.com.tr/firmalar"
+
+navigation:
+  type: "load_more"           # pagination | infinite_scroll | load_more
+  load_more_button: "button.load-more"  # TODO: Gerçek selector ile güncelle
+  scroll_pause_ms: 1500
+  max_pages: 50
+
+# TODO: Gerçek selector'lar ile güncelle — aşağıdakiler makul placeholder'lardır
+selectors:
+  company_container: "div.firm-card"
+  fields:
+    name:
+      selector: "h3.firm-name"
+      type: "text"
+    sector:
+      selector: "span.firm-sector"
+      type: "text"
+    description:
+      selector: "p.firm-description"
+      type: "text"
+    website:
+      selector: "a.firm-website"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img.firm-logo"
+      type: "attribute"
+      attribute: "src"
+
+  # Opsiyonel: detay sayfası
+  detail_page:
+    link_selector: "a.firm-detail-link"  # TODO: Gerçek selector ile güncelle
+    fields:
+      full_description:
+        selector: "div.firm-detail-text"
+        type: "text"
+      contact_email:
+        selector: "a[href^='mailto:']"
+        type: "attribute"
+        attribute: "href"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]
