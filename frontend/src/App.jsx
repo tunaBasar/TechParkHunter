@@ -1,42 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-
-// Placeholder sayfalar (Faz 3b'de gerçek içerikle değiştirilecek)
-const Dashboard = () => (
-  <div className="page fade-in">
-    <div className="page-header">
-      <h1>Dashboard</h1>
-      <p>Faz 3b'de tamamlanacak</p>
-    </div>
-  </div>
-);
-
-const Companies = () => (
-  <div className="page fade-in">
-    <div className="page-header">
-      <h1>Şirketler</h1>
-      <p>Faz 3b'de tamamlanacak</p>
-    </div>
-  </div>
-);
-
-const CompanyDetail = () => (
-  <div className="page fade-in">
-    <div className="page-header">
-      <h1>Şirket Detay</h1>
-      <p>Faz 3b'de tamamlanacak</p>
-    </div>
-  </div>
-);
-
-const ScrapingPanel = () => (
-  <div className="page fade-in">
-    <div className="page-header">
-      <h1>Scraping</h1>
-      <p>Faz 3b'de tamamlanacak</p>
-    </div>
-  </div>
-);
+import Dashboard from './pages/Dashboard';
+import Companies from './pages/Companies';
+import CompanyDetail from './pages/CompanyDetail';
+import ScrapingPanel from './pages/ScrapingPanel';
 
 function App() {
   return (
