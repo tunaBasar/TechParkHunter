@@ -1,0 +1,18 @@
+candidate:
+  name: "Basar"
+  title: "Senior Backend Developer"
+  experience_years: "5+"
+  core_skills:
+    - "Java & Spring Boot (Microservices)"
+    - "C# & .NET Core"
+    - "Python"
+    - "Apache Kafka & Event-Driven Architecture"
+    - "Microservices & Distributed Systems"
+  highlights:
+    - "Yüksek trafikli mikroservis mimarilerinde deneyim"
+    - "Event-driven sistemler ve Kafka ile gerçek zamanlı veri işleme"
+    - "CI/CD pipeline tasarımı ve DevOps pratikleri"
+  education: "Bilgisayar Mühendisliği"
+  languages:
+    - "Türkçe (Ana dil)"
+    - "İngilizce (B2+)"

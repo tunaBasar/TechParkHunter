@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+from app.ai.service import AIService
 from app.config import Settings
 from app.storage.db import DatabaseManager
 from app.storage.json_store import JsonStore
@@ -8,6 +9,12 @@ from app.storage.json_store import JsonStore
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
+
+
+@lru_cache
+def get_ai_service() -> AIService:
+    settings = get_settings()
+    return AIService(settings)
 
 
 @lru_cache
