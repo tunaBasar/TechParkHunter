@@ -1,0 +1,45 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://www.depark.com/firmalar/
+# Bilinen sorunlar: WordPress "firmalar" custom post type kullanılıyor. Firma
+#   listesinde sektör/açıklama/website bilgisi bulunmuyor — sadece isim ve logo.
+#   Detay sayfaları (/firmalar/{slug}/) da genellikle boş içerik döndürüyor
+#   (canlı testte full_description hep boş çıktı); DEPARK'ın kendi CMS'i bu alanları
+#   doldurmamış görünüyor. TODO: DEPARK ileride detay sayfalarını doldurursa
+#   full_description/contact_email seçicileri gözden geçirilmeli.
+
+site:
+  name: "DEPARK — Dokuz Eylül Üniversitesi Teknoparkı"
+  slug: "depark"
+  base_url: "https://www.depark.com"
+  company_list_url: "https://www.depark.com/firmalar/"
+
+navigation:
+  type: "pagination"
+  next_button: "a.next.page-numbers"
+  max_pages: 30
+
+selectors:
+  company_container: "article.blog-one__item"
+  fields:
+    name:
+      selector: "h3.blog-card-two__title"
+      type: "text"
+    logo:
+      selector: "img.wp-post-image"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    link_selector: "h3.blog-card-two__title a"
+    fields:
+      # TODO: DEPARK detay sayfalarında şu an dolu içerik bulunmuyor (canlı testte
+      # boş döndü). Site içerik eklerse bu selector'lar güncellenmeli.
+      full_description:
+        selector: "div.blog-details__meta"
+        type: "text"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

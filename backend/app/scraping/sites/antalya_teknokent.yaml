@@ -1,0 +1,47 @@
+# Son güncelleme: 2026-07-21
+# Kaynak URL: https://www.antalyateknokent.com.tr/tr/ar-ge-1-binasi
+# Bilinen sorunlar: Antalya Teknokent'in "Firmalar" sayfası tek bir liste değil,
+#   9 ayrı bina sayfasına bölünmüş (AR-GE 1..9 Binası + Girişimcilik Merkezi).
+#   Bu config sadece "AR-GE 1 Binası" sayfasını tarıyor (canlı testte 27 gerçek
+#   firma ile doğrulandı). Diğer binalardaki firmaları da çekmek için:
+#   TODO: her bina için ayrı bir site config (`antalya_teknokent_arge2.yaml` vb.)
+#   eklenebilir veya engine'e "çoklu liste URL'si" desteği eklenmesi gerekir.
+#   Detay sayfalarında (discus-content) genelde ek açıklama metni bulunmuyor
+#   (canlı testte full_description çoğunlukla boş çıktı).
+
+site:
+  name: "Antalya Teknokent (AR-GE 1 Binası)"
+  slug: "antalya_teknokent"
+  base_url: "https://www.antalyateknokent.com.tr"
+  company_list_url: "https://www.antalyateknokent.com.tr/tr/ar-ge-1-binasi"
+
+navigation:
+  type: "pagination"
+  next_button: null
+  max_pages: 1
+
+selectors:
+  company_container: "div.box20"
+  fields:
+    name:
+      selector: "h3.title"
+      type: "text"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    link_selector: "a.button"
+    fields:
+      # TODO: Detay sayfalarında çoğunlukla içerik bulunmuyor (canlı testte boş
+      # döndü); site içerik eklerse bu selector gözden geçirilmeli.
+      full_description:
+        selector: "div.discus-content"
+        type: "text"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

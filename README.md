@@ -59,7 +59,7 @@ make frontend  # sadece Vite dev server (localhost:5173)
 | `make dev` | Backend + frontend'i birlikte başlatır |
 | `make backend` | Sadece FastAPI backend'i başlatır |
 | `make frontend` | Sadece Vite frontend'i başlatır |
-| `make scrape SITE=<slug>` | Belirtilen tek bir siteyi scrape eder (örn. `make scrape SITE=odtu_teknokent`) |
+| `make scrape SITE=<slug>` | Belirtilen tek bir siteyi scrape eder (örn. `make scrape SITE=itu_ari`) |
 | `make scrape-all` | Tanımlı tüm siteleri sırayla scrape eder |
 | `make clean` | `__pycache__`, SQLite DB ve scraped JSON dosyalarını temizler |
 
@@ -68,7 +68,7 @@ make frontend  # sadece Vite dev server (localhost:5173)
 Yeni bir teknopark sitesi eklemek için **kod yazmanıza gerek yok** — sadece bir YAML dosyası:
 
 1. `backend/app/scraping/sites/` altına `{slug}.yaml` dosyası oluşturun
-2. Mevcut config'lerden birini (örn. `odtu_teknokent.yaml`) şablon olarak kullanın:
+2. Mevcut config'lerden birini (örn. `itu_ari.yaml`) şablon olarak kullanın:
    - `site`: isim, slug, base_url, company_list_url
    - `navigation`: `pagination` | `infinite_scroll` | `load_more` tipini ve ilgili selector'ları tanımlayın
    - `selectors`: şirket kartı ve alan selector'larını (`name`, `sector`, `description`, `website`, `logo`) tanımlayın; opsiyonel `detail_page` ile detay sayfası alanlarını ekleyin
