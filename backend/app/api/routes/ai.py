@@ -2,8 +2,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
 from app.ai.profile import load_profile
-from app.ai.service import AIService, AIServiceError
-from app.api.deps import get_ai_service, get_db
+from app.ai.service import BriefService, BriefServiceError
+from app.api.deps import get_brief_service, get_db
 from app.storage.db import DatabaseManager
 from app.storage.models import Company
 
@@ -26,48 +26,31 @@ async def ai_root():
     return {"message": "AI endpoint"}
 
 
-@router.post("/generate-email")
-async def generate_email(
+@router.post("/generate-brief")
+async def generate_brief(
     request: CompanyIdRequest,
     db: DatabaseManager = Depends(get_db),
-    ai_service: AIService = Depends(get_ai_service),
+    brief_service: BriefService = Depends(get_brief_service),
 ):
     company = await _load_company(request.company_id, db)
     try:
-        email_draft = await ai_service.generate_email(company)
-    except AIServiceError as exc:
-        raise HTTPException(502, str(exc)) from exc
-    return {"email_draft": email_draft, "company_name": company.name}
-
-
-@router.post("/generate-cv")
-async def generate_cv(
-    request: CompanyIdRequest,
-    db: DatabaseManager = Depends(get_db),
-    ai_service: AIService = Depends(get_ai_service),
-):
-    company = await _load_company(request.company_id, db)
-    try:
-        cv_content = await ai_service.generate_cv_content(company)
-    except AIServiceError as exc:
-        raise HTTPException(502, str(exc)) from exc
-    return {"cv_content": cv_content, "company_name": company.name}
-
-
-@router.post("/generate-application")
-async def generate_application(
-    request: CompanyIdRequest,
-    db: DatabaseManager = Depends(get_db),
-    ai_service: AIService = Depends(get_ai_service),
-):
-    company = await _load_company(request.company_id, db)
-    try:
-        result = await ai_service.generate_application(company)
-    except AIServiceError as exc:
-        raise HTTPException(502, str(exc)) from exc
+        result = brief_service.generate_brief(company)
+    except BriefServiceError as exc:
+        raise HTTPException(500, str(exc)) from exc
     return result
 
 
 @router.get("/profile")
 async def get_profile():
     return load_profile()
+
+
+@router.get("/brief/{company_id}")
+async def get_brief(
+    company_id: str,
+    brief_service: BriefService = Depends(get_brief_service),
+):
+    brief_markdown = brief_service.load_brief(company_id)
+    if brief_markdown is None:
+        raise HTTPException(404, "Brief not found")
+    return {"brief_markdown": brief_markdown}

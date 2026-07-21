@@ -18,13 +18,8 @@ export const api = {
   getSites: () => request('/scrape/sites'),
   startScraping: (slug) => request(`/scrape/${slug}`, { method: 'POST' }),
   getScrapingStatus: (jobId) => request(`/scrape/status/${jobId}`),
-  generateEmail: (companyId) =>
-    request('/ai/generate-email', {
-      method: 'POST',
-      body: JSON.stringify({ company_id: companyId }),
-    }),
-  generateCV: (companyId) =>
-    request('/ai/generate-cv', {
+  generateBrief: (companyId) =>
+    request('/ai/generate-brief', {
       method: 'POST',
       body: JSON.stringify({ company_id: companyId }),
     }),

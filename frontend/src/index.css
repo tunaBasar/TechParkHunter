@@ -771,13 +771,76 @@ table.data-table {
   align-self: center;
 }
 
-.ai-panel {
+.ai-generator-panel {
   margin-top: 1.5rem;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(135deg, var(--accent), #6d28d9) 1;
+}
+
+.ai-generator-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.ai-error-card {
+  margin-top: 1rem;
+  background: rgba(239, 68, 68, 0.08);
+  border-color: var(--error, #ef4444);
+  color: var(--error, #ef4444);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ai-result-block {
+  margin-top: 1.25rem;
+}
+
+.ai-result-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.ai-help-hint {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.ai-markdown-output {
+  max-height: 500px;
+  overflow-y: auto;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.ai-markdown-output h3,
+.ai-markdown-output h4,
+.ai-markdown-output h5 {
+  margin: 0.75rem 0 0.5rem;
+}
+
+.ai-markdown-output p {
+  margin: 0.35rem 0;
+}
+
+.ai-markdown-output ul {
+  margin: 0.35rem 0 0.35rem 1.25rem;
 }
 
 .btn:disabled,

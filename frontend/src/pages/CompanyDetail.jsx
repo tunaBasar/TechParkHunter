@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { api } from '../services/api';
+import AIGeneratorPanel from '../components/AIGeneratorPanel';
 
 const STATUS_OPTIONS = [
   { value: 'not_applied', label: 'Başvurulmadı' },
@@ -199,17 +200,7 @@ function CompanyDetail() {
         </div>
       </div>
 
-      <div className="card ai-panel">
-        <div>
-          <h4 style={{ marginBottom: '0.25rem' }}>🤖 AI ile Başvuru Oluştur</h4>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>
-            Faz 4'te aktif olacak
-          </p>
-        </div>
-        <button type="button" className="btn btn-primary" disabled title="Faz 4'te aktif olacak">
-          🤖 AI ile Başvuru Oluştur
-        </button>
-      </div>
+      <AIGeneratorPanel companyId={id} companyName={company.name} />
     </div>
   );
 }

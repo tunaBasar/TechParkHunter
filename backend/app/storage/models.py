@@ -26,6 +26,8 @@ class Company(BaseModel):
     full_description: Optional[str] = None
     application_status: ApplicationStatus = ApplicationStatus.NOT_APPLIED
     notes: str = ""
+    source: Optional[str] = None
+    source_name: Optional[str] = None
 
 
 class ScrapedData(BaseModel):
