@@ -2,7 +2,7 @@
   "source": "itu_ari",
   "source_name": "İTÜ ARI Teknokent",
   "scraped_at": "2026-07-21T18:45:30.499984Z",
-  "total_companies": 129,
+  "total_companies": 125,
   "companies": [
     {
       "id": "itu_ari_acrome",
@@ -1457,22 +1457,6 @@
       "source_name": null
     },
     {
-      "id": "itu_ari_seffaf_aparey",
-      "name": "ŞEFFAF APAREY",
-      "sector": "Makine, Yapı ve Mühendislik",
-      "sector_tags": [],
-      "description": "Orthero plakları metal diş telleri olmadan dişleri olması gereken ideal pozisyona getirecek en yeni ortodontik çözümdür.",
-      "website": "http://www.orthero.com.tr",
-      "logo_url": "/storage//logos/company_326_logo_white.png",
-      "contact_email": "mailto:info@orthero.com.tr",
-      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/seffaf-aparey-ortodonti-ve-elektronik-san-ve-tic-as",
-      "full_description": "815,7 Milyon $",
-      "application_status": "not_applied",
-      "notes": "",
-      "source": null,
-      "source_name": null
-    },
-    {
       "id": "itu_ari_tahsilist",
       "name": "TAHSİLİST",
       "sector": "Yazılım ve Hizmetleri",
@@ -1667,22 +1651,6 @@
       "source_name": null
     },
     {
-      "id": "itu_ari_yugen",
-      "name": "YUGEN",
-      "sector": "Malzeme",
-      "sector_tags": [],
-      "description": "Yugen olarak, döngüsel ve sürdürülebilir malzeme inovasyonu alanında değer yaratıyoruz. Patentli ilk ürünümüz POMECO, meyve suyu üretiminden arta kalan nar kabuklarını yüksek performanslı bir biyomalzemeye dönüştürüyor. Ölçeklenebilir ve özelleştirilebilir yapısıyla moda, otomotiv ve iç tasarım gibi sektörlere dayanıklı ve çevre dostu bir alternatif sunuyoruz. POMECO, geleneksel üretim süreçlerinin çevresel etkilerini azaltırken, doğanın sunduğu kaynakları daha verimli kullanmamıza olanak tanıyor. Döngüsel tasarımı merkeze alarak,yeni nesil malzemelerin sektöre entegrasyonu hedefiyle çalışıyoruz.",
-      "website": "www.yugencompany.com",
-      "logo_url": "/storage/logos/3H0yJlHzfBNUjJyTOvm4BnXuf5DOHrcLUWr8OOWO.png",
-      "contact_email": "mailto:hello@yugencompany.com",
-      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/yugen-biyolojik-ve-kimyasal-teknolojileri-sanayi-ticaret-anonim-sirketi",
-      "full_description": "35,2 Bin $",
-      "application_status": "not_applied",
-      "notes": "",
-      "source": null,
-      "source_name": null
-    },
-    {
       "id": "itu_ari_delivers",
       "name": "DELİVERS",
       "sector": "Makine, Yapı ve Mühendislik",
@@ -1774,22 +1742,6 @@
       "source_name": null
     },
     {
-      "id": "itu_ari_oroya",
-      "name": "OROYA",
-      "sector": "Makine, Yapı ve Mühendislik",
-      "sector_tags": [],
-      "description": "Yok",
-      "website": "http://oroya.com.tr/",
-      "logo_url": "/storage/logos/oroya-tunelcilik-ve-yer-bilimleri-teknolojileri-as-logo-white-1746620914.png",
-      "contact_email": "mailto:info@oroya.com.tr",
-      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/oroya-tunelcilik-ve-yer-bilimleri-teknolojileri-as",
-      "full_description": null,
-      "application_status": "not_applied",
-      "notes": "",
-      "source": null,
-      "source_name": null
-    },
-    {
       "id": "itu_ari_teknobe",
       "name": "TEKNOBE",
       "sector": "Makine, Yapı ve Mühendislik",
@@ -1857,24 +1809,6 @@
       "logo_url": "/storage/logos/altay-havacilik-ve-uzay-teknolojileri-as-logo-1750259203.png",
       "contact_email": "mailto:inalhan@altaytechgroup.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/altay-havacilik-ve-uzay-teknolojileri-as",
-      "full_description": null,
-      "application_status": "not_applied",
-      "notes": "",
-      "source": null,
-      "source_name": null
-    },
-    {
-      "id": "itu_ari_datum",
-      "name": "DATUM",
-      "sector": "Malzeme",
-      "sector_tags": [
-        "savunma"
-      ],
-      "description": "Datum, 2013 yılında hem askeri hem de ticari kullanım için insanlı ve insansız mini denizaltılar tasarlamak amacıyla kuruldu. Datum'un ana odağı mini denizaltı tasarımı ve geliştirmesidir, şirket 2014'ten beri Savunma Bakanlığı ile üç projede yer aldı. Datum, MILGEM ve I Sınıfı Fırkateyn dahil olmak üzere Türk ve Pakistan donanmaları için hidrodinamik test sistemleri tasarladı ve inşa etti. Ayrıca Datum, Akya Torpido ve MILDEN Denizaltı Projesi'nin hidrodinamik iyileştirmesi için test sistemini tasarladı. Datum \"Çok Amaçlı Mini Denizaltı Geliştirme Projesi\" kapsamında 12 m'lik bir mini denizaltı tasarım/üretiminin liman testlerine 2025'in üçüncü çeyreğinde hazır olması planlanmaktadır.",
-      "website": "www.datum-subs.com",
-      "logo_url": "/storage/logos/datum-denizalti-teknolojileri-uygulama-ve-muhendislik-anonim-sirketi-logo-1750259218.png",
-      "contact_email": "mailto:cansinozden@gmail.com",
-      "detail_url": "https://firmalar.ariteknokent.com.tr/companies/datum-denizalti-teknolojileri-uygulama-ve-muhendislik-anonim-sirketi",
       "full_description": null,
       "application_status": "not_applied",
       "notes": "",

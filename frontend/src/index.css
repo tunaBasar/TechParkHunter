@@ -184,6 +184,17 @@ button {
   color: var(--text-primary);
 }
 
+.btn-danger {
+  background: transparent;
+  border: 1px solid var(--error, #ef4444);
+  color: var(--error, #ef4444);
+}
+
+.btn-danger:hover {
+  background: var(--error, #ef4444);
+  color: #fff;
+}
+
 .badge {
   display: inline-flex;
   align-items: center;
@@ -650,6 +661,39 @@ table.data-table {
   margin-top: auto;
 }
 
+.company-card-footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company-card-delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  opacity: 0.55;
+  padding: 0.15rem;
+  transition: var(--transition);
+}
+
+.company-card-delete-btn:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.note-indicator {
+  margin-left: 0.4rem;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+
+.company-card.has-note,
+tr.has-note {
+  cursor: pointer;
+}
+
 .company-card-source {
   color: var(--text-muted);
   font-size: 0.75rem;
@@ -729,6 +773,10 @@ table.data-table {
   align-items: center;
   gap: 0.75rem;
   flex-wrap: wrap;
+}
+
+.detail-delete-btn {
+  margin-left: auto;
 }
 
 .detail-source {
@@ -1146,4 +1194,123 @@ table.data-table {
 .empty-state-rich .btn {
   margin-top: 0.75rem;
 }
+
+/* ==========================================================================
+   Confirm Dialog
+   ========================================================================== */
+
+.confirm-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  animation: fade-in-overlay 0.15s ease-out;
+}
+
+@keyframes fade-in-overlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.confirm-dialog {
+  max-width: 380px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  animation: confirm-dialog-in 0.18s ease-out;
+}
+
+@keyframes confirm-dialog-in {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.confirm-dialog-icon {
+  color: var(--error, #ef4444);
+  margin-bottom: 0.25rem;
+}
+
+.confirm-dialog h4 {
+  font-size: 1.05rem;
+}
+
+.confirm-dialog p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.confirm-dialog-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  width: 100%;
+  justify-content: center;
+}
+
+/* ==========================================================================
+   Note Tooltip
+   ========================================================================== */
+
+.note-tooltip {
+  position: fixed;
+  z-index: 9998;
+  max-width: 320px;
+  min-width: 180px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+  overflow: hidden;
+  animation: note-tooltip-in 0.12s ease-out;
+}
+
+@keyframes note-tooltip-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.note-tooltip-header {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 0.5rem 0.75rem 0.25rem;
+}
+
+.note-tooltip-body {
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  line-height: 1.45;
+  padding: 0 0.75rem 0.75rem;
+  max-height: 220px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  pointer-events: auto;
+}
+
 

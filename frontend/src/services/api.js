@@ -15,6 +15,7 @@ export const api = {
   getStats: () => request('/companies/stats'),
   updateCompany: (id, data) =>
     request(`/companies/${id}`, { method: 'PATCH', body: JSON.stringify(data) }),
+  deleteCompany: (id) => request(`/companies/${id}`, { method: 'DELETE' }),
   getSites: () => request('/scrape/sites'),
   startScraping: (slug) => request(`/scrape/${slug}`, { method: 'POST' }),
   getScrapingStatus: (jobId) => request(`/scrape/status/${jobId}`),

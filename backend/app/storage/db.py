@@ -147,6 +147,14 @@ class DatabaseManager:
             await db.commit()
             return cursor.rowcount > 0
 
+    async def delete_company(self, company_id: str) -> bool:
+        async with aiosqlite.connect(self.db_path) as db:
+            cursor = await db.execute(
+                "DELETE FROM companies WHERE id = ?", (company_id,)
+            )
+            await db.commit()
+            return cursor.rowcount > 0
+
     async def get_stats(self) -> dict:
         async with aiosqlite.connect(self.db_path) as db:
             db.row_factory = aiosqlite.Row

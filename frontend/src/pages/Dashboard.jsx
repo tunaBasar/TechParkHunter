@@ -5,6 +5,8 @@ import { api } from '../services/api';
 import StatusBadge from '../components/StatusBadge';
 import Skeleton from '../components/Skeleton';
 import EmptyState from '../components/EmptyState';
+import NoteTooltip from '../components/NoteTooltip';
+import useNoteTooltip from '../hooks/useNoteTooltip';
 import { useToast } from '../components/Toast';
 
 const APPLIED_STATUSES = ['applied', 'interview', 'accepted'];
@@ -12,6 +14,7 @@ const APPLIED_STATUSES = ['applied', 'interview', 'accepted'];
 function Dashboard() {
   const navigate = useNavigate();
   const { showToast } = useToast();
+  const { tooltip, showTooltip, moveTooltip, hideTooltip } = useNoteTooltip();
   const [stats, setStats] = useState(null);
   const [recentCompanies, setRecentCompanies] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -130,8 +133,15 @@ function Dashboard() {
                   <tr
                     key={company.id}
                     onClick={() => navigate(`/companies/${company.id}`)}
+                    onMouseEnter={company.notes ? showTooltip(company.notes) : undefined}
+                    onMouseMove={company.notes ? moveTooltip : undefined}
+                    onMouseLeave={company.notes ? hideTooltip : undefined}
+                    className={company.notes ? 'has-note' : undefined}
                   >
-                    <td>{company.name}</td>
+                    <td>
+                      {company.name}
+                      {company.notes && <span className="note-indicator">📝</span>}
+                    </td>
                     <td>{company.sector || '—'}</td>
                     <td>{company.source}</td>
                     <td>
@@ -144,6 +154,8 @@ function Dashboard() {
           </div>
         )}
       </div>
+
+      <NoteTooltip tooltip={tooltip} />
     </div>
   );
 }

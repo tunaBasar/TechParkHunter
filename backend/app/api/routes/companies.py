@@ -167,3 +167,20 @@ async def update_company(
         json_store.update_company(company["source"], company_id, json_updates)
 
     return {"success": True}
+
+
+@router.delete("/{company_id}")
+async def delete_company(
+    company_id: str,
+    db: DatabaseManager = Depends(get_db),
+    json_store: JsonStore = Depends(get_json_store),
+):
+    company = await db.get_company(company_id)
+    if not company:
+        raise HTTPException(404, "Company not found")
+
+    await db.delete_company(company_id)
+    if company.get("source"):
+        json_store.delete_company(company["source"], company_id)
+
+    return {"success": True}

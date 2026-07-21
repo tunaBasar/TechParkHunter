@@ -6,11 +6,15 @@ import FilterBar from '../components/FilterBar';
 import CompanyCard from '../components/CompanyCard';
 import Skeleton from '../components/Skeleton';
 import EmptyState from '../components/EmptyState';
+import ConfirmDialog from '../components/ConfirmDialog';
+import NoteTooltip from '../components/NoteTooltip';
+import useNoteTooltip from '../hooks/useNoteTooltip';
 import { useToast } from '../components/Toast';
 
 function Companies() {
   const navigate = useNavigate();
   const { showToast } = useToast();
+  const { tooltip, showTooltip, moveTooltip, hideTooltip } = useNoteTooltip();
   const [filters, setFilters] = useState({ search: '', source: '', status: '' });
   const [companies, setCompanies] = useState([]);
   const [sources, setSources] = useState([]);
@@ -19,6 +23,8 @@ function Companies() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [exportOpen, setExportOpen] = useState(false);
+  const [companyToDelete, setCompanyToDelete] = useState(null);
+  const [deleting, setDeleting] = useState(false);
   const exportRef = useRef(null);
 
   useEffect(() => {
@@ -90,6 +96,31 @@ function Companies() {
     showToast(`${format.toUpperCase()} export başlatıldı`, 'success');
   };
 
+  const handleDeleteRequest = (company) => {
+    setCompanyToDelete(company);
+  };
+
+  const handleDeleteCancel = () => {
+    setCompanyToDelete(null);
+  };
+
+  const handleDeleteConfirm = async () => {
+    if (!companyToDelete) return;
+    setDeleting(true);
+    try {
+      await api.deleteCompany(companyToDelete.id);
+      setCompanies((prev) => prev.filter((c) => c.id !== companyToDelete.id));
+      showToast(`"${companyToDelete.name}" silindi`, 'success');
+    } catch (err) {
+      showToast('Şirket silinemedi', 'error');
+      // eslint-disable-next-line no-console
+      console.error(err);
+    } finally {
+      setDeleting(false);
+      setCompanyToDelete(null);
+    }
+  };
+
   const pageNumbers = useMemo(() => {
     const pages = [];
     const start = Math.max(1, page - 2);
@@ -154,6 +185,10 @@ function Companies() {
                 key={company.id}
                 company={company}
                 onClick={() => navigate(`/companies/${company.id}`)}
+                onDelete={handleDeleteRequest}
+                onMouseEnterNote={showTooltip(company.notes)}
+                onMouseMoveNote={moveTooltip}
+                onMouseLeaveNote={hideTooltip}
               />
             ))}
           </div>
@@ -192,6 +227,21 @@ function Companies() {
           )}
         </>
       )}
+
+      <NoteTooltip tooltip={tooltip} />
+
+      <ConfirmDialog
+        open={!!companyToDelete}
+        title="Şirketi Sil"
+        message={
+          companyToDelete
+            ? `"${companyToDelete.name}" kalıcı olarak silinecek. Bu işlem geri alınamaz.`
+            : ''
+        }
+        confirmLabel={deleting ? 'Siliniyor...' : 'Sil'}
+        onConfirm={handleDeleteConfirm}
+        onCancel={handleDeleteCancel}
+      />
     </div>
   );
 }

@@ -11,6 +11,7 @@ from pydantic import BaseModel
 
 from app.scraping.config_models import NavigationType, SiteConfig
 from app.scraping.parser import extract_fields, parse_company, tag_sectors
+from app.scraping.relevance import is_relevant_company
 from app.storage.models import Company, ScrapedData
 from app.utils.logger import get_logger
 
@@ -168,6 +169,13 @@ class ScrapingEngine:
         except Exception as exc:
             logger.warning(f"Failed to parse company element: {exc}")
             errors.append({"page": page_label, "error": f"Parse error: {exc}"})
+            return None
+
+        if not is_relevant_company(
+            company.name, company.sector, company.description, company.full_description
+        ):
+            # Yazılım/teknoloji/finans alanıyla ilgisi olmayan şirket: detay
+            # sayfası dahi çekilmeden tamamen elenir.
             return None
 
         detail_page_config = config.selectors.detail_page

@@ -51,3 +51,17 @@ class JsonStore:
                 return True
 
         return False
+
+    def delete_company(self, source: str, company_id: str) -> bool:
+        data = self.load_scraped_data(source)
+        if not data:
+            return False
+
+        original_count = len(data.companies)
+        data.companies = [c for c in data.companies if c.id != company_id]
+        if len(data.companies) == original_count:
+            return False
+
+        data.total_companies = len(data.companies)
+        self.save_scraped_data(data)
+        return True

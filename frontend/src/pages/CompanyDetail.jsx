@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, SearchX } from 'lucide-react';
+import { ArrowLeft, SearchX, Trash2 } from 'lucide-react';
 import { api } from '../services/api';
 import AIGeneratorPanel from '../components/AIGeneratorPanel';
 import Skeleton from '../components/Skeleton';
 import EmptyState from '../components/EmptyState';
+import ConfirmDialog from '../components/ConfirmDialog';
 import { useToast } from '../components/Toast';
 
 const STATUS_OPTIONS = [
@@ -30,6 +31,8 @@ function CompanyDetail() {
   const [savingNotes, setSavingNotes] = useState(false);
   const [statusSaved, setStatusSaved] = useState(false);
   const [notesSaved, setNotesSaved] = useState(false);
+  const [confirmDeleteOpen, setConfirmDeleteOpen] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -91,6 +94,21 @@ function CompanyDetail() {
     }
   };
 
+  const handleDeleteConfirm = async () => {
+    setDeleting(true);
+    try {
+      await api.deleteCompany(id);
+      showToast(`"${company.name}" silindi`, 'success');
+      navigate('/companies');
+    } catch (err) {
+      showToast('Şirket silinemedi', 'error');
+      // eslint-disable-next-line no-console
+      console.error(err);
+      setDeleting(false);
+      setConfirmDeleteOpen(false);
+    }
+  };
+
   if (loading) {
     return (
       <div className="page fade-in">
@@ -141,6 +159,13 @@ function CompanyDetail() {
               {tag}
             </span>
           ))}
+          <button
+            type="button"
+            className="btn btn-danger detail-delete-btn"
+            onClick={() => setConfirmDeleteOpen(true)}
+          >
+            <Trash2 size={16} /> Sil
+          </button>
         </div>
 
         <span className="detail-source">Kaynak: {company.source}</span>
@@ -226,6 +251,15 @@ function CompanyDetail() {
       </div>
 
       <AIGeneratorPanel companyId={id} companyName={company.name} />
+
+      <ConfirmDialog
+        open={confirmDeleteOpen}
+        title="Şirketi Sil"
+        message={`"${company.name}" kalıcı olarak silinecek. Bu işlem geri alınamaz.`}
+        confirmLabel={deleting ? 'Siliniyor...' : 'Sil'}
+        onConfirm={handleDeleteConfirm}
+        onCancel={() => setConfirmDeleteOpen(false)}
+      />
     </div>
   );
 }
