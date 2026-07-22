@@ -1,7 +1,7 @@
 {
   "source": "teknopark_ankara",
   "source_name": "Teknopark Ankara",
-  "scraped_at": "2026-07-21T22:41:31.771382Z",
+  "scraped_at": "2026-07-22T08:27:28.193354Z",
   "total_companies": 377,
   "companies": [
     {
@@ -15,7 +15,7 @@
       "contact_email": "info@12yazilim.com",
       "detail_url": null,
       "full_description": null,
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -60,7 +60,7 @@
       "description": null,
       "website": "http://abibasoft.com",
       "logo_url": "https://argeportal.teknoparkankara.com.tr/Upload/FirmaTanitimKarti/FirmaLogo/174fdff1-ac97-4d96-986e-45eab47d6797.png",
-      "contact_email": null,
+      "contact_email": "info@abibasoft.com",
       "detail_url": null,
       "full_description": null,
       "application_status": "not_applied",

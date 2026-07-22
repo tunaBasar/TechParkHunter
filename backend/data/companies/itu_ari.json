@@ -1,7 +1,7 @@
 {
   "source": "itu_ari",
   "source_name": "İTÜ ARI Teknokent",
-  "scraped_at": "2026-07-21T18:45:30.499984Z",
+  "scraped_at": "2026-07-22T08:32:15.478774Z",
   "total_companies": 125,
   "companies": [
     {
@@ -35,7 +35,7 @@
       "contact_email": "mailto:insankaynaklari@agito.com.tr",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/agito-bilgisayar-yazilim-ve-danismanlik-hizmetleri-as",
       "full_description": "120,6 Milyon $",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -71,7 +71,7 @@
       "contact_email": "mailto:aerenkaradag@gmail.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/aid-core-solutions-teknoloji-anonim-sirketi",
       "full_description": "27,0 Bin $",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -307,8 +307,8 @@
       "contact_email": "mailto:hr@commencis.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/commencis-teknoloji-as",
       "full_description": "4,2 Milyar ₺",
-      "application_status": "not_applied",
-      "notes": "",
+      "application_status": "applied",
+      "notes": "İME/staj başvurusu için mail gönderildi (İş başvurusu tonunda gitti, kullanıcı düzeltme istemedi).",
       "source": null,
       "source_name": null
     },
@@ -325,7 +325,7 @@
       "contact_email": "mailto:info@usecoolcard.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/cool-nfc-bilgi-teknolojileri-as",
       "full_description": null,
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -343,7 +343,7 @@
       "contact_email": "mailto:info@counterfake.ai",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/counterfake-yazilim-teknolojileri-anonim-sirketi",
       "full_description": "100,0 Bin $",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -398,7 +398,7 @@
       "contact_email": "mailto:info@eatron.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/eatron-yazilim-ve-muhendislik-teknolojileri-as",
       "full_description": null,
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -505,7 +505,7 @@
       "contact_email": "mailto:info@eteration.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/eteration-bilisim-cozumleri-ticaret-as",
       "full_description": null,
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -558,7 +558,7 @@
       "logo_url": "/storage//logos/company_110_logo_white.png",
       "contact_email": "mailto:fev-turkey@fev.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/fev-tr-otomotiv-ve-enerji-arastirma-ve-muhendislik-limited-sirketi",
-      "full_description": "2,7 Milyar $",
+      "full_description": "2,8 Milyar $",
       "application_status": "not_applied",
       "notes": "",
       "source": null,
@@ -778,7 +778,7 @@
       "contact_email": "mailto:kurumsal@imovasyon.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/imovasyon-bilisim-ve-danismanlik-hiz-san-tic-ltd-sti",
       "full_description": "3,4 Milyar ₺",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1235,7 +1235,7 @@
       "contact_email": "mailto:logistics@riconmobile.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/ricon-iletisim-anonim-sirketi",
       "full_description": null,
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1341,7 +1341,7 @@
       "contact_email": "mailto:anilsevinc@smartcityandpartners.com",
       "detail_url": "https://firmalar.ariteknokent.com.tr/companies/scp-is-gelistirme-yazilim-ve-sistem-cozumleri-anonim-sirketi",
       "full_description": "860,1 Milyon ₺",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
