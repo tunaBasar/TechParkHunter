@@ -26,9 +26,9 @@ export const api = {
       method: 'POST',
       body: JSON.stringify({ company_id: companyId }),
     }),
-  sendEmail: (companyId) =>
+  sendEmail: (companyId, subject, body) =>
     request('/ai/send-email', {
       method: 'POST',
-      body: JSON.stringify({ company_id: companyId }),
+      body: JSON.stringify({ company_id: companyId, subject, body }),
     }),
 };

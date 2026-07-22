@@ -60,12 +60,15 @@ Bu endpoint'in bulamadığı durumlarda (adım 4'e bak) **senin** (Cowork'ün) w
 
 ### E-posta Gönderme
 
-**`POST /api/ai/send-email`** — Body: `{"company_id": "..."}`
+**`POST /api/ai/send-email`** — Body: `{"company_id": "...", "subject": "...", "body": "..."}`
 Gmail SMTP (App Password ile) üzerinden `company.contact_email`'e mail gönderir.
 
-> ⚠️ **Önemli kısıt:** Bu endpoint şu an **sabit bir şablon** kullanıyor (`ai/brief_template.py:build_email_subject_and_body`), senin/Cowork'ün yazdığı özel metni **göndermiyor**. Kişiye özel, senin onayladığın bir e-posta metni göndermek istiyorsan:
-> - Ya bu endpoint'i özel konu/gövde kabul edecek şekilde genişletmemi iste (bana söyle, hemen yaparım),
-> - Ya da Cowork sana e-posta taslağını göstersin, sen onayla, Cowork kendi Gmail/mail aracıyla göndersin.
+- `subject`/`body` **verilmezse** → sabit bir şablon kullanılır (`ai/brief_template.py:build_email_subject_and_body`)
+- `subject`/`body` **ikisi birden verilirse** → tam olarak o metni gönderir. **Cowork'ün ürettiği kişiye özel e-posta metnini göndermek için bu şekilde kullanılmalı.**
+- Sadece biri verilirse 400 hatası döner (ikisi birlikte gerekir).
+- Yanıt `used_custom_content: true|false` ile hangi yolun kullanıldığını belirtir.
+
+Önerilen akış: Cowork brief'i okuyup kendi e-posta taslağını yazsın, sana göstersin, onaylarsan bu endpoint'e kendi ürettiği `subject`/`body`'yi göndersin.
 
 ### Scraping (yeni site taraması gerekirse)
 
@@ -115,8 +118,10 @@ Yapmanı istediğim:
    taslağı yaz (konu + gövde, max 250 kelime). Taslağı bana göster, ONAY ALMADAN
    GÖNDERME.
 
-4. Onaylarsam mail'i gönder ve PATCH /api/companies/{id} ile
-   application_status: "applied" olarak işaretle.
+4. Onaylarsam POST /api/ai/send-email ile {"company_id": "...", "subject": "...",
+   "body": "..."} göndererek TAM OLARAK yazdığın taslağı gönder (subject/body
+   boş bırakılırsa sabit bir şablon gider, o yüzden mutlaka ikisini de doldur).
+   Sonra PATCH /api/companies/{id} ile application_status: "applied" olarak işaretle.
 
 5. Sonunda hangi şirkete, hangi e-postaya, ne zaman başvuru yaptığını
    özetleyen bir liste ver.

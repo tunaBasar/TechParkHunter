@@ -1,3 +1,5 @@
+from typing import Optional
+
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
@@ -14,6 +16,16 @@ router = APIRouter()
 
 class CompanyIdRequest(BaseModel):
     company_id: str
+
+
+class SendEmailRequest(BaseModel):
+    company_id: str
+    # İkisi de opsiyonel: boş bırakılırsa build_email_subject_and_body() ile
+    # üretilen sabit şablon kullanılır (geriye dönük uyumlu). Cowork gibi bir
+    # LLM aracı kişiye özel bir konu/gövde ürettiyse, burada gönderip sabit
+    # şablonun yerine geçirebilir.
+    subject: Optional[str] = None
+    body: Optional[str] = None
 
 
 async def _load_company(company_id: str, db: DatabaseManager) -> Company:
@@ -60,7 +72,7 @@ async def get_brief(
 
 @router.post("/send-email")
 async def send_email(
-    request: CompanyIdRequest,
+    request: SendEmailRequest,
     db: DatabaseManager = Depends(get_db),
     email_service: EmailService = Depends(get_email_service),
 ):
@@ -80,12 +92,29 @@ async def send_email(
             "ve GMAIL_APP_PASSWORD ayarlarını doldurun.",
         )
 
-    profile = load_profile()
-    subject, body = build_email_subject_and_body(profile, company)
+    # subject/body verilmişse (örn. Cowork'ün ürettiği kişiye özel metin)
+    # onu kullan; verilmemişse sabit şablona düş.
+    if request.subject is not None or request.body is not None:
+        if not request.subject or not request.body:
+            raise HTTPException(
+                400,
+                "Özel bir e-posta göndermek için hem 'subject' hem 'body' "
+                "birlikte verilmelidir.",
+            )
+        subject, body = request.subject, request.body
+        used_custom_content = True
+    else:
+        profile = load_profile()
+        subject, body = build_email_subject_and_body(profile, company)
+        used_custom_content = False
 
     try:
         await email_service.send_email(company.contact_email, subject, body)
     except EmailServiceError as exc:
         raise HTTPException(502, str(exc)) from exc
 
-    return {"success": True, "sent_to": company.contact_email}
+    return {
+        "success": True,
+        "sent_to": company.contact_email,
+        "used_custom_content": used_custom_content,
+    }
