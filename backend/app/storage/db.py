@@ -156,14 +156,28 @@ class DatabaseManager:
             return cursor.rowcount > 0
 
     async def update_contact_email(self, company_id: str, contact_email: str) -> bool:
+        return await self.update_fields(company_id, {"contact_email": contact_email})
+
+    async def update_fields(self, company_id: str, fields: dict) -> bool:
+        """Şirketin verilen alanlarını günceller. `fields` anahtarları DB
+        şemasındaki sütun adlarıyla eşleşmeli (örn. website, contact_email,
+        sector, description). Boş `fields` için hiçbir şey yapmaz."""
+        if not fields:
+            return False
+
+        set_clauses = [f"{key} = ?" for key in fields]
+        params = list(fields.values())
+        params.append(datetime.now(timezone.utc).isoformat())
+        params.append(company_id)
+
         async with aiosqlite.connect(self.db_path) as db:
             cursor = await db.execute(
-                """
+                f"""
                 UPDATE companies
-                SET contact_email = ?, updated_at = ?
+                SET {', '.join(set_clauses)}, updated_at = ?
                 WHERE id = ?
                 """,
-                (contact_email, datetime.now(timezone.utc).isoformat(), company_id),
+                params,
             )
             await db.commit()
             return cursor.rowcount > 0

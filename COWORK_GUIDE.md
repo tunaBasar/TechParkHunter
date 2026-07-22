@@ -35,8 +35,10 @@ TechPark Hunter'ın backend'i **hiçbir LLM çağrısı yapmaz**. Şirket verisi
 
 ### Şirket Güncelleme
 
-**`PATCH /api/companies/{id}`** — Body: `{"application_status": "applied", "notes": "..."}`
-Başvuru durumunu ve notları günceller. **Her başvuru sonrası bu endpoint'i çağır** ki `not_applied` durumunda kalan şirketlere tekrar mail gitmesin.
+**`PATCH /api/companies/{id}`** — Body: `{"application_status": "applied", "notes": "...", "website": "...", "contact_email": "..."}`
+Dört alan da opsiyonel, sadece gönderdiklerin güncellenir. Başvuru durumu, notlar, web sitesi ve iletişim e-postası bu tek endpoint'ten yazılabilir. **Her başvuru sonrası `application_status`'u güncelle** ki `not_applied` durumunda kalan şirketlere tekrar mail gitmesin.
+
+> 💡 **Önemli:** Bilkent Cyberpark, DEPARK gibi bazı kaynaklarda scraper `website`/`contact_email` alanlarını boş bırakmış olabilir. Sen (Cowork) web'de arama yapıp şirketin gerçek sitesini/e-postasını bulduğunda, bunu bu endpoint ile kaydet — böylece hem `find-contact-email` hem `send-email` bir dahaki sefere bu bilgiyi kullanabilir, ve veri kalıcı olarak DB'ye ve kaynak JSON dosyasına yazılır.
 
 **`DELETE /api/companies/{id}`** — Şirketi kalıcı olarak siler. Dikkatli kullan.
 
@@ -47,7 +49,8 @@ Başvuru durumunu ve notları günceller. **Her başvuru sonrası bu endpoint'i 
 - Yoksa ve `website` alanı doluysa → siteyi ziyaret edip ana sayfa + yaygın iletişim sayfalarında (`/iletisim`, `/contact` vb.) `mailto:` linki arar (`"source": "website"`)
 - Hiçbiri yoksa/bulunamazsa → `{"found": false, "reason": "..."}` döner. **Asla tahmini bir e-posta üretmez.**
 
-Bu endpoint'in bulamadığı durumlarda (adım 4'e bak) **senin** (Cowork'ün) web araması yapman gerekiyor.
+Bu endpoint `website` alanı boşsa hemen pes eder. Bu durumda (adım 4'e bak) **senin** (Cowork'ün) önce web'de şirketin resmi sitesini araman, sonra bulduğun URL'yi `PATCH /api/companies/{id}` ile `website` alanına kaydetmen, ardından istersen `find-contact-email`'i tekrar çağırman (o zaman siteyi tarayıp e-posta bulmayı deneyecektir) ya da doğrudan bulduğun e-postayı `contact_email` alanına yazman gerekiyor.
+
 
 ### Başvuru Brief'i (Bağlam Hazırlama)
 
@@ -84,7 +87,7 @@ Cowork bir şirkete başvuru hazırlarken **şu sırayı** izlemeli:
 
 1. **DB'de zaten var mı?** → `GET /api/companies/{id}` çağrısındaki `contact_email` alanına bak. Doluysa direkt kullan.
 2. **Website üzerinden bul** → `POST /api/companies/{id}/find-contact-email` çağır. `found: true` dönerse kullan.
-3. **Web'de ara** → 2. adım `found: false` dönerse, şirketin ismiyle web araması yap. En makul eşleşen resmi web sitesini bul, oraya git, `/iletisim`, `/contact`, `/hakkimizda` gibi sayfalarda veya footer'da bir e-posta adresi ara.
+3. **Web'de ara** → 2. adım `found: false` dönerse, şirketin ismiyle web araması yap. En makul eşleşen resmi web sitesini bul, oraya git, `/iletisim`, `/contact`, `/hakkimizda` gibi sayfalarda veya footer'da bir e-posta adresi ara. **Bulduğun website ve/veya e-posta adresini `PATCH /api/companies/{id}` ile kaydet** (`{"website": "...", "contact_email": "..."}`) — bu bilgi kalıcı olur, aynı şirkete tekrar bakıldığında yeniden aranmasına gerek kalmaz.
 4. **Hiçbiri bulunamazsa** → o şirketi atla, kullanıcıya bildir. **Asla tahmini/uydurma bir adres kullanma.**
 
 Her adımda bulunan e-posta adresi ve kaynağı (DB / website / web araması) kullanıcıya gösterilmeli ve **gönderim öncesi onay alınmalı**.

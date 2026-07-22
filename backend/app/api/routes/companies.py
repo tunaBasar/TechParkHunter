@@ -32,6 +32,8 @@ EXPORT_CSV_COLUMNS = [
 class CompanyUpdate(BaseModel):
     application_status: Optional[ApplicationStatus] = None
     notes: Optional[str] = None
+    website: Optional[str] = None
+    contact_email: Optional[str] = None
 
 
 @router.get("/")
@@ -151,20 +153,25 @@ async def update_company(
     if not company:
         raise HTTPException(404, "Company not found")
 
-    new_status = (
-        update.application_status.value
-        if update.application_status is not None
-        else company["application_status"]
-    )
-    new_notes = update.notes if update.notes is not None else company["notes"]
-    await db.update_company_status(company_id, new_status, new_notes)
+    db_fields: dict = {}
+    json_updates: dict = {}
 
-    json_updates = {}
     if update.application_status is not None:
+        db_fields["application_status"] = update.application_status.value
         json_updates["application_status"] = update.application_status
     if update.notes is not None:
+        db_fields["notes"] = update.notes
         json_updates["notes"] = update.notes
-    if json_updates:
+    if update.website is not None:
+        db_fields["website"] = update.website
+        json_updates["website"] = update.website
+    if update.contact_email is not None:
+        db_fields["contact_email"] = update.contact_email
+        json_updates["contact_email"] = update.contact_email
+
+    if db_fields:
+        await db.update_fields(company_id, db_fields)
+    if json_updates and company.get("source"):
         json_store.update_company(company["source"], company_id, json_updates)
 
     return {"success": True}
