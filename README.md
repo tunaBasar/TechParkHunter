@@ -23,6 +23,8 @@ TechPark Hunter'ın "AI" paneli **hiçbir LLM'e bağlanmaz** ve **hiçbir metin 
 
 Bu tasarım bilinçli bir tercihtir: yerel LLM (Ollama) her makinede çalıştırılamıyor, cloud LLM API'leri (OpenAI/Anthropic) ise gereksiz maliyet ve bağımlılık getiriyor. Bunun yerine hazırlanan brief'i kopyalayıp **Claude Cowork** (veya başka bir LLM sohbeti) içine yapıştırarak e-posta taslağını ve CV önerilerini orada, siz kontrol ederek ürettirmeniz önerilir.
 
+> 🤝 Cowork ile bu projeyi nasıl kullanacağınız (API referansı, iletişim e-postası bulma stratejisi, örnek prompt) için **[COWORK_GUIDE.md](./COWORK_GUIDE.md)** dosyasına bakın.
+
 ## 🚀 Kurulum
 
 ```bash
