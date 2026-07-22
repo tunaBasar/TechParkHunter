@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ArrowLeft, SearchX, Trash2 } from 'lucide-react';
+import { ArrowLeft, SearchX, Trash2, Mail } from 'lucide-react';
 import { api } from '../services/api';
 import AIGeneratorPanel from '../components/AIGeneratorPanel';
 import Skeleton from '../components/Skeleton';
@@ -33,6 +33,7 @@ function CompanyDetail() {
   const [notesSaved, setNotesSaved] = useState(false);
   const [confirmDeleteOpen, setConfirmDeleteOpen] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [findingEmail, setFindingEmail] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -106,6 +107,25 @@ function CompanyDetail() {
       console.error(err);
       setDeleting(false);
       setConfirmDeleteOpen(false);
+    }
+  };
+
+  const handleFindEmail = async () => {
+    setFindingEmail(true);
+    try {
+      const result = await api.findContactEmail(id);
+      if (result.found) {
+        setCompany((prev) => ({ ...prev, contact_email: result.contact_email }));
+        showToast(`E-posta bulundu: ${result.contact_email}`, 'success');
+      } else {
+        showToast(result.reason || 'E-posta bulunamadı', 'warning');
+      }
+    } catch (err) {
+      showToast('E-posta arama başarısız oldu', 'error');
+      // eslint-disable-next-line no-console
+      console.error(err);
+    } finally {
+      setFindingEmail(false);
     }
   };
 
@@ -197,6 +217,17 @@ function CompanyDetail() {
             {!company.website && !company.contact_email && (
               <p style={{ color: 'var(--text-muted)' }}>İletişim bilgisi bulunmuyor.</p>
             )}
+            {!company.contact_email && (
+              <button
+                type="button"
+                className="btn btn-ghost detail-find-email-btn"
+                disabled={findingEmail}
+                onClick={handleFindEmail}
+              >
+                <Mail size={14} />
+                {findingEmail ? 'Aranıyor...' : 'E-posta Bul'}
+              </button>
+            )}
           </div>
         </div>
 
@@ -250,7 +281,11 @@ function CompanyDetail() {
         </div>
       </div>
 
-      <AIGeneratorPanel companyId={id} companyName={company.name} />
+      <AIGeneratorPanel
+        companyId={id}
+        companyName={company.name}
+        contactEmail={company.contact_email}
+      />
 
       <ConfirmDialog
         open={confirmDeleteOpen}

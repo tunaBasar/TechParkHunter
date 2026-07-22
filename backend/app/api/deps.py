@@ -2,6 +2,7 @@ from functools import lru_cache
 
 from app.ai.service import BriefService
 from app.config import Settings
+from app.email.service import EmailService
 from app.storage.db import DatabaseManager
 from app.storage.json_store import JsonStore
 
@@ -15,6 +16,12 @@ def get_settings() -> Settings:
 def get_brief_service() -> BriefService:
     settings = get_settings()
     return BriefService(data_dir=settings.DATA_DIR)
+
+
+@lru_cache
+def get_email_service() -> EmailService:
+    settings = get_settings()
+    return EmailService(settings)
 
 
 @lru_cache

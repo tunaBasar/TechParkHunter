@@ -10,6 +10,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from app.api.deps import get_db, get_json_store
+from app.scraping.contact_finder import find_contact_email
 from app.storage.db import DatabaseManager
 from app.storage.json_store import JsonStore
 from app.storage.models import ApplicationStatus, CompanyFilter
@@ -184,3 +185,52 @@ async def delete_company(
         json_store.delete_company(company["source"], company_id)
 
     return {"success": True}
+
+
+@router.post("/{company_id}/find-contact-email")
+async def find_company_contact_email(
+    company_id: str,
+    db: DatabaseManager = Depends(get_db),
+    json_store: JsonStore = Depends(get_json_store),
+):
+    """Şirketin DB kaydında zaten contact_email varsa onu döner. Yoksa ve
+    website alanı mevcutsa, siteyi ziyaret edip mailto: linki bulmaya çalışır.
+    Ne website ne de bulunabilir bir mail varsa found=False döner — hiçbir
+    zaman uydurma bir adres üretilmez."""
+
+    company = await db.get_company(company_id)
+    if not company:
+        raise HTTPException(404, "Company not found")
+
+    if company.get("contact_email"):
+        return {
+            "found": True,
+            "contact_email": company["contact_email"],
+            "source": "existing",
+        }
+
+    website = company.get("website")
+    if not website:
+        return {
+            "found": False,
+            "contact_email": None,
+            "source": None,
+            "reason": "Şirketin kayıtlı bir web sitesi yok.",
+        }
+
+    email = await find_contact_email(website)
+    if not email:
+        return {
+            "found": False,
+            "contact_email": None,
+            "source": None,
+            "reason": "Web sitesinde e-posta adresi bulunamadı.",
+        }
+
+    await db.update_contact_email(company_id, email)
+    if company.get("source"):
+        json_store.update_company(
+            company["source"], company_id, {"contact_email": email}
+        )
+
+    return {"found": True, "contact_email": email, "source": "website"}

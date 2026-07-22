@@ -16,11 +16,18 @@ export const api = {
   updateCompany: (id, data) =>
     request(`/companies/${id}`, { method: 'PATCH', body: JSON.stringify(data) }),
   deleteCompany: (id) => request(`/companies/${id}`, { method: 'DELETE' }),
+  findContactEmail: (id) =>
+    request(`/companies/${id}/find-contact-email`, { method: 'POST' }),
   getSites: () => request('/scrape/sites'),
   startScraping: (slug) => request(`/scrape/${slug}`, { method: 'POST' }),
   getScrapingStatus: (jobId) => request(`/scrape/status/${jobId}`),
   generateBrief: (companyId) =>
     request('/ai/generate-brief', {
+      method: 'POST',
+      body: JSON.stringify({ company_id: companyId }),
+    }),
+  sendEmail: (companyId) =>
+    request('/ai/send-email', {
       method: 'POST',
       body: JSON.stringify({ company_id: companyId }),
     }),

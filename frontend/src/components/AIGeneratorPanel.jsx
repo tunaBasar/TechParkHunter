@@ -48,13 +48,14 @@ function simpleMarkdownToHtml(markdown) {
   return html.join('\n');
 }
 
-function AIGeneratorPanel({ companyId, companyName }) {
+function AIGeneratorPanel({ companyId, companyName, contactEmail }) {
   const { showToast } = useToast();
   const [brief, setBrief] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [copied, setCopied] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
+  const [sendingEmail, setSendingEmail] = useState(false);
 
   const handleGenerate = async () => {
     setLoading(true);
@@ -78,6 +79,18 @@ function AIGeneratorPanel({ companyId, companyName }) {
     setCopied(true);
     showToast('Panoya kopyalandı!', 'info');
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleSendEmail = async () => {
+    setSendingEmail(true);
+    try {
+      const result = await api.sendEmail(companyId);
+      showToast(`Mail gönderildi: ${result.sent_to}`, 'success');
+    } catch (err) {
+      showToast(err.message || 'Mail gönderilemedi.', 'error');
+    } finally {
+      setSendingEmail(false);
+    }
   };
 
   return (
@@ -124,7 +137,22 @@ function AIGeneratorPanel({ companyId, companyName }) {
             >
               💡 Cowork'te nasıl kullanılır?
             </button>
+            <button
+              type="button"
+              className="btn btn-primary"
+              disabled={!contactEmail || sendingEmail}
+              title={!contactEmail ? 'Bu şirket için kayıtlı bir e-posta adresi yok' : undefined}
+              onClick={handleSendEmail}
+            >
+              {sendingEmail ? 'Gönderiliyor...' : '📧 Mail Gönder'}
+            </button>
           </div>
+
+          {!contactEmail && (
+            <div className="ai-help-hint">
+              Bu şirket için kayıtlı bir iletişim e-postası bulunamadı, mail gönderilemiyor.
+            </div>
+          )}
 
           {showHelp && (
             <div className="ai-help-hint">

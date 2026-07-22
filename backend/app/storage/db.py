@@ -155,6 +155,19 @@ class DatabaseManager:
             await db.commit()
             return cursor.rowcount > 0
 
+    async def update_contact_email(self, company_id: str, contact_email: str) -> bool:
+        async with aiosqlite.connect(self.db_path) as db:
+            cursor = await db.execute(
+                """
+                UPDATE companies
+                SET contact_email = ?, updated_at = ?
+                WHERE id = ?
+                """,
+                (contact_email, datetime.now(timezone.utc).isoformat(), company_id),
+            )
+            await db.commit()
+            return cursor.rowcount > 0
+
     async def get_stats(self) -> dict:
         async with aiosqlite.connect(self.db_path) as db:
             db.row_factory = aiosqlite.Row

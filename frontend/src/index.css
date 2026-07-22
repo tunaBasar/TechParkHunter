@@ -837,6 +837,12 @@ tr.has-note {
   color: var(--accent-hover);
 }
 
+.detail-find-email-btn {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.75rem;
+}
+
 .detail-status-select {
   margin-bottom: 0.75rem;
 }

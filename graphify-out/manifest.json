@@ -20,9 +20,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "backend/app/api/deps.py": {
-    "mtime": 1784648972.0999124,
-    "ast_hash": "e4e214a7cb329a5bd95b8d7af4c2669a",
-    "semantic_hash": "e4e214a7cb329a5bd95b8d7af4c2669a"
+    "mtime": 1784677771.1440868,
+    "ast_hash": "1c7185b8aef66c0ba07f7010937be2c4",
+    "semantic_hash": "1c7185b8aef66c0ba07f7010937be2c4"
   },
   "backend/app/api/routes/__init__.py": {
     "mtime": 1784635052.678546,
@@ -30,14 +30,14 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "backend/app/api/routes/ai.py": {
-    "mtime": 1784648977.8341312,
-    "ast_hash": "46d8447b4c497d3fc9c48eb0d812a9a2",
-    "semantic_hash": "46d8447b4c497d3fc9c48eb0d812a9a2"
+    "mtime": 1784677865.711861,
+    "ast_hash": "d03f8d5f664b34f86460b2ac37b683d7",
+    "semantic_hash": "d03f8d5f664b34f86460b2ac37b683d7"
   },
   "backend/app/api/routes/companies.py": {
-    "mtime": 1784658484.9915483,
-    "ast_hash": "54e5177e4479c073de9f21e7ac16d4c6",
-    "semantic_hash": "54e5177e4479c073de9f21e7ac16d4c6"
+    "mtime": 1784677531.7809017,
+    "ast_hash": "b5e14bbfec4a9a548e210019dbaec6f5",
+    "semantic_hash": "b5e14bbfec4a9a548e210019dbaec6f5"
   },
   "backend/app/api/routes/scraping.py": {
     "mtime": 1784658415.5838392,
@@ -45,9 +45,9 @@
     "semantic_hash": "e1ca3f2a29fd0abe393549267939bc76"
   },
   "backend/app/config.py": {
-    "mtime": 1784648943.4280024,
-    "ast_hash": "7ee4dee159005f09d04de4dd92c081e6",
-    "semantic_hash": "7ee4dee159005f09d04de4dd92c081e6"
+    "mtime": 1784677695.2545626,
+    "ast_hash": "5b6d1e5e46f955f3904ce71f34d36a36",
+    "semantic_hash": "5b6d1e5e46f955f3904ce71f34d36a36"
   },
   "backend/app/main.py": {
     "mtime": 1784635853.9338126,
@@ -70,9 +70,9 @@
     "semantic_hash": "570dbfc1f67fc8cacad0f7dccc3becec"
   },
   "backend/app/scraping/engine.py": {
-    "mtime": 1784658402.2169003,
-    "ast_hash": "939eae1c662beb3a7d08fb5e625f1ef0",
-    "semantic_hash": "939eae1c662beb3a7d08fb5e625f1ef0"
+    "mtime": 1784675298.5106509,
+    "ast_hash": "967299da4cbc3307dcd675cbf53644ee",
+    "semantic_hash": "967299da4cbc3307dcd675cbf53644ee"
   },
   "backend/app/scraping/jobs.py": {
     "mtime": 1784636586.9168015,
@@ -90,14 +90,14 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "backend/app/storage/db.py": {
-    "mtime": 1784635470.230725,
-    "ast_hash": "b3519ff69b7ab2502977d61b0752c458",
-    "semantic_hash": "b3519ff69b7ab2502977d61b0752c458"
+    "mtime": 1784677515.0884936,
+    "ast_hash": "e2047f8c81b8a870d5f9c08427c85e31",
+    "semantic_hash": "e2047f8c81b8a870d5f9c08427c85e31"
   },
   "backend/app/storage/json_store.py": {
-    "mtime": 1784635454.0530086,
-    "ast_hash": "6cef0fcd3a3caf4d3d84ea4ae062e9d4",
-    "semantic_hash": "6cef0fcd3a3caf4d3d84ea4ae062e9d4"
+    "mtime": 1784675382.722971,
+    "ast_hash": "adf2264ee8938be8c0d182c0ed24b7e0",
+    "semantic_hash": "adf2264ee8938be8c0d182c0ed24b7e0"
   },
   "backend/app/storage/models.py": {
     "mtime": 1784648929.8142526,
@@ -115,9 +115,9 @@
     "semantic_hash": "24639bc374482e98d9d9fe2b49405731"
   },
   "backend/pyproject.toml": {
-    "mtime": 1784648936.4645193,
-    "ast_hash": "2577817528637a0e788202d663b3cf3b",
-    "semantic_hash": "2577817528637a0e788202d663b3cf3b"
+    "mtime": 1784677680.3652773,
+    "ast_hash": "3c3f7271e5a14483bf37216a4888e11e",
+    "semantic_hash": "3c3f7271e5a14483bf37216a4888e11e"
   },
   "frontend/.oxlintrc.json": {
     "mtime": 1784635152.1689599,
@@ -145,9 +145,9 @@
     "semantic_hash": "8b4957f566f755c9b66679e83ec9add5"
   },
   "frontend/src/components/CompanyCard.jsx": {
-    "mtime": 1784638692.9649417,
-    "ast_hash": "d364b08cf57e1ab7e5dd1918ac424262",
-    "semantic_hash": "d364b08cf57e1ab7e5dd1918ac424262"
+    "mtime": 1784675481.2753487,
+    "ast_hash": "384927396ed1b9acb153d9c954d48245",
+    "semantic_hash": "384927396ed1b9acb153d9c954d48245"
   },
   "frontend/src/components/FilterBar.jsx": {
     "mtime": 1784638687.396104,
@@ -165,19 +165,19 @@
     "semantic_hash": "1ada5069e9d260e87abe16e5e98c271a"
   },
   "frontend/src/pages/Companies.jsx": {
-    "mtime": 1784659017.5979333,
-    "ast_hash": "2234282c7a04be4e33380974e27ae5a0",
-    "semantic_hash": "2234282c7a04be4e33380974e27ae5a0"
+    "mtime": 1784675506.4206748,
+    "ast_hash": "c0bcf36314bf5d2dde6d454728ce09c5",
+    "semantic_hash": "c0bcf36314bf5d2dde6d454728ce09c5"
   },
   "frontend/src/pages/CompanyDetail.jsx": {
-    "mtime": 1784659041.894096,
-    "ast_hash": "5a1e7d61ffcdd46a526ba6ad80fb94da",
-    "semantic_hash": "5a1e7d61ffcdd46a526ba6ad80fb94da"
+    "mtime": 1784677921.8158572,
+    "ast_hash": "b2753098472005c3b72faed7e40bf0f1",
+    "semantic_hash": "b2753098472005c3b72faed7e40bf0f1"
   },
   "frontend/src/pages/Dashboard.jsx": {
-    "mtime": 1784658996.5209029,
-    "ast_hash": "e322e2fcc13996b7f8347efa84ffb600",
-    "semantic_hash": "e322e2fcc13996b7f8347efa84ffb600"
+    "mtime": 1784675467.9341714,
+    "ast_hash": "fd0de1f9233692206c82e4ce0dedaff9",
+    "semantic_hash": "fd0de1f9233692206c82e4ce0dedaff9"
   },
   "frontend/src/pages/ScrapingPanel.jsx": {
     "mtime": 1784659062.9160805,
@@ -185,14 +185,14 @@
     "semantic_hash": "1dee4ba27de573006d9e1594673572de"
   },
   "frontend/src/services/api.js": {
-    "mtime": 1784648990.313602,
-    "ast_hash": "d0bfe6f8ffc489319f8dbccd577324fa",
-    "semantic_hash": "d0bfe6f8ffc489319f8dbccd577324fa"
+    "mtime": 1784677879.2791054,
+    "ast_hash": "247671f67a8cc85bbc5acfbb12352b2d",
+    "semantic_hash": "247671f67a8cc85bbc5acfbb12352b2d"
   },
   "backend/app/ai/brief_template.py": {
-    "mtime": 1784648958.9994073,
-    "ast_hash": "6bb852fa22bba50f8abede138eda3a5d",
-    "semantic_hash": "6bb852fa22bba50f8abede138eda3a5d"
+    "mtime": 1784677830.7922206,
+    "ast_hash": "135cb0cf8ec569fb40d8343fb415b64e",
+    "semantic_hash": "135cb0cf8ec569fb40d8343fb415b64e"
   },
   "backend/app/ai/profile.py": {
     "mtime": 1784640072.7583742,
@@ -205,14 +205,14 @@
     "semantic_hash": "6227375bb27947579a3d698cbb5fe2de"
   },
   "frontend/src/components/AIGeneratorPanel.jsx": {
-    "mtime": 1784659078.512799,
-    "ast_hash": "838bcf6d42a013a5dbce6353821ffcf0",
-    "semantic_hash": "838bcf6d42a013a5dbce6353821ffcf0"
+    "mtime": 1784677946.7962885,
+    "ast_hash": "4935c22464372c4293481f205097769d",
+    "semantic_hash": "4935c22464372c4293481f205097769d"
   },
   "backend/data/companies/itu_ari.json": {
-    "mtime": 1784659530.50301,
-    "ast_hash": "e049ca920a5751ec71d6d1430255bfb6",
-    "semantic_hash": "e049ca920a5751ec71d6d1430255bfb6"
+    "mtime": 1784675762.0494962,
+    "ast_hash": "75891a2f44d65659f73a65ad9c6251b5",
+    "semantic_hash": "75891a2f44d65659f73a65ad9c6251b5"
   },
   "frontend/src/components/EmptyState.jsx": {
     "mtime": 1784658962.4871929,
@@ -228,5 +228,60 @@
     "mtime": 1784658927.4823718,
     "ast_hash": "178d1ec30991fe19a005f9343706c1ce",
     "semantic_hash": "178d1ec30991fe19a005f9343706c1ce"
+  },
+  "backend/app/email/__init__.py": {
+    "mtime": 1784677713.199932,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "backend/app/email/service.py": {
+    "mtime": 1784677742.8885307,
+    "ast_hash": "36d3aeadfd9239e84cff3ccab3fca4fd",
+    "semantic_hash": "36d3aeadfd9239e84cff3ccab3fca4fd"
+  },
+  "backend/app/scraping/contact_finder.py": {
+    "mtime": 1784677346.1343455,
+    "ast_hash": "a2a2126f122106e8c6adcb43c45463e2",
+    "semantic_hash": "a2a2126f122106e8c6adcb43c45463e2"
+  },
+  "backend/app/scraping/relevance.py": {
+    "mtime": 1784675351.8935044,
+    "ast_hash": "a717ba7310d0dfa6e5ef510601f151f6",
+    "semantic_hash": "a717ba7310d0dfa6e5ef510601f151f6"
+  },
+  "backend/data/companies/antalya_teknokent.json": {
+    "mtime": 1784675724.9610531,
+    "ast_hash": "baa4b2a0def8ca621b20e1ebd81a7bbe",
+    "semantic_hash": "baa4b2a0def8ca621b20e1ebd81a7bbe"
+  },
+  "backend/data/companies/bilkent_cyberpark.json": {
+    "mtime": 1784675762.4898944,
+    "ast_hash": "4ae30851f5678b240c8def6c3e9bdb15",
+    "semantic_hash": "4ae30851f5678b240c8def6c3e9bdb15"
+  },
+  "backend/data/companies/depark.json": {
+    "mtime": 1784675763.83455,
+    "ast_hash": "96b7cac9c6942fcc7175ee1d64761b83",
+    "semantic_hash": "96b7cac9c6942fcc7175ee1d64761b83"
+  },
+  "backend/data/companies/teknopark_ankara.json": {
+    "mtime": 1784677707.6835377,
+    "ast_hash": "95db4b65aa707efcd3ce2c74c2f529e3",
+    "semantic_hash": "95db4b65aa707efcd3ce2c74c2f529e3"
+  },
+  "frontend/src/components/ConfirmDialog.jsx": {
+    "mtime": 1784675414.5974348,
+    "ast_hash": "eedfa933036be9356db9589704c554fe",
+    "semantic_hash": "eedfa933036be9356db9589704c554fe"
+  },
+  "frontend/src/components/NoteTooltip.jsx": {
+    "mtime": 1784675436.1044247,
+    "ast_hash": "60c083cafc66e6a6e817605d2307169b",
+    "semantic_hash": "60c083cafc66e6a6e817605d2307169b"
+  },
+  "frontend/src/hooks/useNoteTooltip.js": {
+    "mtime": 1784675428.0706253,
+    "ast_hash": "70b061238dc73452493a43fbc4aa7aed",
+    "semantic_hash": "70b061238dc73452493a43fbc4aa7aed"
   }
 }

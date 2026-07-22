@@ -1,9 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
 
+from app.ai.brief_template import build_email_subject_and_body
 from app.ai.profile import load_profile
 from app.ai.service import BriefService, BriefServiceError
-from app.api.deps import get_brief_service, get_db
+from app.api.deps import get_brief_service, get_db, get_email_service
+from app.email.service import EmailService, EmailServiceError
 from app.storage.db import DatabaseManager
 from app.storage.models import Company
 
@@ -54,3 +56,36 @@ async def get_brief(
     if brief_markdown is None:
         raise HTTPException(404, "Brief not found")
     return {"brief_markdown": brief_markdown}
+
+
+@router.post("/send-email")
+async def send_email(
+    request: CompanyIdRequest,
+    db: DatabaseManager = Depends(get_db),
+    email_service: EmailService = Depends(get_email_service),
+):
+    company = await _load_company(request.company_id, db)
+
+    if not company.contact_email:
+        raise HTTPException(
+            400,
+            "Bu şirketin kayıtlı bir iletişim e-postası yok. "
+            "Önce 'İletişim E-postası Bul' özelliğini deneyin.",
+        )
+
+    if not email_service.is_configured:
+        raise HTTPException(
+            400,
+            "Gmail gönderimi yapılandırılmamış. .env dosyasında GMAIL_ADDRESS "
+            "ve GMAIL_APP_PASSWORD ayarlarını doldurun.",
+        )
+
+    profile = load_profile()
+    subject, body = build_email_subject_and_body(profile, company)
+
+    try:
+        await email_service.send_email(company.contact_email, subject, body)
+    except EmailServiceError as exc:
+        raise HTTPException(502, str(exc)) from exc
+
+    return {"success": True, "sent_to": company.contact_email}
