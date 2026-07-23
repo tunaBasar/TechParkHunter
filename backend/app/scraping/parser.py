@@ -21,6 +21,8 @@ TURKISH_CHAR_MAP = str.maketrans(
 # YAML field names that don't map 1:1 onto Company model field names.
 FIELD_ALIASES = {"logo": "logo_url"}
 
+EMAIL_REGEX = re.compile(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}")
+
 
 def slugify(text: str) -> str:
     text = text.translate(TURKISH_CHAR_MAP).lower()
@@ -49,17 +51,26 @@ async def _extract_field(source, field_selector: FieldSelector) -> Optional[str]
 
 
 def _clean_contact_email(value: Optional[str]) -> Optional[str]:
-    """`mailto:` linklerinden çekilen değerleri normalize eder.
+    """`mailto:` linklerinden veya düz metinden çekilen değerleri normalize eder.
 
     `href` attribute'u genelde `mailto:info@x.com?subject=...` biçiminde gelir;
-    bu fonksiyon öneki ve query string'i temizleyip düz e-posta adresi bırakır.
+    bazı sitelerde ise (örn. Kocaeli Teknopark) `mailto:` yerine yanlışlıkla
+    `http://info@x.com` gibi bir önek kullanılır. Metin olarak çekilen alanlarda
+    (örn. Bursa Teknopark "E-posta\ninfo@x.com" gibi label+değer) da e-posta
+    regex ile ayıklanır. Tüm durumlarda düz e-posta adresi döner.
     """
     if not value:
         return value
     cleaned = value.strip()
     if cleaned.lower().startswith("mailto:"):
         cleaned = cleaned[len("mailto:"):]
+    elif "@" in cleaned and cleaned.lower().startswith(("http://", "https://")):
+        cleaned = cleaned.split("://", 1)[1]
     cleaned = cleaned.split("?")[0].strip()
+    if "@" not in cleaned or "\n" in cleaned or " " in cleaned:
+        # Muhtemelen label+değer karışık düz metin; regex ile e-postayı çıkar.
+        match = EMAIL_REGEX.search(cleaned)
+        return match.group(0) if match else None
     return cleaned or None
 
 

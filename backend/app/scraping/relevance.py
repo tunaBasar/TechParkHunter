@@ -36,13 +36,17 @@ TECH_KEYWORDS = [
     "savunma sanayi", "defense industry", "defence industry",
     "havacılık", "aerospace", "uzay teknolojileri", "space technology",
     "drone", "İha", "insansız hava aracı",
-    "telekomünikasyon", "telecom",
+    "telekomünikasyon", "telecom", "telco",
     "e-ticaret", "e-commerce",
+    "lojistik", "logistics", "tedarik zinciri", "supply chain",
     "mühendislik yazılımı", "engineering software",
     "simülasyon", "simulation",
     "medikal teknoloji", "medical technology", "sağlık teknolojisi", "health tech",
     "biyoteknoloji", "biotechnology",
     "nanoteknoloji", "nanotechnology",
+    "olay tabanlı mimari", "event-driven", "event driven",
+    "dağıtık sistemler", "distributed systems",
+    "mikroservis", "microservice", "microservices",
 ]
 
 # Finans / Bankacılık ile ilgili anahtar kelimeler

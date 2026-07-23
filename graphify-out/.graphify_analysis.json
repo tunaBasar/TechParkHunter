@@ -43,33 +43,6 @@
       "ref_react"
     ],
     "1": [
-      "applicationstatus",
-      "backend_app_api_routes_companies",
-      "backend_app_api_routes_companies_companyupdate",
-      "backend_app_api_routes_companies_delete_company",
-      "backend_app_api_routes_companies_export_companies",
-      "backend_app_api_routes_companies_find_company_contact_email",
-      "backend_app_api_routes_companies_get_company",
-      "backend_app_api_routes_companies_get_stats",
-      "backend_app_api_routes_companies_list_companies",
-      "backend_app_api_routes_companies_py_basemodel",
-      "backend_app_api_routes_companies_rationale_196",
-      "backend_app_api_routes_companies_update_company",
-      "backend_app_storage_db",
-      "backend_app_storage_db_databasemanager",
-      "backend_app_storage_db_databasemanager_delete_company",
-      "backend_app_storage_db_databasemanager_get_companies",
-      "backend_app_storage_db_databasemanager_get_company",
-      "backend_app_storage_db_databasemanager_get_stats",
-      "backend_app_storage_db_databasemanager_init",
-      "backend_app_storage_db_databasemanager_init_db",
-      "backend_app_storage_db_databasemanager_update_company_status",
-      "backend_app_storage_db_databasemanager_update_contact_email",
-      "backend_app_storage_db_databasemanager_upsert_companies",
-      "backend_app_storage_db_py_scrapeddata",
-      "companyfilter"
-    ],
-    "2": [
       "backend_app_ai_brief_template",
       "backend_app_ai_brief_template_build_application_brief",
       "backend_app_ai_brief_template_build_email_subject_and_body",
@@ -91,9 +64,47 @@
       "backend_app_ai_service_briefservice_load_brief",
       "backend_app_ai_service_briefserviceerror",
       "backend_app_ai_service_rationale_13",
+      "backend_app_storage_models",
+      "backend_app_storage_models_applicationstatus",
+      "backend_app_storage_models_company",
+      "backend_app_storage_models_companyfilter",
+      "backend_app_storage_models_py_basemodel",
+      "backend_app_storage_models_scrapeddata",
       "candidateprofile",
+      "enum",
       "exception",
-      "path"
+      "path",
+      "str"
+    ],
+    "2": [
+      "applicationstatus",
+      "backend_app_api_routes_companies",
+      "backend_app_api_routes_companies_companyupdate",
+      "backend_app_api_routes_companies_delete_company",
+      "backend_app_api_routes_companies_export_companies",
+      "backend_app_api_routes_companies_find_company_contact_email",
+      "backend_app_api_routes_companies_get_company",
+      "backend_app_api_routes_companies_get_stats",
+      "backend_app_api_routes_companies_list_companies",
+      "backend_app_api_routes_companies_py_basemodel",
+      "backend_app_api_routes_companies_rationale_203",
+      "backend_app_api_routes_companies_update_company",
+      "backend_app_storage_db",
+      "backend_app_storage_db_databasemanager",
+      "backend_app_storage_db_databasemanager_delete_company",
+      "backend_app_storage_db_databasemanager_get_companies",
+      "backend_app_storage_db_databasemanager_get_company",
+      "backend_app_storage_db_databasemanager_get_stats",
+      "backend_app_storage_db_databasemanager_init",
+      "backend_app_storage_db_databasemanager_init_db",
+      "backend_app_storage_db_databasemanager_update_company_status",
+      "backend_app_storage_db_databasemanager_update_contact_email",
+      "backend_app_storage_db_databasemanager_update_fields",
+      "backend_app_storage_db_databasemanager_upsert_companies",
+      "backend_app_storage_db_rationale_162",
+      "companyfilter",
+      "jsonstore",
+      "scrapeddata"
     ],
     "3": [
       "backend_app_api_deps",
@@ -159,28 +170,12 @@
       "react_router_dom"
     ],
     "6": [
-      "backend_app_scraping_config_models_fieldselector",
-      "backend_app_scraping_parser",
-      "backend_app_scraping_parser_extract_field",
-      "backend_app_scraping_parser_extract_fields",
-      "backend_app_scraping_parser_parse_company",
-      "backend_app_scraping_parser_slugify",
-      "backend_app_scraping_parser_tag_sectors",
-      "backend_app_storage_models",
-      "backend_app_storage_models_applicationstatus",
-      "backend_app_storage_models_company",
-      "backend_app_storage_models_companyfilter",
-      "backend_app_storage_models_py_basemodel",
-      "backend_app_storage_models_scrapeddata",
-      "enum",
-      "str"
-    ],
-    "7": [
       "backend_app_scraping_config_loader",
       "backend_app_scraping_config_loader_list_available_sites",
       "backend_app_scraping_config_loader_load_site_config",
       "backend_app_scraping_config_models",
       "backend_app_scraping_config_models_detailpageconfig",
+      "backend_app_scraping_config_models_fieldselector",
       "backend_app_scraping_config_models_filterconfig",
       "backend_app_scraping_config_models_navigationconfig",
       "backend_app_scraping_config_models_navigationtype",
@@ -190,6 +185,21 @@
       "backend_app_scraping_config_models_selectorsconfig",
       "backend_app_scraping_config_models_siteconfig",
       "backend_app_scraping_config_models_siteinfo"
+    ],
+    "7": [
+      "backend_app_api_routes_ai",
+      "backend_app_api_routes_ai_ai_root",
+      "backend_app_api_routes_ai_companyidrequest",
+      "backend_app_api_routes_ai_generate_brief",
+      "backend_app_api_routes_ai_get_brief",
+      "backend_app_api_routes_ai_get_profile",
+      "backend_app_api_routes_ai_load_company",
+      "backend_app_api_routes_ai_py_basemodel",
+      "backend_app_api_routes_ai_py_company",
+      "backend_app_api_routes_ai_send_email",
+      "backend_app_api_routes_ai_sendemailrequest",
+      "briefservice",
+      "emailservice"
     ],
     "8": [
       "backend_app_api_routes_scraping",
@@ -220,19 +230,6 @@
       "backend_app_storage_json_store_py_scrapeddata"
     ],
     "10": [
-      "backend_app_api_routes_ai",
-      "backend_app_api_routes_ai_ai_root",
-      "backend_app_api_routes_ai_companyidrequest",
-      "backend_app_api_routes_ai_generate_brief",
-      "backend_app_api_routes_ai_get_brief",
-      "backend_app_api_routes_ai_get_profile",
-      "backend_app_api_routes_ai_load_company",
-      "backend_app_api_routes_ai_py_basemodel",
-      "backend_app_api_routes_ai_py_briefservice",
-      "backend_app_api_routes_ai_py_company",
-      "backend_app_api_routes_ai_send_email"
-    ],
-    "11": [
       "frontend_package_devdependencies",
       "frontend_package_devdependencies_oxlint",
       "frontend_package_devdependencies_types_react",
@@ -244,6 +241,18 @@
       "types_react_dom",
       "vite",
       "vitejs_plugin_react"
+    ],
+    "11": [
+      "backend_app_scraping_parser",
+      "backend_app_scraping_parser_clean_contact_email",
+      "backend_app_scraping_parser_extract_field",
+      "backend_app_scraping_parser_extract_fields",
+      "backend_app_scraping_parser_parse_company",
+      "backend_app_scraping_parser_py_company",
+      "backend_app_scraping_parser_rationale_52",
+      "backend_app_scraping_parser_slugify",
+      "backend_app_scraping_parser_tag_sectors",
+      "fieldselector"
     ],
     "12": [
       "frontend_oxlintrc",
@@ -288,70 +297,70 @@
       "backend_app_api_init"
     ],
     "20": [
-      "backend_app_api_routes_ai_py_databasemanager"
+      "backend_app_api_routes_ai_py_briefservice"
     ],
     "21": [
-      "backend_app_api_routes_init"
+      "backend_app_api_routes_ai_py_databasemanager"
     ],
     "22": [
-      "backend_app_email_init"
+      "backend_app_api_routes_init"
     ],
     "23": [
-      "backend_app_init"
+      "backend_app_email_init"
     ],
     "24": [
-      "backend_app_scraping_engine_py_siteconfig"
+      "backend_app_init"
     ],
     "25": [
-      "backend_app_scraping_init"
+      "backend_app_scraping_engine_py_siteconfig"
     ],
     "26": [
-      "backend_app_scraping_jobs"
+      "backend_app_scraping_init"
     ],
     "27": [
-      "backend_app_storage_init"
+      "backend_app_scraping_jobs"
     ],
     "28": [
-      "backend_app_storage_models_py_enum"
+      "backend_app_storage_db_py_scrapeddata"
     ],
     "29": [
-      "backend_app_storage_models_py_str"
+      "backend_app_storage_init"
     ],
     "30": [
-      "backend_app_utils_init"
+      "backend_app_storage_models_py_enum"
     ],
     "31": [
-      "company"
+      "backend_app_storage_models_py_str"
     ],
     "32": [
-      "databasemanager"
+      "backend_app_utils_init"
     ],
     "33": [
-      "frontend_vite_config"
+      "company"
     ],
     "34": [
-      "jsonstore"
+      "databasemanager"
     ],
     "35": [
-      "pkg_backend"
+      "frontend_vite_config"
     ],
     "36": [
-      "scrapeddata"
+      "pkg_backend"
     ]
   },
   "cohesion": {
     "0": 0.10128205128205128,
-    "1": 0.13,
-    "2": 0.11231884057971014,
+    "1": 0.08870967741935484,
+    "2": 0.11904761904761904,
     "3": 0.16374269005847952,
     "4": 0.18128654970760233,
     "5": 0.10526315789473684,
-    "6": 0.21904761904761905,
-    "7": 0.21978021978021978,
+    "6": 0.20952380952380953,
+    "7": 0.23076923076923078,
     "8": 0.19696969696969696,
     "9": 0.2878787878787879,
-    "10": 0.2727272727272727,
-    "11": 0.18181818181818182,
+    "10": 0.18181818181818182,
+    "11": 0.35555555555555557,
     "12": 0.25,
     "13": 0.4666666666666667,
     "14": 0.6666666666666666,
@@ -382,12 +391,7 @@
     {
       "id": "backend_app_storage_db_databasemanager",
       "label": "DatabaseManager",
-      "degree": 23
-    },
-    {
-      "id": "backend_app_storage_json_store_jsonstore",
-      "label": "JsonStore",
-      "degree": 13
+      "degree": 25
     },
     {
       "id": "ref_react",
@@ -395,29 +399,14 @@
       "degree": 10
     },
     {
-      "id": "backend_app_email_service_emailservice",
-      "label": "EmailService",
-      "degree": 8
+      "id": "backend_app_storage_json_store_jsonstore",
+      "label": "JsonStore",
+      "degree": 9
     },
     {
       "id": "backend_app_scraping_engine_scrapingengine",
       "label": "ScrapingEngine",
       "degree": 8
-    },
-    {
-      "id": "backend_app_storage_models_company",
-      "label": "Company",
-      "degree": 7
-    },
-    {
-      "id": "backend_app_api_routes_ai_companyidrequest",
-      "label": "CompanyIdRequest",
-      "degree": 7
-    },
-    {
-      "id": "backend_app_api_routes_companies_find_company_contact_email",
-      "label": "find_company_contact_email()",
-      "degree": 7
     },
     {
       "id": "backend_app_config_settings",
@@ -427,6 +416,26 @@
     {
       "id": "backend_app_ai_brief_template_build_application_brief",
       "label": "build_application_brief()",
+      "degree": 6
+    },
+    {
+      "id": "backend_app_api_deps_get_settings",
+      "label": "get_settings()",
+      "degree": 6
+    },
+    {
+      "id": "backend_app_email_service_emailservice",
+      "label": "EmailService",
+      "degree": 6
+    },
+    {
+      "id": "backend_app_api_routes_companies_update_company",
+      "label": "update_company()",
+      "degree": 6
+    },
+    {
+      "id": "backend_app_api_routes_companies_find_company_contact_email",
+      "label": "find_company_contact_email()",
       "degree": 6
     }
   ],
@@ -443,28 +452,6 @@
       "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     },
     {
-      "source": "BriefServiceError",
-      "target": "Company",
-      "source_files": [
-        "backend/app/ai/service.py",
-        "backend/app/storage/models.py"
-      ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
-    },
-    {
-      "source": "BriefService",
-      "target": "Company",
-      "source_files": [
-        "backend/app/ai/service.py",
-        "backend/app/storage/models.py"
-      ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
-    },
-    {
       "source": "_run_scraping_job()",
       "target": "ScrapingEngine",
       "source_files": [
@@ -476,15 +463,37 @@
       "why": "inferred connection - not explicitly stated in source; bridges separate communities"
     },
     {
-      "source": "send_email()",
-      "target": "build_email_subject_and_body()",
+      "source": "CompanyIdRequest",
+      "target": "DatabaseManager",
       "source_files": [
         "backend/app/api/routes/ai.py",
-        "backend/app/ai/brief_template.py"
+        "backend/app/storage/db.py"
       ],
       "confidence": "INFERRED",
-      "relation": "calls",
+      "relation": "uses",
       "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "SendEmailRequest",
+      "target": "DatabaseManager",
+      "source_files": [
+        "backend/app/api/routes/ai.py",
+        "backend/app/storage/db.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "BriefServiceError",
+      "target": "Company",
+      "source_files": [
+        "backend/app/ai/service.py",
+        "backend/app/storage/models.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source"
     }
   ],
   "tokens": {

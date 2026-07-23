@@ -1,0 +1,62 @@
+# Son güncelleme: 2026-07-23
+# Kaynak URL: https://kouteknopark.com/firmalarimiz/
+# Site yapısı: WordPress + Elementor "loop-grid" widget'i. Liste sayfasında
+#   206 firma kartı tek seferde DOM'a render ediliyor (sayfalama/scroll yok),
+#   ama her kart sadece logo + detay sayfası linki içeriyor — isim, sektör,
+#   e-posta, website hepsi SADECE detay sayfasında mevcut. Bu yüzden
+#   detail_page zorunlu; liste kartlarında `name` alanı boş kalıyor (engine
+#   detay sayfasından gelen isimle company_id'yi otomatik yeniden üretiyor).
+#   Canlı testte 3 farklı detay sayfası (Abisena, Aiset, Algoritma 360)
+#   e-posta/website/sektör alanlarıyla doğrulandı.
+
+site:
+  name: "Kocaeli Üniversitesi Teknopark"
+  slug: "kou_teknopark"
+  base_url: "https://kouteknopark.com"
+  company_list_url: "https://kouteknopark.com/firmalarimiz/"
+
+navigation:
+  type: "pagination"
+  next_button: null
+  max_pages: 1
+
+selectors:
+  # Her firma kartı bir "loop-item" container'ı; içinde sadece logo + link var.
+  company_container: "div.e-loop-item"
+  fields:
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    link_selector: "a"
+    fields:
+      name:
+        # Firma başlığı, "Anasayfa / Firmalarımız" başlığından sonraki ikinci
+        # elementor heading widget'ı; "notranslate-kerem" sınıfı h2'yi değil
+        # onu saran div'i işaretliyor, bu yüzden div üzerinden hedefliyoruz.
+        selector: "div.notranslate-kerem h2.elementor-heading-title"
+        type: "text"
+      contact_email:
+        # E-posta "http://info@..." gibi (mailto: değil, düz http: önekiyle)
+        # href olarak kodlanmış; parser.py _clean_contact_email() bu öneki
+        # ve query string'i temizleyip düz e-posta bırakıyor.
+        selector: "a.elementor-icon[href*='@']"
+        type: "attribute"
+        attribute: "href"
+      website:
+        selector: "a.box-button.elementor-button"
+        type: "attribute"
+        attribute: "href"
+      full_description:
+        # "Vizyon & Misyon" bloğu <p class="elementor-heading-title"></p> (boş)
+        # ve ardından gelen içerik dolu ikinci <p> etiketinden oluşuyor.
+        selector: "div.elementor-widget-heading p:not(:empty)"
+        type: "text"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

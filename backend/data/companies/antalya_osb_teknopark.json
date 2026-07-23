@@ -63,7 +63,7 @@
       "contact_email": "info@bentu.com.tr",
       "detail_url": "https://www.antalyaosbteknopark.com/tr/firma/bentu-teknoloji/47",
       "full_description": "Bentu Teknoloji, araç takip sistemleri ve çevresel izleme çözümleri sunan bir teknoloji şirketidir. İnovasyon ve teknolojiye olan bağlılığı ile öne çıkan Bentu Teknoloji, kullanıcılarının operasyonel verimliliklerini artırmak için gelişmiş IoT çözümleri sunar. Araç takip çözümleriyle filo yönetimini kolaylaştırırken, çevresel izleme sistemleriyle sürdürülebilirliği destekler. Bentu Teknoloji, sunduğu hizmetlerde güvenlik, veri analizi ve kullanıcı dostu arayüzleri ön planda tutarak işletmelerin süreçlerini optimize etmelerine yardımcı olur. Kendi geliştirdiği Navibil araç takip platformu ve Estegre IoT çözümleriyle sektörde fark yaratmaktadır. İnovasyonda lider, teknolojide öncü olan Bentu Teknoloji, geniş ürün yelpazesi ve müşteri odaklı hizmet anlayışıyla her geçen gün büyümeye devam ediyor.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -239,7 +239,7 @@
       "contact_email": "hello@goviva.com.tr",
       "detail_url": "https://www.antalyaosbteknopark.com/tr/firma/goviva-yazilim/11",
       "full_description": "Goviva Yazılım, mikro işletmelerden kurumsal büyük işletmelere kadar farklı ölçeklerdeki şirketler için yazılım çözümleri sağlamaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -554,12 +554,12 @@
       "sector": "Siber Güvenlik\nYazılım",
       "sector_tags": [],
       "description": null,
-      "website": "https://sphere-tech.io/",
+      "website": "https://sphere-tech.io",
       "logo_url": "https://www.antalyaosbteknopark.com/tr/images/show/companies/4edac224116e5b120cab14a08e42e4df.png",
-      "contact_email": "Omer.sen@sphere-tech.io",
+      "contact_email": "sales@sphere-tech.io",
       "detail_url": "https://www.antalyaosbteknopark.com/tr/firma/spheretech-yazilim/27",
       "full_description": "Spheretech Yazılım A.Ş. siber güvenlik alanında yerli ve milli ürünler geliştiren bir yazılım şirketidir. Kendine ait Cylana ürünü ile attack surface management (harici saldırı yüzeyi) alanında yerli ve global pazarlarda rekabet etmek için yola çıkmıştır. Genç dinamik tecrübeli ekibi ile sektörde yer etmek için çalışmaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null

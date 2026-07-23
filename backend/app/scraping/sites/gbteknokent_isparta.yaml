@@ -1,0 +1,38 @@
+# Son güncelleme: 2026-07-23
+# Kaynak URL: https://gbteknokent.com/firmalar/
+# Site yapısı: WordPress + Elementor. Tek sayfada 51 firma kartı render ediliyor
+#   (sayfalama/scroll yok — tüm liste ilk yüklemede DOM'da mevcut, canlı testte
+#   doğrulandı). Her kart doğrudan firmanın kendi web sitesine link veriyor,
+#   ayrı bir "detay sayfası" yok; bu yüzden detail_page bloğu kullanılmıyor.
+#   Sektör/e-posta bilgisi sitede mevcut değil (sadece isim + logo + website).
+
+site:
+  name: "Göller Bölgesi Teknokenti (SDÜ Teknokent - Isparta)"
+  slug: "gbteknokent_isparta"
+  base_url: "https://gbteknokent.com"
+  company_list_url: "https://gbteknokent.com/firmalar/"
+
+navigation:
+  type: "pagination"
+  next_button: null
+  max_pages: 1
+
+selectors:
+  company_container: "div.gsc-image-content.skin-v5"
+  fields:
+    name:
+      selector: "h2.title a"
+      type: "text"
+    website:
+      selector: "h2.title a"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]

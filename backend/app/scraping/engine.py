@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 from pydantic import BaseModel
 
 from app.scraping.config_models import NavigationType, SiteConfig
-from app.scraping.parser import extract_fields, parse_company, tag_sectors
+from app.scraping.parser import extract_fields, parse_company, slugify, tag_sectors
 from app.scraping.relevance import is_relevant_company
 from app.storage.models import Company, ScrapedData
 from app.utils.logger import get_logger
@@ -54,6 +54,7 @@ class ScrapingEngine:
                 context = await browser.new_context(
                     user_agent=USER_AGENT,
                     viewport={"width": 1920, "height": 1080},
+                    locale="tr-TR",
                 )
                 await context.add_init_script(STEALTH_SCRIPT)
                 page = await context.new_page()
@@ -92,6 +93,28 @@ class ScrapingEngine:
                     companies = await self._enrich_with_detail_pages(
                         context, companies, config, errors
                     )
+                    if config.filters:
+                        # Bazı sitelerde sektör bilgisi de sadece detay
+                        # sayfasında geliyor; enrichment sonrası tekrar etiketle.
+                        companies = [
+                            tag_sectors(c, config.filters.sector_keywords)
+                            for c in companies
+                        ]
+                    # Bazı sitelerde isim/sektör bilgisi sadece detay
+                    # sayfasında ortaya çıkıyor (örn. Kocaeli Teknopark); bu
+                    # durumda alaka filtresi ilk geçişte etkisiz kalmış olur,
+                    # o yüzden enrichment sonrası tekrar uygulanıyor.
+                    companies = [
+                        c
+                        for c in companies
+                        if is_relevant_company(
+                            c.name, c.sector, c.description, c.full_description
+                        )
+                    ]
+
+                # Bazı kartlarda (örn. henüz yayında olmayan bir firma sayfası)
+                # isim hiç çekilemez; bu tür kayıtları DB'ye kaydetmeden ele.
+                companies = [c for c in companies if c.name and c.name.strip()]
             except Exception as exc:
                 logger.error(f"Scraping error for {config.site.slug}: {exc}")
                 errors.append({"page": "unknown", "error": str(exc)})
@@ -318,9 +341,19 @@ class ScrapingEngine:
                         for key, value in extra.items()
                         if value is not None and key in company_model_fields
                     }
-                    enriched.append(
-                        company.model_copy(update=updates) if updates else company
-                    )
+                    if updates:
+                        # Bazı sitelerde (örn. Kocaeli Teknopark) liste kartında
+                        # şirket ismi hiç yok, sadece detay sayfasında mevcut.
+                        # Bu durumda tüm şirketler aynı boş isimden üretilen
+                        # company_id'yi paylaşıp DB'de birbirinin üzerine
+                        # yazardı; isim ilk kez detay sayfasından geliyorsa
+                        # id'yi yeniden üretiyoruz.
+                        new_name = updates.get("name")
+                        if new_name and not company.name:
+                            updates["id"] = f"{config.site.slug}_{slugify(new_name)}"
+                        enriched.append(company.model_copy(update=updates))
+                    else:
+                        enriched.append(company)
                 except Exception as exc:
                     logger.warning(
                         f"Detail page fetch failed for {company.detail_url}: {exc}"

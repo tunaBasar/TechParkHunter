@@ -1,0 +1,62 @@
+# Son güncelleme: 2026-07-23
+# Kaynak URL: https://bursateknopark.com/firmalar/
+# Site yapısı: WordPress + WPBakery (Visual Composer). Tek sayfada 33 firma
+#   kartı render ediliyor (sayfalama/scroll yok). Her kart iki buton içeriyor:
+#   "Firma Bilgileri" (kendi detay sayfası) ve "Firma Websitesi" (harici site,
+#   liste sayfasında zaten mevcut). Sektör/e-posta detay sayfasında.
+
+site:
+  name: "Bursa Teknopark (Bursa Teknik Üniversitesi Teknoloji Geliştirme Bölgesi)"
+  slug: "bursa_teknopark"
+  base_url: "https://bursateknopark.com"
+  company_list_url: "https://bursateknopark.com/firmalar/"
+
+navigation:
+  type: "pagination"
+  next_button: null
+  max_pages: 1
+
+selectors:
+  # Her firma kartı bu sınıfa sahip bir sütun; içinde logo + 2 buton var.
+  company_container: "div.vc_col-sm-4.vc_col-has-fill"
+  fields:
+    name:
+      # Kartın kendisinde isim yok; "Firma Bilgileri" linkinin title attribute'u
+      # firma adını taşıyor (bazı firmalarda kısaltılmış/farklı olabilir, kesin
+      # isim yine de detail_page'den de çekiliyor).
+      selector: "a[href*='/firma/']"
+      type: "attribute"
+      attribute: "title"
+    website:
+      # "Firma Websitesi" butonu ikinci <a> etiketi; harici link.
+      selector: "a[title]:not([href*='bursateknopark.com'])"
+      type: "attribute"
+      attribute: "href"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    link_selector: "a[href*='/firma/']"
+    fields:
+      name:
+        # Sayfada iki <h1> var (footer'daki "Get in touch" contact formu ve
+        # asıl firma başlığı); titlebar div'i üzerinden en spesifik olanı seçiyoruz.
+        selector: "div.titlebar h1"
+        type: "text"
+      contact_email:
+        # "E-posta" başlıklı sütun <strong>E-posta</strong><br/>adres şeklinde;
+        # inner_text "E-posta\ninfo@x.com" döner, parser.py _clean_contact_email()
+        # regex ile düz e-posta adresini ayıklıyor.
+        selector: "div.wpb_wrapper:has(strong:text-is('E-posta'))"
+        type: "text"
+      full_description:
+        selector: "section.vc_row div.wpb_text_column p"
+        type: "text"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

@@ -30,14 +30,14 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "backend/app/api/routes/ai.py": {
-    "mtime": 1784677865.711861,
-    "ast_hash": "d03f8d5f664b34f86460b2ac37b683d7",
-    "semantic_hash": "d03f8d5f664b34f86460b2ac37b683d7"
+    "mtime": 1784712244.7313805,
+    "ast_hash": "79386a163c4535b3bb714727d14b94b7",
+    "semantic_hash": "79386a163c4535b3bb714727d14b94b7"
   },
   "backend/app/api/routes/companies.py": {
-    "mtime": 1784677531.7809017,
-    "ast_hash": "b5e14bbfec4a9a548e210019dbaec6f5",
-    "semantic_hash": "b5e14bbfec4a9a548e210019dbaec6f5"
+    "mtime": 1784719326.929176,
+    "ast_hash": "b5fce818df98535e41c24324bb9113de",
+    "semantic_hash": "b5fce818df98535e41c24324bb9113de"
   },
   "backend/app/api/routes/scraping.py": {
     "mtime": 1784658415.5838392,
@@ -80,9 +80,9 @@
     "semantic_hash": "7cb090f6fe07ac848f63284251e63dee"
   },
   "backend/app/scraping/parser.py": {
-    "mtime": 1784636583.3404992,
-    "ast_hash": "5b6c712244e8db57262199f5304ff2c4",
-    "semantic_hash": "5b6c712244e8db57262199f5304ff2c4"
+    "mtime": 1784790783.3339837,
+    "ast_hash": "b00b0d7e21f04f59ef924f960524eb10",
+    "semantic_hash": "b00b0d7e21f04f59ef924f960524eb10"
   },
   "backend/app/storage/__init__.py": {
     "mtime": 1784635052.678546,
@@ -90,9 +90,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "backend/app/storage/db.py": {
-    "mtime": 1784677515.0884936,
-    "ast_hash": "e2047f8c81b8a870d5f9c08427c85e31",
-    "semantic_hash": "e2047f8c81b8a870d5f9c08427c85e31"
+    "mtime": 1784719301.4074192,
+    "ast_hash": "7f5c1d2f0416fd50e4ceedd039317688",
+    "semantic_hash": "7f5c1d2f0416fd50e4ceedd039317688"
   },
   "backend/app/storage/json_store.py": {
     "mtime": 1784675382.722971,
@@ -185,9 +185,9 @@
     "semantic_hash": "1dee4ba27de573006d9e1594673572de"
   },
   "frontend/src/services/api.js": {
-    "mtime": 1784677879.2791054,
-    "ast_hash": "247671f67a8cc85bbc5acfbb12352b2d",
-    "semantic_hash": "247671f67a8cc85bbc5acfbb12352b2d"
+    "mtime": 1784712267.1147828,
+    "ast_hash": "e6e4b9bd16cea5620afd6b91e3c46b52",
+    "semantic_hash": "e6e4b9bd16cea5620afd6b91e3c46b52"
   },
   "backend/app/ai/brief_template.py": {
     "mtime": 1784677830.7922206,
@@ -210,9 +210,9 @@
     "semantic_hash": "4935c22464372c4293481f205097769d"
   },
   "backend/data/companies/itu_ari.json": {
-    "mtime": 1784675762.0494962,
-    "ast_hash": "75891a2f44d65659f73a65ad9c6251b5",
-    "semantic_hash": "75891a2f44d65659f73a65ad9c6251b5"
+    "mtime": 1784732843.3463418,
+    "ast_hash": "a0904df42964327059f0887c600e36ef",
+    "semantic_hash": "a0904df42964327059f0887c600e36ef"
   },
   "frontend/src/components/EmptyState.jsx": {
     "mtime": 1784658962.4871929,
@@ -250,24 +250,24 @@
     "semantic_hash": "a717ba7310d0dfa6e5ef510601f151f6"
   },
   "backend/data/companies/antalya_teknokent.json": {
-    "mtime": 1784675724.9610531,
-    "ast_hash": "baa4b2a0def8ca621b20e1ebd81a7bbe",
-    "semantic_hash": "baa4b2a0def8ca621b20e1ebd81a7bbe"
+    "mtime": 1784721535.190507,
+    "ast_hash": "5affd0bafe4beda8e2348a024db36571",
+    "semantic_hash": "5affd0bafe4beda8e2348a024db36571"
   },
   "backend/data/companies/bilkent_cyberpark.json": {
-    "mtime": 1784675762.4898944,
-    "ast_hash": "4ae30851f5678b240c8def6c3e9bdb15",
-    "semantic_hash": "4ae30851f5678b240c8def6c3e9bdb15"
+    "mtime": 1784733487.9216654,
+    "ast_hash": "3ad9aa4a42dbf7c84a1830235eb10b1c",
+    "semantic_hash": "3ad9aa4a42dbf7c84a1830235eb10b1c"
   },
   "backend/data/companies/depark.json": {
-    "mtime": 1784675763.83455,
-    "ast_hash": "96b7cac9c6942fcc7175ee1d64761b83",
-    "semantic_hash": "96b7cac9c6942fcc7175ee1d64761b83"
+    "mtime": 1784721016.5602062,
+    "ast_hash": "a44a6e95a03c0d2b53940246eda413ef",
+    "semantic_hash": "a44a6e95a03c0d2b53940246eda413ef"
   },
   "backend/data/companies/teknopark_ankara.json": {
-    "mtime": 1784677707.6835377,
-    "ast_hash": "95db4b65aa707efcd3ce2c74c2f529e3",
-    "semantic_hash": "95db4b65aa707efcd3ce2c74c2f529e3"
+    "mtime": 1784732288.017568,
+    "ast_hash": "a219680535bd04a20c0d7be89a05c7bd",
+    "semantic_hash": "a219680535bd04a20c0d7be89a05c7bd"
   },
   "frontend/src/components/ConfirmDialog.jsx": {
     "mtime": 1784675414.5974348,
@@ -283,5 +283,15 @@
     "mtime": 1784675428.0706253,
     "ast_hash": "70b061238dc73452493a43fbc4aa7aed",
     "semantic_hash": "70b061238dc73452493a43fbc4aa7aed"
+  },
+  "backend/data/companies/antalya_osb_teknopark.json": {
+    "mtime": 1784791646.29971,
+    "ast_hash": "9845e22f379c2b505eea1146c9abed47",
+    "semantic_hash": "9845e22f379c2b505eea1146c9abed47"
+  },
+  "backend/data/companies/gosb_teknopark.json": {
+    "mtime": 1784718583.5185115,
+    "ast_hash": "091644979dc02952943f18de457ec12d",
+    "semantic_hash": "091644979dc02952943f18de457ec12d"
   }
 }
