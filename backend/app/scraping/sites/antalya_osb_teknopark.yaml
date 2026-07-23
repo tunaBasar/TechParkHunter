@@ -1,0 +1,60 @@
+# Son güncelleme: 2026-07-23
+# Kaynak URL: https://www.antalyaosbteknopark.com/tr/firmalar
+# Not: Antalya'da iki ayrı teknopark var; bu config "Antalya OSB Teknopark"ı
+#   (AOSB / Antalya Bilim Üniversitesi / Akdeniz Üniversitesi ortaklığı) tarar.
+#   Diğeri "Antalya Teknokent" için antalya_teknokent.yaml dosyasına bakın.
+# Site yapısı: Liste sayfası ilk 12 kartı sunucu tarafında render ediyor, geri
+#   kalanı (toplam 89 firma) kaydırdıkça AJAX ile ekleniyor (infinite_scroll).
+#   Detay sayfası oldukça zengin: sektör, website, mailto: e-posta, kısa açıklama
+#   hepsi tek sayfada mevcut (canlı testte 43 firma, gerçek e-postalarla doğrulandı).
+
+site:
+  name: "Antalya OSB Teknopark"
+  slug: "antalya_osb_teknopark"
+  base_url: "https://www.antalyaosbteknopark.com"
+  company_list_url: "https://www.antalyaosbteknopark.com/tr/firmalar"
+
+navigation:
+  type: "infinite_scroll"
+  scroll_pause_ms: 2500
+  max_pages: 20
+
+selectors:
+  company_container: "div.post-item.company-item"
+  fields:
+    name:
+      selector: "h6.post__title a"
+      type: "text"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+  detail_page:
+    link_selector: "h6.post__title a"
+    fields:
+      sector:
+        # Detay sayfasında sektör birden fazla <b> etiketi olarak gelebiliyor
+        # (örn. "Bilişim" + "Yazılım"); container'ın tüm metni tek alanda toplanıyor.
+        selector: "div.brand-icon span"
+        type: "text"
+      website:
+        # div.web-icon'un kendisi metin (label+URL) taşıyor ama sarmalayan <a>
+        # etiketi gerçek website href'ini içeriyor; Playwright'ın genişletilmiş
+        # :has() CSS seçicisiyle doğrudan temiz URL'yi çekiyoruz.
+        selector: "a:has(div.web-icon)"
+        type: "attribute"
+        attribute: "href"
+      contact_email:
+        selector: "a[href^='mailto:']"
+        type: "attribute"
+        attribute: "href"
+      full_description:
+        selector: "div.content p"
+        type: "text"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
+    savunma: ["savunma", "defence", "defense", "havacılık"]

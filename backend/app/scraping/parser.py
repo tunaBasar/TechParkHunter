@@ -48,10 +48,28 @@ async def _extract_field(source, field_selector: FieldSelector) -> Optional[str]
     return None
 
 
+def _clean_contact_email(value: Optional[str]) -> Optional[str]:
+    """`mailto:` linklerinden çekilen değerleri normalize eder.
+
+    `href` attribute'u genelde `mailto:info@x.com?subject=...` biçiminde gelir;
+    bu fonksiyon öneki ve query string'i temizleyip düz e-posta adresi bırakır.
+    """
+    if not value:
+        return value
+    cleaned = value.strip()
+    if cleaned.lower().startswith("mailto:"):
+        cleaned = cleaned[len("mailto:"):]
+    cleaned = cleaned.split("?")[0].strip()
+    return cleaned or None
+
+
 async def extract_fields(source, fields: dict[str, FieldSelector]) -> dict[str, Optional[str]]:
     values: dict[str, Optional[str]] = {}
     for field_name, field_selector in fields.items():
-        values[field_name] = await _extract_field(source, field_selector)
+        value = await _extract_field(source, field_selector)
+        if field_name == "contact_email":
+            value = _clean_contact_email(value)
+        values[field_name] = value
     return values
 
 
