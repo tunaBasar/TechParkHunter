@@ -9,7 +9,7 @@
       "source_file": "backend/app/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 24,
+      "community": 23,
       "norm_label": "app/__init__.py",
       "id": "backend_app_init"
     },
@@ -19,7 +19,7 @@
       "source_file": "backend/app/ai/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
+      "community": 16,
       "norm_label": "ai/__init__.py",
       "id": "backend_app_ai_init"
     },
@@ -29,7 +29,7 @@
       "source_file": "backend/app/api/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 18,
       "norm_label": "api/__init__.py",
       "id": "backend_app_api_init"
     },
@@ -39,7 +39,7 @@
       "source_file": "backend/app/api/routes/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 22,
+      "community": 21,
       "norm_label": "routes/__init__.py",
       "id": "backend_app_api_routes_init"
     },
@@ -49,7 +49,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "basemodel",
       "id": "backend_app_api_routes_companies_py_basemodel"
     },
@@ -69,7 +69,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "basesettings",
       "id": "basesettings"
     },
@@ -129,7 +129,7 @@
       "source_file": "backend/app/scraping/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 26,
+      "community": 27,
       "norm_label": "scraping/__init__.py",
       "id": "backend_app_scraping_init"
     },
@@ -289,7 +289,7 @@
       "source_file": "backend/app/scraping/jobs.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 28,
       "norm_label": "jobs.py",
       "id": "backend_app_scraping_jobs"
     },
@@ -299,7 +299,7 @@
       "source_file": "backend/app/storage/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 29,
+      "community": 30,
       "norm_label": "storage/__init__.py",
       "id": "backend_app_storage_init"
     },
@@ -319,7 +319,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 31,
+      "community": 32,
       "norm_label": "str",
       "id": "backend_app_storage_models_py_str"
     },
@@ -329,7 +329,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 30,
+      "community": 31,
       "norm_label": "enum",
       "id": "backend_app_storage_models_py_enum"
     },
@@ -349,7 +349,7 @@
       "source_file": "backend/app/utils/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 32,
+      "community": 33,
       "norm_label": "utils/__init__.py",
       "id": "backend_app_utils_init"
     },
@@ -359,7 +359,7 @@
       "source_file": "backend/app/utils/logger.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 14,
+      "community": 13,
       "norm_label": "logger.py",
       "id": "backend_app_utils_logger"
     },
@@ -369,7 +369,7 @@
       "source_file": "backend/app/utils/logger.py",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 14,
+      "community": 13,
       "norm_label": "get_logger()",
       "id": "backend_app_utils_logger_get_logger"
     },
@@ -379,7 +379,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 14,
+      "community": 13,
       "norm_label": "logger",
       "id": "logger"
     },
@@ -389,7 +389,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": ".oxlintrc.json",
       "id": "frontend_oxlintrc"
     },
@@ -399,7 +399,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "$schema",
       "id": "frontend_oxlintrc_schema"
     },
@@ -409,7 +409,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "plugins",
       "id": "frontend_oxlintrc_plugins"
     },
@@ -429,7 +429,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "oxc",
       "id": "ref_oxc"
     },
@@ -439,7 +439,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "rules",
       "id": "frontend_oxlintrc_rules"
     },
@@ -449,7 +449,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "react/rules-of-hooks",
       "id": "frontend_oxlintrc_rules_react_rules_of_hooks"
     },
@@ -459,7 +459,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "react/only-export-components",
       "id": "frontend_oxlintrc_rules_react_only_export_components"
     },
@@ -469,7 +469,7 @@
       "source_file": "frontend/.oxlintrc.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 12,
+      "community": 11,
       "norm_label": "warn",
       "id": "ref_warn"
     },
@@ -819,7 +819,7 @@
       "source_file": "frontend/src/components/Sidebar.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "norm_label": "sidebar.jsx",
       "id": "frontend_src_components_sidebar"
     },
@@ -829,7 +829,7 @@
       "source_file": "frontend/src/components/Sidebar.jsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "norm_label": "navitems",
       "id": "frontend_src_components_sidebar_navitems"
     },
@@ -839,7 +839,7 @@
       "source_file": "frontend/src/components/Sidebar.jsx",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 15,
+      "community": 14,
       "norm_label": "sidebar()",
       "id": "frontend_src_components_sidebar_sidebar"
     },
@@ -849,7 +849,7 @@
       "source_file": "frontend/src/components/StatusBadge.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "norm_label": "statusbadge.jsx",
       "id": "frontend_src_components_statusbadge"
     },
@@ -859,7 +859,7 @@
       "source_file": "frontend/src/components/StatusBadge.jsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "norm_label": "status_config",
       "id": "frontend_src_components_statusbadge_status_config"
     },
@@ -869,7 +869,7 @@
       "source_file": "frontend/src/components/StatusBadge.jsx",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 16,
+      "community": 15,
       "norm_label": "statusbadge()",
       "id": "frontend_src_components_statusbadge_statusbadge"
     },
@@ -879,7 +879,7 @@
       "source_file": "frontend/vite.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 35,
+      "community": 36,
       "norm_label": "vite.config.js",
       "id": "frontend_vite_config"
     },
@@ -1019,7 +1019,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "jsonstore",
       "id": "jsonstore"
     },
@@ -1029,7 +1029,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 18,
+      "community": 17,
       "norm_label": "databasemanager",
       "id": "backend_app_api_deps_py_databasemanager"
     },
@@ -1049,7 +1049,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 21,
+      "community": 20,
       "norm_label": "databasemanager",
       "id": "backend_app_api_routes_ai_py_databasemanager"
     },
@@ -1129,7 +1129,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "applicationstatus",
       "id": "applicationstatus"
     },
@@ -1139,7 +1139,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 34,
+      "community": 35,
       "norm_label": "databasemanager",
       "id": "databasemanager"
     },
@@ -1209,7 +1209,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 4,
+      "community": 24,
       "norm_label": "basemodel",
       "id": "backend_app_scraping_engine_py_basemodel"
     },
@@ -1219,7 +1219,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 25,
+      "community": 26,
       "norm_label": "siteconfig",
       "id": "backend_app_scraping_engine_py_siteconfig"
     },
@@ -1239,7 +1239,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 33,
+      "community": 34,
       "norm_label": "company",
       "id": "company"
     },
@@ -1479,7 +1479,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "deps.py",
       "id": "backend_app_api_deps"
     },
@@ -1489,7 +1489,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "get_settings()",
       "id": "backend_app_api_deps_get_settings"
     },
@@ -1499,7 +1499,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "get_brief_service()",
       "id": "backend_app_api_deps_get_brief_service"
     },
@@ -1509,7 +1509,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "briefservice",
       "id": "backend_app_api_deps_py_briefservice"
     },
@@ -1519,7 +1519,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "get_email_service()",
       "id": "backend_app_api_deps_get_email_service"
     },
@@ -1529,7 +1529,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "get_json_store()",
       "id": "backend_app_api_deps_get_json_store"
     },
@@ -1539,7 +1539,7 @@
       "source_file": "backend/app/api/deps.py",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "get_db()",
       "id": "backend_app_api_deps_get_db"
     },
@@ -1559,7 +1559,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 20,
+      "community": 19,
       "norm_label": "briefservice",
       "id": "backend_app_api_routes_ai_py_briefservice"
     },
@@ -1569,7 +1569,7 @@
       "source_file": "backend/app/config.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "config.py",
       "id": "backend_app_config"
     },
@@ -1579,7 +1579,7 @@
       "source_file": "backend/app/config.py",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "settings",
       "id": "backend_app_config_settings"
     },
@@ -1589,7 +1589,7 @@
       "source_file": "backend/app/config.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "config",
       "id": "backend_app_config_config"
     },
@@ -1599,7 +1599,7 @@
       "source_file": "backend/app/email/__init__.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 23,
+      "community": 22,
       "norm_label": "email/__init__.py",
       "id": "backend_app_email_init"
     },
@@ -1609,7 +1609,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "email/service.py",
       "id": "backend_app_email_service"
     },
@@ -1619,7 +1619,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "emailserviceerror",
       "id": "backend_app_email_service_emailserviceerror"
     },
@@ -1629,7 +1629,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "emailservice",
       "id": "backend_app_email_service_emailservice"
     },
@@ -1639,7 +1639,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__init__()",
       "id": "backend_app_email_service_emailservice_init"
     },
@@ -1649,7 +1649,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": ".is_configured()",
       "id": "backend_app_email_service_emailservice_is_configured"
     },
@@ -1659,7 +1659,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": ".send_email()",
       "id": "backend_app_email_service_emailservice_send_email"
     },
@@ -1669,7 +1669,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "gmail smtp uzerinden e-posta gonderimi.  google hesab\u0131nda normal sifre yerine 2f",
       "id": "backend_app_email_service_rationale_1"
     },
@@ -1679,7 +1679,7 @@
       "source_file": "backend/app/email/service.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 3,
+      "community": 4,
       "norm_label": "raised when the email service cannot send a message.",
       "id": "backend_app_email_service_rationale_29"
     },
@@ -1689,7 +1689,7 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "contact_finder.py",
       "id": "backend_app_scraping_contact_finder"
     },
@@ -1699,7 +1699,7 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "_is_plausible_email()",
       "id": "backend_app_scraping_contact_finder_is_plausible_email"
     },
@@ -1709,7 +1709,7 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "_extract_mailto_from_page()",
       "id": "backend_app_scraping_contact_finder_extract_mailto_from_page"
     },
@@ -1719,7 +1719,7 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "find_contact_email()",
       "id": "backend_app_scraping_contact_finder_find_contact_email"
     },
@@ -1729,7 +1729,7 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "web sitesi uzerinden sirket iletisim e-postas\u0131 bulma.  bir sirketin db kayd\u0131nda",
       "id": "backend_app_scraping_contact_finder_rationale_1"
     },
@@ -1739,49 +1739,9 @@
       "source_file": "backend/app/scraping/contact_finder.py",
       "source_location": "L92",
       "_origin": "ast",
-      "community": 13,
+      "community": 12,
       "norm_label": "verilen web sitesinde ana sayfa ve yayg\u0131n iletisim sayfalar\u0131n\u0131 gezip     bir e-p",
       "id": "backend_app_scraping_contact_finder_rationale_92"
-    },
-    {
-      "label": "engine.py",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "engine.py",
-      "id": "backend_app_scraping_engine"
-    },
-    {
-      "label": "ScrapingResult",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "scrapingresult",
-      "id": "backend_app_scraping_engine_scrapingresult"
-    },
-    {
-      "label": "ScrapingEngine",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L43",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "scrapingengine",
-      "id": "backend_app_scraping_engine_scrapingengine"
-    },
-    {
-      "label": ".scrape_site()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L44",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": ".scrape_site()",
-      "id": "backend_app_scraping_engine_scrapingengine_scrape_site"
     },
     {
       "label": "SiteConfig",
@@ -1789,7 +1749,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "siteconfig",
       "id": "siteconfig"
     },
@@ -1799,39 +1759,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 4,
+      "community": 25,
       "norm_label": "scrapeddata",
       "id": "backend_app_scraping_engine_py_scrapeddata"
-    },
-    {
-      "label": "._goto_with_retry()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L125",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "._goto_with_retry()",
-      "id": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
-    },
-    {
-      "label": "._wait_for_container()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L151",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "._wait_for_container()",
-      "id": "backend_app_scraping_engine_scrapingengine_wait_for_container"
-    },
-    {
-      "label": "._parse_element()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L162",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "._parse_element()",
-      "id": "backend_app_scraping_engine_scrapingengine_parse_element"
     },
     {
       "label": "Company",
@@ -1839,89 +1769,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 4,
+      "community": 2,
       "norm_label": "company",
       "id": "backend_app_scraping_engine_py_company"
-    },
-    {
-      "label": "._collect_companies()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L196",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "._collect_companies()",
-      "id": "backend_app_scraping_engine_scrapingengine_collect_companies"
-    },
-    {
-      "label": "._enrich_with_detail_pages()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L290",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "._enrich_with_detail_pages()",
-      "id": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
-    },
-    {
-      "label": "Summary report of a completed (or failed) scraping run.",
-      "file_type": "rationale",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "summary report of a completed (or failed) scraping run.",
-      "id": "backend_app_scraping_engine_rationale_35"
-    },
-    {
-      "label": "relevance.py",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "relevance.py",
-      "id": "backend_app_scraping_relevance"
-    },
-    {
-      "label": "_turkish_lower()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L68",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "_turkish_lower()",
-      "id": "backend_app_scraping_relevance_turkish_lower"
-    },
-    {
-      "label": "is_relevant_company()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L72",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "is_relevant_company()",
-      "id": "backend_app_scraping_relevance_is_relevant_company"
-    },
-    {
-      "label": "Domain relevance filtering for scraped companies.  TechPark Hunter'\u0131n kullan\u0131c\u0131s",
-      "file_type": "rationale",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "domain relevance filtering for scraped companies.  techpark hunter'\u0131n kullan\u0131c\u0131s",
-      "id": "backend_app_scraping_relevance_rationale_1"
-    },
-    {
-      "label": "\u015eirket isim/sekt\u00f6r/a\u00e7\u0131klama alanlar\u0131ndan herhangi birinde yaz\u0131l\u0131m,     teknoloji",
-      "file_type": "rationale",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L78",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "sirket isim/sektor/ac\u0131klama alanlar\u0131ndan herhangi birinde yaz\u0131l\u0131m,     teknoloji",
-      "id": "backend_app_scraping_relevance_rationale_78"
     },
     {
       "label": "ScrapedData",
@@ -1929,7 +1779,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 28,
+      "community": 29,
       "norm_label": "scrapeddata",
       "id": "backend_app_storage_db_py_scrapeddata"
     },
@@ -1939,7 +1789,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "companyfilter",
       "id": "companyfilter"
     },
@@ -2072,7 +1922,7 @@
       "source_location": "L1",
       "version": "0.1.0",
       "_origin": "ast",
-      "community": 36,
+      "community": 37,
       "norm_label": "backend",
       "id": "pkg_backend"
     },
@@ -2272,9 +2122,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai",
       "community": 7,
-      "norm_label": "ai.py"
+      "norm_label": "ai.py",
+      "id": "backend_app_api_routes_ai"
     },
     {
       "label": "CompanyIdRequest",
@@ -2282,9 +2132,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_companyidrequest",
       "community": 7,
-      "norm_label": "companyidrequest"
+      "norm_label": "companyidrequest",
+      "id": "backend_app_api_routes_ai_companyidrequest"
     },
     {
       "label": "SendEmailRequest",
@@ -2292,9 +2142,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_sendemailrequest",
       "community": 7,
-      "norm_label": "sendemailrequest"
+      "norm_label": "sendemailrequest",
+      "id": "backend_app_api_routes_ai_sendemailrequest"
     },
     {
       "label": "_load_company()",
@@ -2302,9 +2152,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_load_company",
       "community": 7,
-      "norm_label": "_load_company()"
+      "norm_label": "_load_company()",
+      "id": "backend_app_api_routes_ai_load_company"
     },
     {
       "label": "ai_root()",
@@ -2312,9 +2162,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_ai_root",
       "community": 7,
-      "norm_label": "ai_root()"
+      "norm_label": "ai_root()",
+      "id": "backend_app_api_routes_ai_ai_root"
     },
     {
       "label": "generate_brief()",
@@ -2322,9 +2172,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_generate_brief",
       "community": 7,
-      "norm_label": "generate_brief()"
+      "norm_label": "generate_brief()",
+      "id": "backend_app_api_routes_ai_generate_brief"
     },
     {
       "label": "BriefService",
@@ -2332,9 +2182,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "briefservice",
       "community": 7,
-      "norm_label": "briefservice"
+      "norm_label": "briefservice",
+      "id": "briefservice"
     },
     {
       "label": "get_profile()",
@@ -2342,9 +2192,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_get_profile",
       "community": 7,
-      "norm_label": "get_profile()"
+      "norm_label": "get_profile()",
+      "id": "backend_app_api_routes_ai_get_profile"
     },
     {
       "label": "get_brief()",
@@ -2352,9 +2202,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_get_brief",
       "community": 7,
-      "norm_label": "get_brief()"
+      "norm_label": "get_brief()",
+      "id": "backend_app_api_routes_ai_get_brief"
     },
     {
       "label": "send_email()",
@@ -2362,9 +2212,9 @@
       "source_file": "backend/app/api/routes/ai.py",
       "source_location": "L74",
       "_origin": "ast",
-      "id": "backend_app_api_routes_ai_send_email",
       "community": 7,
-      "norm_label": "send_email()"
+      "norm_label": "send_email()",
+      "id": "backend_app_api_routes_ai_send_email"
     },
     {
       "label": "EmailService",
@@ -2372,9 +2222,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "emailservice",
       "community": 7,
-      "norm_label": "emailservice"
+      "norm_label": "emailservice",
+      "id": "emailservice"
     },
     {
       "label": "companies.py",
@@ -2382,9 +2232,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies",
-      "community": 2,
-      "norm_label": "companies.py"
+      "community": 3,
+      "norm_label": "companies.py",
+      "id": "backend_app_api_routes_companies"
     },
     {
       "label": "CompanyUpdate",
@@ -2392,9 +2242,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_companyupdate",
-      "community": 2,
-      "norm_label": "companyupdate"
+      "community": 3,
+      "norm_label": "companyupdate",
+      "id": "backend_app_api_routes_companies_companyupdate"
     },
     {
       "label": "list_companies()",
@@ -2402,9 +2252,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_list_companies",
-      "community": 2,
-      "norm_label": "list_companies()"
+      "community": 3,
+      "norm_label": "list_companies()",
+      "id": "backend_app_api_routes_companies_list_companies"
     },
     {
       "label": "get_stats()",
@@ -2412,9 +2262,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_get_stats",
-      "community": 2,
-      "norm_label": "get_stats()"
+      "community": 3,
+      "norm_label": "get_stats()",
+      "id": "backend_app_api_routes_companies_get_stats"
     },
     {
       "label": "export_companies()",
@@ -2422,9 +2272,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L73",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_export_companies",
-      "community": 2,
-      "norm_label": "export_companies()"
+      "community": 3,
+      "norm_label": "export_companies()",
+      "id": "backend_app_api_routes_companies_export_companies"
     },
     {
       "label": "get_company()",
@@ -2432,9 +2282,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L138",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_get_company",
-      "community": 2,
-      "norm_label": "get_company()"
+      "community": 3,
+      "norm_label": "get_company()",
+      "id": "backend_app_api_routes_companies_get_company"
     },
     {
       "label": "update_company()",
@@ -2442,9 +2292,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L146",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_update_company",
-      "community": 2,
-      "norm_label": "update_company()"
+      "community": 3,
+      "norm_label": "update_company()",
+      "id": "backend_app_api_routes_companies_update_company"
     },
     {
       "label": "delete_company()",
@@ -2452,9 +2302,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L181",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_delete_company",
-      "community": 2,
-      "norm_label": "delete_company()"
+      "community": 3,
+      "norm_label": "delete_company()",
+      "id": "backend_app_api_routes_companies_delete_company"
     },
     {
       "label": "find_company_contact_email()",
@@ -2462,9 +2312,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L198",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_find_company_contact_email",
-      "community": 2,
-      "norm_label": "find_company_contact_email()"
+      "community": 3,
+      "norm_label": "find_company_contact_email()",
+      "id": "backend_app_api_routes_companies_find_company_contact_email"
     },
     {
       "label": "\u015eirketin DB kayd\u0131nda zaten contact_email varsa onu d\u00f6ner. Yoksa ve     website a",
@@ -2472,39 +2322,9 @@
       "source_file": "backend/app/api/routes/companies.py",
       "source_location": "L203",
       "_origin": "ast",
-      "id": "backend_app_api_routes_companies_rationale_203",
-      "community": 2,
-      "norm_label": "sirketin db kayd\u0131nda zaten contact_email varsa onu doner. yoksa ve     website a"
-    },
-    {
-      "label": "parser.py",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser",
-      "community": 11,
-      "norm_label": "parser.py"
-    },
-    {
-      "label": "slugify()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_slugify",
-      "community": 11,
-      "norm_label": "slugify()"
-    },
-    {
-      "label": "_extract_field()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_extract_field",
-      "community": 11,
-      "norm_label": "_extract_field()"
+      "community": 3,
+      "norm_label": "sirketin db kayd\u0131nda zaten contact_email varsa onu doner. yoksa ve     website a",
+      "id": "backend_app_api_routes_companies_rationale_203"
     },
     {
       "label": "FieldSelector",
@@ -2512,39 +2332,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "fieldselector",
-      "community": 11,
-      "norm_label": "fieldselector"
-    },
-    {
-      "label": "_clean_contact_email()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_clean_contact_email",
-      "community": 11,
-      "norm_label": "_clean_contact_email()"
-    },
-    {
-      "label": "extract_fields()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L66",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_extract_fields",
-      "community": 11,
-      "norm_label": "extract_fields()"
-    },
-    {
-      "label": "parse_company()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L76",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_parse_company",
-      "community": 11,
-      "norm_label": "parse_company()"
+      "community": 2,
+      "norm_label": "fieldselector",
+      "id": "fieldselector"
     },
     {
       "label": "Company",
@@ -2552,29 +2342,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "backend_app_scraping_parser_py_company",
-      "community": 11,
-      "norm_label": "company"
-    },
-    {
-      "label": "tag_sectors()",
-      "file_type": "code",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L94",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_tag_sectors",
-      "community": 11,
-      "norm_label": "tag_sectors()"
-    },
-    {
-      "label": "`mailto:` linklerinden \u00e7ekilen de\u011ferleri normalize eder.      `href` attribute'u",
-      "file_type": "rationale",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "backend_app_scraping_parser_rationale_52",
-      "community": 11,
-      "norm_label": "`mailto:` linklerinden cekilen degerleri normalize eder.      `href` attribute'u"
+      "community": 2,
+      "norm_label": "company",
+      "id": "backend_app_scraping_parser_py_company"
     },
     {
       "label": "db.py",
@@ -2582,9 +2352,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "backend_app_storage_db",
-      "community": 2,
-      "norm_label": "db.py"
+      "community": 3,
+      "norm_label": "db.py",
+      "id": "backend_app_storage_db"
     },
     {
       "label": "DatabaseManager",
@@ -2592,9 +2362,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager",
-      "community": 2,
-      "norm_label": "databasemanager"
+      "community": 3,
+      "norm_label": "databasemanager",
+      "id": "backend_app_storage_db_databasemanager"
     },
     {
       "label": ".__init__()",
@@ -2602,9 +2372,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_init",
-      "community": 2,
-      "norm_label": ".__init__()"
+      "community": 3,
+      "norm_label": ".__init__()",
+      "id": "backend_app_storage_db_databasemanager_init"
     },
     {
       "label": ".init_db()",
@@ -2612,9 +2382,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_init_db",
-      "community": 2,
-      "norm_label": ".init_db()"
+      "community": 3,
+      "norm_label": ".init_db()",
+      "id": "backend_app_storage_db_databasemanager_init_db"
     },
     {
       "label": ".upsert_companies()",
@@ -2622,9 +2392,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_upsert_companies",
       "community": 2,
-      "norm_label": ".upsert_companies()"
+      "norm_label": ".upsert_companies()",
+      "id": "backend_app_storage_db_databasemanager_upsert_companies"
     },
     {
       "label": ".get_companies()",
@@ -2632,9 +2402,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L77",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_get_companies",
-      "community": 2,
-      "norm_label": ".get_companies()"
+      "community": 3,
+      "norm_label": ".get_companies()",
+      "id": "backend_app_storage_db_databasemanager_get_companies"
     },
     {
       "label": ".get_company()",
@@ -2642,9 +2412,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L122",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_get_company",
-      "community": 2,
-      "norm_label": ".get_company()"
+      "community": 3,
+      "norm_label": ".get_company()",
+      "id": "backend_app_storage_db_databasemanager_get_company"
     },
     {
       "label": ".update_company_status()",
@@ -2652,9 +2422,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L135",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_update_company_status",
-      "community": 2,
-      "norm_label": ".update_company_status()"
+      "community": 3,
+      "norm_label": ".update_company_status()",
+      "id": "backend_app_storage_db_databasemanager_update_company_status"
     },
     {
       "label": ".delete_company()",
@@ -2662,9 +2432,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L150",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_delete_company",
-      "community": 2,
-      "norm_label": ".delete_company()"
+      "community": 3,
+      "norm_label": ".delete_company()",
+      "id": "backend_app_storage_db_databasemanager_delete_company"
     },
     {
       "label": ".update_contact_email()",
@@ -2672,9 +2442,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L158",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_update_contact_email",
-      "community": 2,
-      "norm_label": ".update_contact_email()"
+      "community": 3,
+      "norm_label": ".update_contact_email()",
+      "id": "backend_app_storage_db_databasemanager_update_contact_email"
     },
     {
       "label": ".update_fields()",
@@ -2682,9 +2452,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L161",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_update_fields",
-      "community": 2,
-      "norm_label": ".update_fields()"
+      "community": 3,
+      "norm_label": ".update_fields()",
+      "id": "backend_app_storage_db_databasemanager_update_fields"
     },
     {
       "label": ".get_stats()",
@@ -2692,9 +2462,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L185",
       "_origin": "ast",
-      "id": "backend_app_storage_db_databasemanager_get_stats",
-      "community": 2,
-      "norm_label": ".get_stats()"
+      "community": 3,
+      "norm_label": ".get_stats()",
+      "id": "backend_app_storage_db_databasemanager_get_stats"
     },
     {
       "label": "\u015eirketin verilen alanlar\u0131n\u0131 g\u00fcnceller. `fields` anahtarlar\u0131 DB         \u015femas\u0131nda",
@@ -2702,9 +2472,9 @@
       "source_file": "backend/app/storage/db.py",
       "source_location": "L162",
       "_origin": "ast",
-      "id": "backend_app_storage_db_rationale_162",
-      "community": 2,
-      "norm_label": "sirketin verilen alanlar\u0131n\u0131 gunceller. `fields` anahtarlar\u0131 db         semas\u0131nda"
+      "community": 3,
+      "norm_label": "sirketin verilen alanlar\u0131n\u0131 gunceller. `fields` anahtarlar\u0131 db         semas\u0131nda",
+      "id": "backend_app_storage_db_rationale_162"
     },
     {
       "label": "api.js",
@@ -2712,9 +2482,9 @@
       "source_file": "frontend/src/services/api.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "frontend_src_services_api",
       "community": 0,
-      "norm_label": "api.js"
+      "norm_label": "api.js",
+      "id": "frontend_src_services_api"
     },
     {
       "label": "request()",
@@ -2722,9 +2492,9 @@
       "source_file": "frontend/src/services/api.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "frontend_src_services_api_request",
       "community": 0,
-      "norm_label": "request()"
+      "norm_label": "request()",
+      "id": "frontend_src_services_api_request"
     },
     {
       "label": "api",
@@ -2732,9 +2502,249 @@
       "source_file": "frontend/src/services/api.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "frontend_src_services_api_api",
       "community": 0,
-      "norm_label": "api"
+      "norm_label": "api",
+      "id": "frontend_src_services_api_api"
+    },
+    {
+      "label": "engine.py",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "engine.py",
+      "id": "backend_app_scraping_engine"
+    },
+    {
+      "label": "ScrapingResult",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "scrapingresult",
+      "id": "backend_app_scraping_engine_scrapingresult"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "basemodel",
+      "id": "basemodel"
+    },
+    {
+      "label": "ScrapingEngine",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "scrapingengine",
+      "id": "backend_app_scraping_engine_scrapingengine"
+    },
+    {
+      "label": ".scrape_site()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L44",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".scrape_site()",
+      "id": "backend_app_scraping_engine_scrapingengine_scrape_site"
+    },
+    {
+      "label": "._goto_with_retry()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L148",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._goto_with_retry()",
+      "id": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
+    },
+    {
+      "label": "._wait_for_container()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L174",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._wait_for_container()",
+      "id": "backend_app_scraping_engine_scrapingengine_wait_for_container"
+    },
+    {
+      "label": "._parse_element()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L185",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._parse_element()",
+      "id": "backend_app_scraping_engine_scrapingengine_parse_element"
+    },
+    {
+      "label": "._collect_companies()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L219",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._collect_companies()",
+      "id": "backend_app_scraping_engine_scrapingengine_collect_companies"
+    },
+    {
+      "label": "._enrich_with_detail_pages()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L313",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "._enrich_with_detail_pages()",
+      "id": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
+    },
+    {
+      "label": "Summary report of a completed (or failed) scraping run.",
+      "file_type": "rationale",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "summary report of a completed (or failed) scraping run.",
+      "id": "backend_app_scraping_engine_rationale_35"
+    },
+    {
+      "label": "parser.py",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "parser.py",
+      "id": "backend_app_scraping_parser"
+    },
+    {
+      "label": "slugify()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "slugify()",
+      "id": "backend_app_scraping_parser_slugify"
+    },
+    {
+      "label": "_extract_field()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "_extract_field()",
+      "id": "backend_app_scraping_parser_extract_field"
+    },
+    {
+      "label": "_clean_contact_email()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "_clean_contact_email()",
+      "id": "backend_app_scraping_parser_clean_contact_email"
+    },
+    {
+      "label": "extract_fields()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L77",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "extract_fields()",
+      "id": "backend_app_scraping_parser_extract_fields"
+    },
+    {
+      "label": "parse_company()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L87",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "parse_company()",
+      "id": "backend_app_scraping_parser_parse_company"
+    },
+    {
+      "label": "tag_sectors()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "tag_sectors()",
+      "id": "backend_app_scraping_parser_tag_sectors"
+    },
+    {
+      "label": "`mailto:` linklerinden veya d\u00fcz metinden \u00e7ekilen de\u011ferleri normalize eder.",
+      "file_type": "rationale",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L54",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "`mailto:` linklerinden veya duz metinden cekilen degerleri normalize eder.",
+      "id": "backend_app_scraping_parser_rationale_54"
+    },
+    {
+      "label": "relevance.py",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "relevance.py",
+      "id": "backend_app_scraping_relevance"
+    },
+    {
+      "label": "_turkish_lower()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L72",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "_turkish_lower()",
+      "id": "backend_app_scraping_relevance_turkish_lower"
+    },
+    {
+      "label": "is_relevant_company()",
+      "file_type": "code",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L76",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "is_relevant_company()",
+      "id": "backend_app_scraping_relevance_is_relevant_company"
+    },
+    {
+      "label": "Domain relevance filtering for scraped companies.  TechPark Hunter'\u0131n kullan\u0131c\u0131s",
+      "file_type": "rationale",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "domain relevance filtering for scraped companies.  techpark hunter'\u0131n kullan\u0131c\u0131s",
+      "id": "backend_app_scraping_relevance_rationale_1"
+    },
+    {
+      "label": "\u015eirket isim/sekt\u00f6r/a\u00e7\u0131klama alanlar\u0131ndan herhangi birinde yaz\u0131l\u0131m,     teknoloji",
+      "file_type": "rationale",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L82",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "sirket isim/sektor/ac\u0131klama alanlar\u0131ndan herhangi birinde yaz\u0131l\u0131m,     teknoloji",
+      "id": "backend_app_scraping_relevance_rationale_82"
     }
   ],
   "links": [
@@ -2745,9 +2755,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_companyupdate",
-      "target": "backend_app_api_routes_companies_py_basemodel",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_py_basemodel"
     },
     {
       "relation": "references",
@@ -2849,9 +2859,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "fastapi",
-      "confidence_score": 1.0
+      "target": "fastapi"
     },
     {
       "relation": "imports_from",
@@ -2861,9 +2871,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "fastapi",
-      "confidence_score": 1.0
+      "target": "fastapi"
     },
     {
       "relation": "imports_from",
@@ -4064,9 +4074,9 @@
       "source_location": "L181",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_delete_company",
-      "target": "jsonstore",
-      "confidence_score": 1.0
+      "target": "jsonstore"
     },
     {
       "relation": "references",
@@ -4076,9 +4086,9 @@
       "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_find_company_contact_email",
-      "target": "jsonstore",
-      "confidence_score": 1.0
+      "target": "jsonstore"
     },
     {
       "relation": "references",
@@ -4088,9 +4098,9 @@
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_update_company",
-      "target": "jsonstore",
-      "confidence_score": 1.0
+      "target": "jsonstore"
     },
     {
       "relation": "inherits",
@@ -4099,9 +4109,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_companyidrequest",
-      "target": "backend_app_api_routes_ai_py_basemodel",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_py_basemodel"
     },
     {
       "relation": "inherits",
@@ -4110,9 +4120,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_sendemailrequest",
-      "target": "backend_app_api_routes_ai_py_basemodel",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_py_basemodel"
     },
     {
       "relation": "contains",
@@ -4200,9 +4210,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_export_companies",
-      "target": "applicationstatus",
-      "confidence_score": 1.0
+      "target": "applicationstatus"
     },
     {
       "relation": "references",
@@ -4212,9 +4222,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_list_companies",
-      "target": "applicationstatus",
-      "confidence_score": 1.0
+      "target": "applicationstatus"
     },
     {
       "relation": "contains",
@@ -4297,15 +4307,16 @@
       "target": "backend_app_scraping_engine_scrapingengine"
     },
     {
-      "relation": "inherits",
+      "relation": "references",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L34",
+      "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingresult",
-      "target": "backend_app_scraping_engine_py_basemodel"
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "scrapeddata"
     },
     {
       "relation": "references",
@@ -4315,9 +4326,9 @@
       "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager_upsert_companies",
-      "target": "scrapeddata",
-      "confidence_score": 1.0
+      "target": "scrapeddata"
     },
     {
       "relation": "contains",
@@ -4932,9 +4943,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_load_company",
-      "target": "backend_app_api_routes_ai_py_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_py_company"
     },
     {
       "relation": "contains",
@@ -5173,194 +5184,11 @@
       "target": "backend_app_scraping_contact_finder_find_contact_email"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L43",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine",
-      "target": "backend_app_scraping_engine_scrapingengine"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L34",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine",
-      "target": "backend_app_scraping_engine_scrapingresult"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_rationale_35",
-      "target": "backend_app_scraping_engine_scrapingresult"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_scrapingresult"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L196",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_collect_companies"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L290",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L125",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L162",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_parse_element"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_scrape_site"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L151",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine",
-      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_py_scrapeddata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L84",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_scrapingengine_collect_companies"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L92",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L61",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L82",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
-    },
-    {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L44",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "target": "siteconfig"
-    },
-    {
-      "relation": "references",
-      "context": "parameter_type",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L196",
+      "source_location": "L219",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -5372,7 +5200,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L290",
+      "source_location": "L313",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -5384,7 +5212,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L162",
+      "source_location": "L185",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -5392,59 +5220,23 @@
       "target": "siteconfig"
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "references",
+      "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L308",
+      "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
-      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L233",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_collect_companies",
-      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "siteconfig"
     },
     {
       "relation": "references",
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L162",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_engine_scrapingengine_parse_element",
-      "target": "backend_app_scraping_engine_py_company"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L174",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_engine_scrapingengine_parse_element",
-      "target": "backend_app_scraping_relevance_is_relevant_company"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L196",
+      "source_location": "L219",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -5456,7 +5248,7 @@
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/engine.py",
-      "source_location": "L290",
+      "source_location": "L313",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -5464,60 +5256,16 @@
       "target": "backend_app_scraping_engine_py_company"
     },
     {
-      "relation": "contains",
+      "relation": "references",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L72",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L185",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "source": "backend_app_scraping_relevance",
-      "target": "backend_app_scraping_relevance_is_relevant_company"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L68",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_relevance",
-      "target": "backend_app_scraping_relevance_turkish_lower"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_relevance_rationale_1",
-      "target": "backend_app_scraping_relevance"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L83",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_relevance_is_relevant_company",
-      "target": "backend_app_scraping_relevance_turkish_lower"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/relevance.py",
-      "source_location": "L78",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "backend_app_scraping_relevance_rationale_78",
-      "target": "backend_app_scraping_relevance_is_relevant_company"
+      "source": "backend_app_scraping_engine_scrapingengine_parse_element",
+      "target": "backend_app_scraping_engine_py_company"
     },
     {
       "relation": "calls",
@@ -5551,9 +5299,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager_get_companies",
-      "target": "companyfilter",
-      "confidence_score": 1.0
+      "target": "companyfilter"
     },
     {
       "relation": "contains",
@@ -6239,9 +5987,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_ai_root",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_ai_root"
     },
     {
       "relation": "contains",
@@ -6250,9 +5998,9 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_companyidrequest",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_companyidrequest"
     },
     {
       "relation": "contains",
@@ -6261,9 +6009,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_generate_brief",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_generate_brief"
     },
     {
       "relation": "contains",
@@ -6272,9 +6020,9 @@
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_get_brief",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_get_brief"
     },
     {
       "relation": "contains",
@@ -6283,9 +6031,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_get_profile",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_get_profile"
     },
     {
       "relation": "contains",
@@ -6294,9 +6042,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_load_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_load_company"
     },
     {
       "relation": "contains",
@@ -6305,9 +6053,9 @@
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_send_email",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_send_email"
     },
     {
       "relation": "contains",
@@ -6316,9 +6064,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai",
-      "target": "backend_app_api_routes_ai_sendemailrequest",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_sendemailrequest"
     },
     {
       "relation": "uses",
@@ -6327,9 +6075,9 @@
       "source_location": "L11",
       "weight": 0.8,
       "_origin": "ast",
+      "confidence_score": 0.5,
       "source": "backend_app_api_routes_ai_companyidrequest",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 0.5
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6339,9 +6087,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_generate_brief",
-      "target": "backend_app_api_routes_ai_companyidrequest",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_companyidrequest"
     },
     {
       "relation": "references",
@@ -6351,9 +6099,9 @@
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_send_email",
-      "target": "backend_app_api_routes_ai_sendemailrequest",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_sendemailrequest"
     },
     {
       "relation": "uses",
@@ -6362,9 +6110,9 @@
       "source_location": "L11",
       "weight": 0.8,
       "_origin": "ast",
+      "confidence_score": 0.5,
       "source": "backend_app_api_routes_ai_sendemailrequest",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 0.5
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "calls",
@@ -6374,9 +6122,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_generate_brief",
-      "target": "backend_app_api_routes_ai_load_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_load_company"
     },
     {
       "relation": "references",
@@ -6386,9 +6134,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_load_company",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "calls",
@@ -6398,9 +6146,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_send_email",
-      "target": "backend_app_api_routes_ai_load_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_ai_load_company"
     },
     {
       "relation": "references",
@@ -6410,9 +6158,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_generate_brief",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6422,9 +6170,9 @@
       "source_location": "L44",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_generate_brief",
-      "target": "briefservice",
-      "confidence_score": 1.0
+      "target": "briefservice"
     },
     {
       "relation": "references",
@@ -6434,9 +6182,9 @@
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_get_brief",
-      "target": "briefservice",
-      "confidence_score": 1.0
+      "target": "briefservice"
     },
     {
       "relation": "references",
@@ -6446,9 +6194,9 @@
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_send_email",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6458,9 +6206,9 @@
       "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_ai_send_email",
-      "target": "emailservice",
-      "confidence_score": 1.0
+      "target": "emailservice"
     },
     {
       "relation": "contains",
@@ -6469,9 +6217,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_companyupdate",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_companyupdate"
     },
     {
       "relation": "contains",
@@ -6480,9 +6228,9 @@
       "source_location": "L181",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_delete_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_delete_company"
     },
     {
       "relation": "contains",
@@ -6491,9 +6239,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_export_companies",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_export_companies"
     },
     {
       "relation": "contains",
@@ -6502,9 +6250,9 @@
       "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_find_company_contact_email",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_find_company_contact_email"
     },
     {
       "relation": "contains",
@@ -6513,9 +6261,9 @@
       "source_location": "L138",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_get_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_get_company"
     },
     {
       "relation": "contains",
@@ -6524,9 +6272,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_get_stats",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_get_stats"
     },
     {
       "relation": "contains",
@@ -6535,9 +6283,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_list_companies",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_list_companies"
     },
     {
       "relation": "contains",
@@ -6546,9 +6294,9 @@
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies",
-      "target": "backend_app_api_routes_companies_update_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_update_company"
     },
     {
       "relation": "uses",
@@ -6557,9 +6305,9 @@
       "source_location": "L14",
       "weight": 0.8,
       "_origin": "ast",
+      "confidence_score": 0.5,
       "source": "backend_app_api_routes_companies_companyupdate",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 0.5
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6569,9 +6317,9 @@
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_update_company",
-      "target": "backend_app_api_routes_companies_companyupdate",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_companyupdate"
     },
     {
       "relation": "references",
@@ -6581,9 +6329,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_list_companies",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6593,9 +6341,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_get_stats",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6605,9 +6353,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_export_companies",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "calls",
@@ -6617,9 +6365,9 @@
       "source_location": "L186",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_delete_company",
-      "target": "backend_app_api_routes_companies_get_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_get_company"
     },
     {
       "relation": "calls",
@@ -6629,9 +6377,9 @@
       "source_location": "L208",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_find_company_contact_email",
-      "target": "backend_app_api_routes_companies_get_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_get_company"
     },
     {
       "relation": "references",
@@ -6641,9 +6389,9 @@
       "source_location": "L138",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_get_company",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "calls",
@@ -6653,9 +6401,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_update_company",
-      "target": "backend_app_api_routes_companies_get_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_get_company"
     },
     {
       "relation": "calls",
@@ -6665,9 +6413,9 @@
       "source_location": "L239",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_find_company_contact_email",
-      "target": "backend_app_api_routes_companies_update_company",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_update_company"
     },
     {
       "relation": "references",
@@ -6677,9 +6425,9 @@
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_update_company",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6689,9 +6437,9 @@
       "source_location": "L181",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_delete_company",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "references",
@@ -6701,9 +6449,9 @@
       "source_location": "L198",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_find_company_contact_email",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "rationale_for",
@@ -6712,194 +6460,69 @@
       "source_location": "L203",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_api_routes_companies_rationale_203",
-      "target": "backend_app_api_routes_companies_find_company_contact_email",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L51",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_clean_contact_email",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_extract_field",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L66",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_extract_fields",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L76",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_parse_company",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_slugify",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L94",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser",
-      "target": "backend_app_scraping_parser_tag_sectors",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L80",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_parse_company",
-      "target": "backend_app_scraping_parser_slugify",
-      "confidence_score": 1.0
+      "target": "backend_app_api_routes_companies_find_company_contact_email"
     },
     {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L31",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_scraping_parser_extract_field",
-      "target": "fieldselector",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L69",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_extract_fields",
-      "target": "backend_app_scraping_parser_extract_field",
-      "confidence_score": 1.0
+      "target": "fieldselector"
     },
     {
       "relation": "references",
       "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L66",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_extract_fields",
-      "target": "fieldselector",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L76",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_parse_company",
-      "target": "fieldselector",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L71",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_extract_fields",
-      "target": "backend_app_scraping_parser_clean_contact_email",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L52",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "backend_app_scraping_parser_rationale_52",
-      "target": "backend_app_scraping_parser_clean_contact_email",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/parser.py",
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_extract_fields",
+      "target": "fieldselector"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_scraping_parser_parse_company",
-      "target": "backend_app_scraping_parser_extract_fields",
-      "confidence_score": 1.0
+      "target": "fieldselector"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L76",
+      "source_location": "L87",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_scraping_parser_parse_company",
-      "target": "backend_app_scraping_parser_py_company",
-      "confidence_score": 1.0
+      "target": "backend_app_scraping_parser_py_company"
     },
     {
       "relation": "references",
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "backend/app/scraping/parser.py",
-      "source_location": "L94",
+      "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_scraping_parser_tag_sectors",
-      "target": "backend_app_scraping_parser_py_company",
-      "confidence_score": 1.0
+      "target": "backend_app_scraping_parser_py_company"
     },
     {
       "relation": "contains",
@@ -6908,9 +6531,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db",
-      "target": "backend_app_storage_db_databasemanager",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager"
     },
     {
       "relation": "method",
@@ -6919,9 +6542,9 @@
       "source_location": "L150",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_delete_company",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_delete_company"
     },
     {
       "relation": "method",
@@ -6930,9 +6553,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_get_companies",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_get_companies"
     },
     {
       "relation": "method",
@@ -6941,9 +6564,9 @@
       "source_location": "L122",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_get_company",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_get_company"
     },
     {
       "relation": "method",
@@ -6952,9 +6575,9 @@
       "source_location": "L185",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_get_stats",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_get_stats"
     },
     {
       "relation": "method",
@@ -6963,9 +6586,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_init",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_init"
     },
     {
       "relation": "method",
@@ -6974,9 +6597,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_init_db",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_init_db"
     },
     {
       "relation": "method",
@@ -6985,9 +6608,9 @@
       "source_location": "L135",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_update_company_status",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_update_company_status"
     },
     {
       "relation": "method",
@@ -6996,9 +6619,9 @@
       "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_update_contact_email",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_update_contact_email"
     },
     {
       "relation": "method",
@@ -7007,9 +6630,9 @@
       "source_location": "L161",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_update_fields",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_update_fields"
     },
     {
       "relation": "method",
@@ -7018,9 +6641,9 @@
       "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager",
-      "target": "backend_app_storage_db_databasemanager_upsert_companies",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_upsert_companies"
     },
     {
       "relation": "calls",
@@ -7030,9 +6653,9 @@
       "source_location": "L159",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_databasemanager_update_contact_email",
-      "target": "backend_app_storage_db_databasemanager_update_fields",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_update_fields"
     },
     {
       "relation": "rationale_for",
@@ -7041,9 +6664,9 @@
       "source_location": "L162",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "backend_app_storage_db_rationale_162",
-      "target": "backend_app_storage_db_databasemanager_update_fields",
-      "confidence_score": 1.0
+      "target": "backend_app_storage_db_databasemanager_update_fields"
     },
     {
       "relation": "contains",
@@ -7052,9 +6675,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "frontend_src_services_api",
-      "target": "frontend_src_services_api_api",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_api"
     },
     {
       "relation": "contains",
@@ -7063,11 +6686,458 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "frontend_src_services_api",
-      "target": "frontend_src_services_api_request",
-      "confidence_score": 1.0
+      "target": "frontend_src_services_api_request"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine",
+      "target": "backend_app_scraping_engine_scrapingengine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine",
+      "target": "backend_app_scraping_engine_scrapingresult"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_rationale_35",
+      "target": "backend_app_scraping_engine_scrapingresult"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_engine_scrapingresult"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingresult",
+      "target": "basemodel"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_collect_companies"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L313",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_parse_element"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_scrape_site"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine",
+      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_engine_scrapingengine_collect_companies"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_parser_tag_sectors"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "target": "backend_app_scraping_relevance_is_relevant_company"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L331",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
+      "target": "backend_app_scraping_engine_scrapingengine_goto_with_retry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L256",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_engine_scrapingengine_collect_companies",
+      "target": "backend_app_scraping_engine_scrapingengine_wait_for_container"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_parse_element",
+      "target": "backend_app_scraping_parser_parse_company"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_parse_element",
+      "target": "backend_app_scraping_relevance_is_relevant_company"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L338",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
+      "target": "backend_app_scraping_parser_extract_fields"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/app/scraping/engine.py",
+      "source_location": "L353",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
+      "target": "backend_app_scraping_parser_slugify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_clean_contact_email"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_extract_field"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_extract_fields"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_parse_company"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_slugify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser",
+      "target": "backend_app_scraping_parser_tag_sectors"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_parse_company",
+      "target": "backend_app_scraping_parser_slugify"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_extract_fields",
+      "target": "backend_app_scraping_parser_extract_field"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_extract_fields",
+      "target": "backend_app_scraping_parser_clean_contact_email"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_rationale_54",
+      "target": "backend_app_scraping_parser_clean_contact_email"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/parser.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_parser_parse_company",
+      "target": "backend_app_scraping_parser_extract_fields"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_relevance",
+      "target": "backend_app_scraping_relevance_is_relevant_company"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_relevance",
+      "target": "backend_app_scraping_relevance_turkish_lower"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_relevance_rationale_1",
+      "target": "backend_app_scraping_relevance"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_relevance_is_relevant_company",
+      "target": "backend_app_scraping_relevance_turkish_lower"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/app/scraping/relevance.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "backend_app_scraping_relevance_rationale_82",
+      "target": "backend_app_scraping_relevance_is_relevant_company"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0b216a7dee5f95400f743179934179dc22685b06"
+  "built_at_commit": "e63e0d6ace47747b141bf59263bfa19135814a02"
 }

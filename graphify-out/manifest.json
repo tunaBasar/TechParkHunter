@@ -70,9 +70,9 @@
     "semantic_hash": "570dbfc1f67fc8cacad0f7dccc3becec"
   },
   "backend/app/scraping/engine.py": {
-    "mtime": 1784675298.5106509,
-    "ast_hash": "967299da4cbc3307dcd675cbf53644ee",
-    "semantic_hash": "967299da4cbc3307dcd675cbf53644ee"
+    "mtime": 1784808466.0166109,
+    "ast_hash": "ddfe45b9300111fd5380cc9f0e482bb6",
+    "semantic_hash": "ddfe45b9300111fd5380cc9f0e482bb6"
   },
   "backend/app/scraping/jobs.py": {
     "mtime": 1784636586.9168015,
@@ -80,9 +80,9 @@
     "semantic_hash": "7cb090f6fe07ac848f63284251e63dee"
   },
   "backend/app/scraping/parser.py": {
-    "mtime": 1784790783.3339837,
-    "ast_hash": "b00b0d7e21f04f59ef924f960524eb10",
-    "semantic_hash": "b00b0d7e21f04f59ef924f960524eb10"
+    "mtime": 1784807780.1127942,
+    "ast_hash": "459d9e4c63d16276a4ce5849c8349034",
+    "semantic_hash": "459d9e4c63d16276a4ce5849c8349034"
   },
   "backend/app/storage/__init__.py": {
     "mtime": 1784635052.678546,
@@ -245,9 +245,9 @@
     "semantic_hash": "a2a2126f122106e8c6adcb43c45463e2"
   },
   "backend/app/scraping/relevance.py": {
-    "mtime": 1784675351.8935044,
-    "ast_hash": "a717ba7310d0dfa6e5ef510601f151f6",
-    "semantic_hash": "a717ba7310d0dfa6e5ef510601f151f6"
+    "mtime": 1784794260.3405535,
+    "ast_hash": "cbee0a1fd4cafeb3cfa06241a0179849",
+    "semantic_hash": "cbee0a1fd4cafeb3cfa06241a0179849"
   },
   "backend/data/companies/antalya_teknokent.json": {
     "mtime": 1784721535.190507,
@@ -285,13 +285,28 @@
     "semantic_hash": "70b061238dc73452493a43fbc4aa7aed"
   },
   "backend/data/companies/antalya_osb_teknopark.json": {
-    "mtime": 1784791646.29971,
-    "ast_hash": "9845e22f379c2b505eea1146c9abed47",
-    "semantic_hash": "9845e22f379c2b505eea1146c9abed47"
+    "mtime": 1784808429.9018998,
+    "ast_hash": "eae2092330d1749b10ea7322d2cc1f61",
+    "semantic_hash": "eae2092330d1749b10ea7322d2cc1f61"
   },
   "backend/data/companies/gosb_teknopark.json": {
     "mtime": 1784718583.5185115,
     "ast_hash": "091644979dc02952943f18de457ec12d",
     "semantic_hash": "091644979dc02952943f18de457ec12d"
+  },
+  "backend/data/companies/bursa_teknopark.json": {
+    "mtime": 1784809056.436652,
+    "ast_hash": "c1bb8580934800703c61dfd02093c259",
+    "semantic_hash": "c1bb8580934800703c61dfd02093c259"
+  },
+  "backend/data/companies/gbteknokent_isparta.json": {
+    "mtime": 1784794347.7234657,
+    "ast_hash": "29149bd64cea4156e566892e736e15b5",
+    "semantic_hash": "29149bd64cea4156e566892e736e15b5"
+  },
+  "backend/data/companies/kou_teknopark.json": {
+    "mtime": 1784809717.265853,
+    "ast_hash": "68b698f5923f27a0f1ffff331d06781c",
+    "semantic_hash": "68b698f5923f27a0f1ffff331d06781c"
   }
 }

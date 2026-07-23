@@ -77,6 +77,38 @@
       "str"
     ],
     "2": [
+      "backend_app_scraping_engine",
+      "backend_app_scraping_engine_py_company",
+      "backend_app_scraping_engine_rationale_35",
+      "backend_app_scraping_engine_scrapingengine",
+      "backend_app_scraping_engine_scrapingengine_collect_companies",
+      "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
+      "backend_app_scraping_engine_scrapingengine_goto_with_retry",
+      "backend_app_scraping_engine_scrapingengine_parse_element",
+      "backend_app_scraping_engine_scrapingengine_scrape_site",
+      "backend_app_scraping_engine_scrapingengine_wait_for_container",
+      "backend_app_scraping_engine_scrapingresult",
+      "backend_app_scraping_parser",
+      "backend_app_scraping_parser_clean_contact_email",
+      "backend_app_scraping_parser_extract_field",
+      "backend_app_scraping_parser_extract_fields",
+      "backend_app_scraping_parser_parse_company",
+      "backend_app_scraping_parser_py_company",
+      "backend_app_scraping_parser_rationale_54",
+      "backend_app_scraping_parser_slugify",
+      "backend_app_scraping_parser_tag_sectors",
+      "backend_app_scraping_relevance",
+      "backend_app_scraping_relevance_is_relevant_company",
+      "backend_app_scraping_relevance_rationale_1",
+      "backend_app_scraping_relevance_rationale_82",
+      "backend_app_scraping_relevance_turkish_lower",
+      "backend_app_storage_db_databasemanager_upsert_companies",
+      "basemodel",
+      "fieldselector",
+      "scrapeddata",
+      "siteconfig"
+    ],
+    "3": [
       "applicationstatus",
       "backend_app_api_routes_companies",
       "backend_app_api_routes_companies_companyupdate",
@@ -100,13 +132,11 @@
       "backend_app_storage_db_databasemanager_update_company_status",
       "backend_app_storage_db_databasemanager_update_contact_email",
       "backend_app_storage_db_databasemanager_update_fields",
-      "backend_app_storage_db_databasemanager_upsert_companies",
       "backend_app_storage_db_rationale_162",
       "companyfilter",
-      "jsonstore",
-      "scrapeddata"
+      "jsonstore"
     ],
-    "3": [
+    "4": [
       "backend_app_api_deps",
       "backend_app_api_deps_get_brief_service",
       "backend_app_api_deps_get_db",
@@ -126,27 +156,6 @@
       "backend_app_email_service_rationale_1",
       "backend_app_email_service_rationale_29",
       "basesettings"
-    ],
-    "4": [
-      "backend_app_scraping_engine",
-      "backend_app_scraping_engine_py_basemodel",
-      "backend_app_scraping_engine_py_company",
-      "backend_app_scraping_engine_py_scrapeddata",
-      "backend_app_scraping_engine_rationale_35",
-      "backend_app_scraping_engine_scrapingengine",
-      "backend_app_scraping_engine_scrapingengine_collect_companies",
-      "backend_app_scraping_engine_scrapingengine_enrich_with_detail_pages",
-      "backend_app_scraping_engine_scrapingengine_goto_with_retry",
-      "backend_app_scraping_engine_scrapingengine_parse_element",
-      "backend_app_scraping_engine_scrapingengine_scrape_site",
-      "backend_app_scraping_engine_scrapingengine_wait_for_container",
-      "backend_app_scraping_engine_scrapingresult",
-      "backend_app_scraping_relevance",
-      "backend_app_scraping_relevance_is_relevant_company",
-      "backend_app_scraping_relevance_rationale_1",
-      "backend_app_scraping_relevance_rationale_78",
-      "backend_app_scraping_relevance_turkish_lower",
-      "siteconfig"
     ],
     "5": [
       "frontend_package",
@@ -243,18 +252,6 @@
       "vitejs_plugin_react"
     ],
     "11": [
-      "backend_app_scraping_parser",
-      "backend_app_scraping_parser_clean_contact_email",
-      "backend_app_scraping_parser_extract_field",
-      "backend_app_scraping_parser_extract_fields",
-      "backend_app_scraping_parser_parse_company",
-      "backend_app_scraping_parser_py_company",
-      "backend_app_scraping_parser_rationale_52",
-      "backend_app_scraping_parser_slugify",
-      "backend_app_scraping_parser_tag_sectors",
-      "fieldselector"
-    ],
-    "12": [
       "frontend_oxlintrc",
       "frontend_oxlintrc_plugins",
       "frontend_oxlintrc_rules",
@@ -264,7 +261,7 @@
       "ref_oxc",
       "ref_warn"
     ],
-    "13": [
+    "12": [
       "backend_app_scraping_contact_finder",
       "backend_app_scraping_contact_finder_extract_mailto_from_page",
       "backend_app_scraping_contact_finder_find_contact_email",
@@ -272,100 +269,106 @@
       "backend_app_scraping_contact_finder_rationale_1",
       "backend_app_scraping_contact_finder_rationale_92"
     ],
-    "14": [
+    "13": [
       "backend_app_utils_logger",
       "backend_app_utils_logger_get_logger",
       "logger"
     ],
-    "15": [
+    "14": [
       "frontend_src_components_sidebar",
       "frontend_src_components_sidebar_navitems",
       "frontend_src_components_sidebar_sidebar"
     ],
-    "16": [
+    "15": [
       "frontend_src_components_statusbadge",
       "frontend_src_components_statusbadge_status_config",
       "frontend_src_components_statusbadge_statusbadge"
     ],
-    "17": [
+    "16": [
       "backend_app_ai_init"
     ],
-    "18": [
+    "17": [
       "backend_app_api_deps_py_databasemanager"
     ],
-    "19": [
+    "18": [
       "backend_app_api_init"
     ],
-    "20": [
+    "19": [
       "backend_app_api_routes_ai_py_briefservice"
     ],
-    "21": [
+    "20": [
       "backend_app_api_routes_ai_py_databasemanager"
     ],
-    "22": [
+    "21": [
       "backend_app_api_routes_init"
     ],
-    "23": [
+    "22": [
       "backend_app_email_init"
     ],
-    "24": [
+    "23": [
       "backend_app_init"
     ],
+    "24": [
+      "backend_app_scraping_engine_py_basemodel"
+    ],
     "25": [
-      "backend_app_scraping_engine_py_siteconfig"
+      "backend_app_scraping_engine_py_scrapeddata"
     ],
     "26": [
-      "backend_app_scraping_init"
+      "backend_app_scraping_engine_py_siteconfig"
     ],
     "27": [
-      "backend_app_scraping_jobs"
+      "backend_app_scraping_init"
     ],
     "28": [
-      "backend_app_storage_db_py_scrapeddata"
+      "backend_app_scraping_jobs"
     ],
     "29": [
-      "backend_app_storage_init"
+      "backend_app_storage_db_py_scrapeddata"
     ],
     "30": [
-      "backend_app_storage_models_py_enum"
+      "backend_app_storage_init"
     ],
     "31": [
-      "backend_app_storage_models_py_str"
+      "backend_app_storage_models_py_enum"
     ],
     "32": [
-      "backend_app_utils_init"
+      "backend_app_storage_models_py_str"
     ],
     "33": [
-      "company"
+      "backend_app_utils_init"
     ],
     "34": [
-      "databasemanager"
+      "company"
     ],
     "35": [
-      "frontend_vite_config"
+      "databasemanager"
     ],
     "36": [
+      "frontend_vite_config"
+    ],
+    "37": [
       "pkg_backend"
     ]
   },
   "cohesion": {
     "0": 0.10128205128205128,
     "1": 0.08870967741935484,
-    "2": 0.11904761904761904,
-    "3": 0.16374269005847952,
-    "4": 0.18128654970760233,
+    "2": 0.12183908045977011,
+    "3": 0.13230769230769232,
+    "4": 0.16374269005847952,
     "5": 0.10526315789473684,
     "6": 0.20952380952380953,
     "7": 0.23076923076923078,
     "8": 0.19696969696969696,
     "9": 0.2878787878787879,
     "10": 0.18181818181818182,
-    "11": 0.35555555555555557,
-    "12": 0.25,
-    "13": 0.4666666666666667,
+    "11": 0.25,
+    "12": 0.4666666666666667,
+    "13": 0.6666666666666666,
     "14": 0.6666666666666666,
     "15": 0.6666666666666666,
-    "16": 0.6666666666666666,
+    "16": 1.0,
     "17": 1.0,
     "18": 1.0,
     "19": 1.0,
@@ -385,7 +388,8 @@
     "33": 1.0,
     "34": 1.0,
     "35": 1.0,
-    "36": 1.0
+    "36": 1.0,
+    "37": 1.0
   },
   "gods": [
     {
