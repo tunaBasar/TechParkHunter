@@ -23,7 +23,7 @@ TechPark Hunter'ın backend'i **hiçbir LLM çağrısı yapmaz**. Şirket verisi
 
 **`GET /api/companies/?search=<kelime>&sector=<sektör>&source=<kaynak>&status=<durum>&page=1&per_page=20`**
 - Serbest metin araması `name` ve `description` alanlarında yapılır (`search`)
-- `source`: `bilkent_cyberpark`, `depark`, `itu_ari`, `teknopark_ankara`, `antalya_teknokent`, `antalya_osb_teknopark`, `gosb_teknopark`, `gbteknokent_isparta`, `kou_teknopark`, `bursa_teknopark`
+- `source`: `bilkent_cyberpark`, `depark`, `itu_ari`, `teknopark_ankara`, `antalya_teknokent`, `antalya_osb_teknopark`, `gosb_teknopark`, `gbteknokent_isparta`, `kou_teknopark`, `bursa_teknopark`, `canakkale_teknopark` (henüz taranmadı — `POST /api/scrape/canakkale_teknopark` ile taratılabilir)
 - `status`: `not_applied`, `applied`, `interview`, `rejected`, `accepted`
 - Dönen her şirket objesi: `id`, `name`, `sector`, `sector_tags`, `description`, `website`, `contact_email`, `detail_url`, `application_status`, `notes`, `source`, `source_name`
 

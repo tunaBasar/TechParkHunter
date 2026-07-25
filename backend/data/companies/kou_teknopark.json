@@ -547,7 +547,7 @@
       "contact_email": "bimser@bimser.com.tr",
       "detail_url": "https://kouteknopark.com/bimser-cozum-yazilim-tic-a-s/",
       "full_description": "1998 yılında kurulan BİMSER, bilgi teknolojileri alanında yazılım çözümleri üretmek üzere bir araya gelen kişilerle yolculuğuna başladı. BİMSER, uzun yıllardan beri farklı ölçekteki ve sektördeki firmalara yönelik olan yazılım paketlerinden, üzerinde çeşitli iş uygulamalarının tasarlanabileceği tam bir çözüm geliştirme platformuna kadar, birbiriyle ve başka ürünlerle entegre çalışabilen, geniş bir ürün yelpazesini kullanıcılarına sunmaktadır.  BİMSER’in yazılım ürünleri, bugün Türkiye’nin 1800’den fazla seçkin şirketinde, milyonu aşkın profesyoneller tarafından kullanılıyor; sağladığı verimlilik ile bu şirketlere rekabet avantajı ve başarı getiriyor. BİMSER, yazılımlarını bugüne kadar 33’den fazla ülkeye ihraç etmiştir. Şirketin 2017 yılında hayata geçirdiği New York ve Dubai ofisleri de bu gelişimin devamı niteliğindedir. Tamamı Türk Mühendisler tarafından geliştirilen Bimser Synergy, eBA, QDMS, BEAM, ENSEMBLE yazılım ürünleriyle Türkiye’deki şirketlerin dijitalleşmesinde ve rekabet güçlerinin artmasında önemli rol oynuyor. Özellikle iş akışı ve doküman yönetimi, süreç ve performans yönetimi, kalite yönetimi, bilgi güvenliği yönetimi, risk yönetimi, bakım yönetimi, varlık ve bilgi teknolojileri yönetimi alanlarında sunduğu çözümler ile sektöründe lider firmaların ilk tercihi olmaya devam ediyor.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -675,7 +675,7 @@
       "contact_email": "info@btyon.com",
       "detail_url": "https://kouteknopark.com/btyon-teknoloji/",
       "full_description": "2010 yılında faaliyete başlayan BTYÖN, kıdemli ve alanında uzman danışman kadrosuyla bilgi güvenliği, iş sürekliliği ve bilgi teknolojileri yönetişimi alanlarında yazılım, danışmanlık, eğitim, analiz ve değerlendirme hizmetleri sunmaktadır. Bilgi güvenliği alanında; ISO 27001 Bilgi Güvenliği Yönetim Sistemi’nin hayata geçirilmesi, risk yönetimi, sızma / penetrasyon testleri, kişisel verilerin korunması kanununa uyumluluk ve güvenlik değerlendirme çalışmaları başta olmak üzere büyük ölçekli işletmelerin tüm ihtiyaçlarını karşılayacak yazılım ve danışmanlık hizmet portföyüne sahiptir. İş Sürekliliği alanında; fark yaratan ve sektörel olarak özelleşmiş çözümleri ile ISO 22301 İş Sürekliliği Yönetim Sistemi uygulamaları, iş etki analizi ve risk değerlendirmeleri gibi hizmetleri ile ülkemizde gerçekleştirilmiş en büyük iş sürekliliği yönetim sistemi kurulum projelerine imza atmıştır. İş sürekliliği yönetimi süreçlerinin çevrimiçi yönetimi için gerekli yazılımları sağlamaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -725,7 +725,7 @@
       "contact_email": "info@cloud4next.com",
       "detail_url": "https://kouteknopark.com/cloud4next-yonetilebilir-servisler-ve-bulut-tekn-a-s-kocaeli-universitesi-teknopark-subesi/",
       "full_description": "Cloud4Next, kurumsal firmaların ihtiyaç duyabileceği tüm bulut altyapı ve servislerine, kendi bulut altyapısı ve global bulut servis sağlayıcılarının sunduğu servis ve çözümlerle cevap veren lokal bulut hizmetleri sağlayıcısıdır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -888,7 +888,7 @@
       "contact_email": "radar@darkradar.co",
       "detail_url": "https://kouteknopark.com/dark-radar-bilgi-guvenligi-a-s/",
       "full_description": "Dark Radar, Türkiye merkezli bir siber tehdit istihbaratı şirketidir.\nInfostealer tabanlı veri sızıntılarından elde edilen kimlik bilgilerini analiz ederek bunları güvenlik ve iş süreçleri için eyleme dönüştürülebilir istihbarata dönüştürme konusunda uzmanlaşmıştır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -925,7 +925,7 @@
       "contact_email": "info@datazza.com",
       "detail_url": "https://kouteknopark.com/datazza-bilisim-a-s/",
       "full_description": "Datazza, makine öğrenmesi ve büyük zeka çözümleri konusunda finans, telekom, perakende ve üretim alanlarında uzman ekipleri ile ürün ve hizmet geliştiren bir yapay zeka firmasıdır. Şirketlerin bulut altyapıları, üretken yapay zeka teknolojileri ve açık kaynak yazılımları ile dijital dönüşümlerini hızlandırması ve akıllandırması yolunda iş ortağı olarak servis sağlar.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -943,7 +943,7 @@
       "contact_email": "bilgi@ddstek.biz",
       "detail_url": "https://kouteknopark.com/dds-teknoloji-san-ve-tic-ltd-sti/",
       "full_description": "Operasyonel Mükemmelliğe Ulaşın: Uçtan Uca Dijital Dönüşüm",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -979,7 +979,7 @@
       "contact_email": "info@developingo.com",
       "detail_url": "https://kouteknopark.com/developingo-yazilim-a-s/",
       "full_description": "“Kritik altyapıları destekleyen, operatör seviyesinde telekomünikasyon yazılımları ve platformları geliştiriyoruz. Sinyal protokollerinden ülke çapındaki acil durum sistemlerine kadar, asla başarısız olmayan çözümler sunuyoruz. Kritik öneme sahip telekomünikasyon ortamları için özel olarak tasarlanmış, mobil şebeke uygulamaları, mobil protokoller ile uyumlu platformlar,\ngerçek zamanlı izleme sistemleri, otomasyon ve orkestrasyon çözümlerimiz arasında yer almaktadır.”",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -997,7 +997,7 @@
       "contact_email": "info@dff-tech.com",
       "detail_url": "https://kouteknopark.com/dff-teknoloji-hizmetleri-limited-sirketi/",
       "full_description": "DFF TECH, lojistik ve taşımacılık sektörlerinde dijital dönüşümü hızlandırmak için yapay zeka ve otomasyon teknolojileri ile çözüm üreten bir teknoloji firmasıdır. Türkiye’nin önde gelen lojistik firmalarına, tüm tedarik süreçlerinde en verimli ve sürdürülebilir çözümleri sunuyoruz.\nMüşterilerimizin iş süreçlerini optimize etmek için tasarladığımız sistemler, taşıma modellerine esneklik ve hız kazandırırken, aynı zamanda operasyonel maliyetleri düşürür. Teknolojik altyapımız, sektördeki tüm paydaşların güvenli, verimli ve hızlı bir şekilde iş yapabilmesini sağlamak amacıyla geliştirilmiştir. Lojistikteki teknoloji liderliğimizi, dünya çapında rekabetçi avantajlar sunarak gururla taşımaktayız.\nDeğerlerimiz\nİnovasyon: Yapay zeka ve otomasyonla sektörel çözümler sunuyoruz.\nVerimlilik: Geliştirdiğimiz çözümlerle müşterilerimizin operasyonlarını daha hızlı, güvenli ve maliyet avantajı sağlayacak şekilde optimize ediyoruz.\nGüvenilirlik: Güçlü altyapımızla sürekli ve güvenli hizmet verebiliriz.\nSürdürülebilirlik: Çevre dostu ve uzun vadeli değer üreten çözümler geliştiriyoruz.\nMüşteri Odaklılığı: İş ortaklarımızın ihtiyaçlarını en iyi şekilde anlayarak, onların başarısını ön planda tutan çözümler üretiyoruz.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1012,10 +1012,10 @@
       "description": null,
       "website": "https://www.diginova.com.tr",
       "logo_url": "https://kouteknopark.com/wp-content/uploads/2024/10/Firma-_DIGINOVA-Bilisim-Teknolojileri-Aras.-Gelis.-San.-ve-Tic.-A.S.png",
-      "contact_email": "info@diginova.com.tr%20",
+      "contact_email": "info@diginova.com.tr",
       "detail_url": "https://kouteknopark.com/diginova-bilisim-teknolojileri/",
       "full_description": "DigiNova 2014 yılında Sanayi Bakanlığı’nın Tekno-Girişim Sermayesi Destek Programı kapsamında desteklenerek kurulmuştur. Bilişim Teknolojileri alanında 20 yılı aşan tecrübesi bulunan akademik kökenli bir kadroya sahiptir. Tecrübeli bu akademik kadronun yönetiminde alanında öne çıkan genç mühendislerle yenilikçi ve dinamik omurgasını oluşturmuştur.  Çoğu çeşitli kurumlarca (TÜBİTAK, KOSGEB vb.) desteklenen bir çok ar-ge ve endüstriye yönelik projeyi yürütmektedir. Mobil ve web teknolojilerini, yapay zeka, makine öğrenimi ve yapay görme alanları ile birleştirerek yenilikçi iş çözümleri üretmekte ve Türkiye’de bu alanda lider bir firma olmak için çalışmalarını sürdürmektedir. Bunun yanı sıra birlikte çalıştığı firmaların projelerine yapay zeka, makine öğrenimi ve yapay görme alanlarında ar-ge ve danışmanlık hizmetleri sunmaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1033,7 +1033,7 @@
       "contact_email": "digit@dgt13.com",
       "detail_url": "https://kouteknopark.com/digit-13-yazilim-gelistirme-a-s/",
       "full_description": "Digit-13 Yazılım Geliştirme A.Ş., sanayi ve KOBI Ölçekli firmalara yönelik süreç iyileştirme ve dijitallaeştirme konuları ile istatistiksel raporlama ve veri tabanı entegrasyonu konularında yazılım ve arayüz geliştirme üzerine çalışmaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1121,7 +1121,7 @@
       "contact_email": "hello@eduqube.io",
       "detail_url": "https://kouteknopark.com/eduqube-dijital-donusum-ve-teknoloji-a-s/",
       "full_description": "EDUQUBE, YDS ve YÖKDİL başta olmak üzere standart sınavlara hazırlanan öğrenciler için geliştirilmiş, yapay zekâ destekli adaptif bir öğrenme platformudur. Öğrencilere ücretsiz seviye tespiti, zayıf konulara göre kişiselleştirilmiş günlük çalışma planı ve RAG tabanlı yapay zekâ çalışma mentoru sunar. Adaptif öğrenme motoru ve öğrenme analitiği sayesinde her öğrencinin gelişimini ölçülebilir ve kişiye özel hâle getirir. Platform; LGS, YKS gibi diğer sınavları da kapsayacak şekilde çok sınavlı bir ekosisteme ölçeklenecek biçimde tasarlanmıştır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1259,7 +1259,7 @@
       "contact_email": "info@exadustech.com.tr",
       "detail_url": "https://kouteknopark.com/exadus-teknoloji/",
       "full_description": "Exadus, teknoloji ve yazılım alanında yenilikçi çözümler sunan bir firmadır. Uçtan uca yazılım geliştirme süreçlerinde uzmanlaşarak, müşterilerine en yüksek kalitede hizmet vermeyi amaçlar. Mobil uygulama geliştirme, web uygulamaları, akıllı ulaşım sistemleri ve dijital dönüşüm projeleriyle geniş bir sektör yelpazesine hitap eder.  Exadus, yapay zeka, büyük veri analitiği ve IoT (Nesnelerin İnterneti) gibi ileri teknoloji çözümleri sunarak, müşterilerinin operasyonel verimliliğini artırmayı hedefler. Bulut bilişim hizmetleri ve siber güvenlik alanındaki uzmanlığı sayesinde güvenli ve ölçeklenebilir altyapılar kurar. Teknoloji danışmanlığı hizmetleri ile firmaların ihtiyaçlarına özel stratejiler geliştirir ve rekabet avantajı kazanmalarına katkı sağlar.  Exadus’un temel misyonu, müşterilerinin dijital dönüşüm süreçlerinde güvenilir bir çözüm ortağı olmaktır. Deneyimli ekipleriyle, her projeyi titizlikle ele alır ve ihtiyaçlara en uygun çözümleri geliştirir. Yenilikçi yaklaşımı, müşteri odaklı hizmet anlayışı ve sürekli gelişime verdiği önemle Exadus, sektördeki lider firmalar arasında yer almayı hedeflemektedir.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1277,7 +1277,7 @@
       "contact_email": "info@ferofen.com",
       "detail_url": "https://kouteknopark.com/ferofen-bilisim-a-s/",
       "full_description": "Biz Kimiz? Ferofen Bilişim A.Ş. alanında 18 yılı aşkın süredir uzmanlığa sahip bir ekip tarafından Kocaeli üniversitesi Teknopark’ta kurulmuştur. Bilişim teknolojileri alanında yazılım çözümleri üretmek amacıyla bir araya gelen kişilerle yola çıkmıştır. Ferofen, farklı sektörlerdeki farklı büyüklükteki şirketlere yönelik yazılım paketlerinden, farklı iş uygulamalarının tasarlanabileceği eksiksiz bir çözüm geliştirme platformuna kadar, diğer ürünlerle birlikte sorunsuz bir şekilde entegre olabilen geniş bir ürün yelpazesi sunmaktadır. Firmamız yazılım ürünleri ile firmaların dijitalleşmesinde ve rekabet güçlerinin artmasında önemli bir rol oynamaktadır. Özellikle belge ve iş akışı yönetimi, süreç ve performans yönetimi, kalite yönetimi ve bilgi teknolojileri yönetimine yönelik çözümleri bulunmaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1293,10 +1293,10 @@
       "description": null,
       "website": "http://www.finsight.com",
       "logo_url": "https://kouteknopark.com/wp-content/uploads/2026/01/FINSIGHT-BILISIM-TEKNOLOJILERI-TICARET-LIMITED-SIRKETI.jpg",
-      "contact_email": "hakankeris@gmail.com%20",
+      "contact_email": "hakankeris@gmail.com",
       "detail_url": "https://kouteknopark.com/finsight-bilisim-teknolojileri-ticaret-limited-sirketi/",
       "full_description": "FinSight Bilişim Teknolojileri, KOBİ’lerin dijital dönüşüm yolculuğunu hızlandırmak amacıyla kurulmuş yeni nesil bir teknoloji şirketidir. Amacımız; işletmelerin günlük operasyonlarını, finansal süreçlerini ve karar mekanizmalarını daha akıllı, daha hızlı ve daha verimli hale getiren yapay zekâ destekli entegre iş yönetim platformları geliştirmektir.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1398,7 +1398,7 @@
       "contact_email": "info@grifins.com",
       "detail_url": "https://kouteknopark.com/grifin-teknoloji-ve-bilisim-sistemleri-ltd-sti-basiskele-subesi/",
       "full_description": "İlk olarak 2009 yılında kurduğumuz SAP danışmanlık şirketimizin bir devamı olarak 2019 yılında “Grifin” çatısı altında birçok teknolojik yeteneğimizi birleştirdiğimiz yeni şirketimizi kurduk.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1484,7 +1484,7 @@
       "contact_email": "destek@ibaysoft.com.tr",
       "detail_url": "https://kouteknopark.com/ibaysoft-yazilim-a-s/",
       "full_description": "Restoran,İşletme uygulamalarımızla kolaylığı bir adım öne taşımayı hedefliyoruz.\n%100 Türk sermayesi ile kurulan ve Avrupa Birliği’ne yazılım geliştirip teslim eden ilk ve tek Türk firması olan İbaysoft Yazılım A.Ş., TÜBİTAK Ar-Ge merkezli bir kuruluş olarak teknoloji dünyasında önemli bir konuma sahiptir. İbaysoft’un güçlü markalarından biri olan 360restoran, yiyecek ve içecek sektöründe faaliyet gösteren işletmelerin A’dan Z’ye tüm teknolojik ihtiyaçlarını karşılayan bir otomasyon sistemidir. Gelişen teknolojiyi ve yenilikçi bakış açısını benimseyen İbaysoft, faaliyet gösterdiği sektörlerde iş süreçlerini kolaylaştırmaya yönelik çözümler sunmaktadır. Kocaeli Kaya Şirketler Topluluğu üyesi olan firma, 2013 yılından bu yana çalışmalarını sürdürerek işletmelerin verimliliğini artırmaya yönelik projeler geliştirmektedir.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1683,7 +1683,7 @@
       "contact_email": "bilgi@kodrob.com",
       "detail_url": "https://kouteknopark.com/kodrob-yazilim-ve-danismanlik-limited-sirketi/",
       "full_description": "KODROB, dijital dönüşümün ön saflarında yer alan, yenilikçi ve teknolojik çözümler sunan bir yazılım ve mühendislik firmasıdır. İş dünyasında rekabet avantajı sağlamak için işletmelere; Dijital İkiz, MES (Üretim Yürütme Sistemi), ERP (Kurumsal Kaynak Planlama), Otomasyon ve PLC yazılımı, Robot Programlama, Sanal Devreye Alma ve Özel Yazılım çözümleri sunmaktayız.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1701,7 +1701,7 @@
       "contact_email": "info@kreativiot.com",
       "detail_url": "https://kouteknopark.com/kreativ-dijital-cozumler-ve-inovasyon-a-s/",
       "full_description": "Sektör farkı gözetmeksizin tüm şirketlerin ihtiyaçlarına özel IoT proje ve çözümler sunarak süreçlerini dijitalleştirmelerine, dijital dönüşümlerini başarıyla gerçekleştirmelerine, operasyonel verimliliklerini arttırmalarına yardımcı olan bir teknoloji şirketiyiz.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1929,7 +1929,7 @@
       "contact_email": "info@mitrateknoloji.com.tr",
       "detail_url": "https://kouteknopark.com/mitra-teknoloji-a-s/",
       "full_description": "“Mitra Teknoloji, Haziran 2021’de İstanbul’da kurulmuş, veri odaklı çözümler geliştiren yenilikçi bir teknoloji şirketidir. Kuruluşundan bu yana kısa sürede büyüyerek, veri ambarı, iş zekası, büyük veri analitiği ve bu alanlarda yazılım ürünleri geliştirme konularında uzmanlaşmıştır.\nMüşterilerinin dijital dönüşüm süreçlerini hızlandırmayı hedefleyen Mitra Teknoloji, veri analitiği, büyük veri işleme, iş zekası çözümleri ve özelleştirilmiş yazılım geliştirme hizmetleri sunmaktadır. Şirket, açık kaynak teknolojilere olan hâkimiyetiyle, kurumların ihtiyaçlarına yönelik esnek, sürdürülebilir ve yüksek performanslı sistemler tasarlamaktadır.\nMitra Teknoloji, yalnızca danışmanlık sunmakla kalmaz; aynı zamanda uçtan uca proje yönetimi ile veri altyapılarının kurulması, geliştirilmesi ve yönetilmesinde aktif rol alır. Yerli ve milli teknoloji üretimi vizyonuyla hareket eden şirket, uluslararası standartlara uygun yazılımlar geliştirerek Türkiye’nin yazılım ekosistemine değer katmayı amaçlamaktadır.”",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -1983,7 +1983,7 @@
       "contact_email": "altanalaybeyoglu@mucit.ai",
       "detail_url": "https://kouteknopark.com/mucit-yapay-zeka-yazilim-ve-donanim-cozumleri/",
       "full_description": "Mucit, yapay zekanın potansiyelinden faydalanarak akıllı çözümler sunmayı hedeflemektedir.\nŞirketin mükemmelliğe yönelik ortak tutkusu, günümüzün karmaşık ve değişen dünyasında yenilikçi çözüm geliştirmek üzerine kuruludur.\nYapay zeka, sağlık, çevre, eğitim ve sanayi gibi kritik alanlarda etkileyici dönüşümler vaat etmektedir. Vizyonları, yapay zekayı etik ve sorumlu bir çerçevede kullanarak daha sürdürülebilir, verimli ve insan odaklı bir gelecek inşa etmektir.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2019,7 +2019,7 @@
       "contact_email": "info@nairotech.com",
       "detail_url": "https://kouteknopark.com/nairotech-yazilim-sistemleri-ve-pazarlama-limited-sirketi/",
       "full_description": "Nairotech, işletmelerin dijital çağda daha hızlı, güvenilir ve ölçeklenebilir\nşekilde çalışmasını sağlamak için kurulmuş bir teknoloji şirketidir.\nUzmanlık alanlarımız arasında DevOps danışmanlığı, yazılım geliştirme,\nbulut altyapıları ve Kubernetes çözümleri yer alır.\nMisyonumuz\nYeni nesil otomasyon ve güçlü altyapılarla teknoloji süreçlerini sadeleştiriyor,\nkesintisiz inovasyon ve güvenli operasyonlar sunuyoruz.\nNeler Yapıyoruz\nDevOps Danışmanlığı – CI/CD süreçleri, otomasyon, altyapı kodlama (IaC)\nYazılım Geliştirme – Ölçeklenebilir ve bulut tabanlı uygulamalar\nBulut Çözümleri – Geçiş, mimari tasarımı ve maliyet optimizasyonu\nKubernetes Hizmetleri – Konteyner yönetimi, mikroservis altyapıları, platform mühendisliği\nNeden Nairotech\nDeneyimli ve uzman kadro\nİşinize özel, modüler ve ölçeklenebilir çözümler\nGüvenlik, sürdürülebilirlik ve operasyonel mükemmeliyet odaklı yaklaşım",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2035,7 +2035,7 @@
       "contact_email": "info@nceoteknoloji.com",
       "detail_url": "https://kouteknopark.com/necip-fazil-uzun-nceo-teknoloji/",
       "full_description": "NCEO TEKNOLOJİ olarak İŞ ZEKASI alanında hizmet vermekteyiz.\nİş Zekası: Verilerin gücünü açığa çıkarın ve işinizi bir adım öteye taşıyın!\nPower BI, verilerinizi farklı kaynaklardan toplar, anlamlı içgörülere dönüştürür ve etkileyici görselleştirmelerle iş stratejilerinizi şekillendirir. Gerçek zamanlı analizler ve yapay zeka destekli tahminlerle, kararlarınızı hızlandırın ve geleceği öngörün. Her yerden, her cihazdan erişim sağlayarak, ekiplerinizin işbirliği yapmasını ve bilgiye dayalı aksiyonlar almasını kolaylaştırın.\nGüçlü veri analizleri, güçlü iş sonuçlarına dönüşsün!",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2089,7 +2089,7 @@
       "contact_email": "bilgi@noktasal.com.tr",
       "detail_url": "https://kouteknopark.com/noktasal-yazilim-teknolojileri-ltd-sti/",
       "full_description": "NOKTASAL YAZILIM TEKNOLOJİLERİ LTD.ŞTİ. 2012 yılında Kocaeli Üniversitesi Teknoloji Geliştirme Bölgesinde kuruldu. Coğrafi Bilgi Sistemlerine özgün yazılımlar geliştirmek için kurulan şirketimizin 12 yılı aşkın süredir yenilikçi çözümler geliştirmeye devam etmektedir. Şirketimiz olarak kamu müşterilerimize verdiğimiz güvenle yıllardır kurumların mahrem sayılacak verilerini yönetmekte, çapraz sorgulamalarla raporlar ve istatistikler sunmaktayız. T.C. Sanayi Bakanlığı Milli Teknoloji Genel Müdürlüğü onaylı Kamu Bilişim Yetki Belgesi ve Yazılım Yetki Belgesi akreditasyonlarına sahip olarak projelerimizi gerçekleştirmekteyiz.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2144,7 +2144,7 @@
       "contact_email": "bilgi@odamobil.com",
       "detail_url": "https://kouteknopark.com/odamobil-teknoloji/",
       "full_description": "Odamobil Teknoloji Ltd. Şti. Ayrıca mobil uygulama geliştirme, yapay zeka çözümleri, SaaS ürünleri ve özel teknoloji çözümleri alanında bir teknoloji firmasıyız. Kullanıcı dostu, gelişmiş ve özelleştirilmiş mobil uygulamalar tasarlayarak bütçeye uygun çözümler sunmaktayız. Yapay zeka teknolojilerini kullanarak veri analizi, otomasyon ve öğrenme süreçlerini optimize eden çözümler geliştiriyoruz. Bulut tabanlı yazılım çözümleriyle esnek, ölçeklenebilir ve maliyet-etkin hizmetler sağlayan, müşteri etkileşimine göre özel yazılım ve teknoloji çözümleri sunarak inovasyon ve değişim iyileştirme projelerini hayata geçiriyoruz. Boğaziçi Üniversitesi, Ayasofya ve Kültür ve Turizm Bakanlığı gibi değerli kurum ve kuruluşlara yazılım işleri yapmaktayız. Toplamda 12 farklı ürünle sektördeki yerimizi sağlamlaştırmış bulunmaktayız. Kurucu ortaklarımız Lokman İlhan ve Hafzullah Yıldırım liderlikte, teknolojik yeterliliklerimizi ve yaratıcı çözüm çözümlerimizi sürekli geliştirerek müşteri odaklı en üst düzeyde tutmayı amaçlıyoruz. SaaS ürünlerini geliştirerek dijital dönüşüme katkı sağlamakta ve küresel pazarda rekabet edebilmemizi artırmaktayız.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2181,7 +2181,7 @@
       "contact_email": "info@onaybilisim.com",
       "detail_url": "https://kouteknopark.com/onay-otomasyon-yazilim-bilisim-san-ve-tic-ltd-sti/",
       "full_description": "Diijital dönüşümün öncüsü Onay Otomasyon olarak, Endüstri 4.0 çerçevesinde MES, CMMS, Raporlama, Yapay Zeka ve veri analitiği çözümleri sunarak üretim süreçlerini daha akıllı, verimli ve sürdürülebilir hale getiriyoruz.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2233,7 +2233,7 @@
       "contact_email": "g.bayer@palmet.com",
       "detail_url": "https://kouteknopark.com/palmet-bilgi-teknolojileri-a-s/",
       "full_description": "“PALMET Bilgi Teknolojileri, dağıtım sektörüne özel yüksek erişilebilirlik, ölçeklenebilirlik ve güvenlik odaklı sistemler geliştiren bir teknoloji firmasıdır. Türkiye ve global pazarlarda faaliyet gösteren PALMET BT, kritik altyapılara hizmet veren dağıtım şirketlerinin uçtan uca dijital dönüşüm ihtiyaçlarını; modern mimari yapılar, gerçek zamanlı veri işleme kabiliyetleri ve ileri entegrasyon teknikleriyle karşılamaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2267,7 +2267,7 @@
       "contact_email": "info@papirus.ai",
       "detail_url": "https://kouteknopark.com/pd-yazilim-hizmetleri-ticaret-a-s-papirus-ai/",
       "full_description": "Papirus AI, yapay zeka ile güçlendirilmiş, kullanıcıların çok çeşitli metin tanıma ve veri çıkarma ihtiyaçları için özelleştirilmiş OCR modelleri oluşturmasını sağlayan son teknoloji bir Akıllı Belge İşleme yazılımıdır.\nBu gelişmiş yazılım, çeşitli belgeler, formlar, PDF’ler, resimler, e-postalar ve daha fazlası gibi çeşitli formatları kapsayan zorlu ve karmaşık belgelerden zahmetsizce veri yakalar.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2286,7 +2286,7 @@
       "contact_email": "pir@PirCloud.com",
       "detail_url": "https://kouteknopark.com/pir-yazilim-ve-teknoloji/",
       "full_description": "PirCloud : Türkiye’nin İlk Online Proje-Şantiye Çözümü PirCloud Online Proje ve İşletme Yönetim Platformu, kullanım alanının genişliği ve iş modellerinde yarattığı yenilikler nedeniyle, proje/şantiye bazlı çalışan işletmelerin hayatını kolaylaştıran çözümler bütünüdür. PirCloud ile dijital dönüşümünüzü hızlandırın, gerçek anlamda entegre bir işletme ortamı oluşturun. PirCloud ile şirket merkeziniz ile proje-şantiye sahalarını birbirine bağlayın, aradaki süreç ve veri akış kopukluğunu giderin, operasyonel mükemmelliği iyileştirin, kayıpları azaltın ve karı, verimliliği artırın. ERP ve Bordro programınız ile entegre kullanın, maksimum dijitalleşme sağlayın. PirCloud İşin Pirleri İçin A’dan Z’ye tüm şirket merkezi ve proje-şantiye iş süreçlerinizi aynı PirCloud platformu üzerinde ve entegre bir şekilde yönetin. Merkez ve Proje/Şantiye sahalarındaki veri akışından kaynaklanan tüm problemlerinizi çözen; PirCloud ile proje/şantiye, finans, nakit akışı, satınalma, satış, sözleşme, stok, depo, proje bütçe, puantaj, hakediş, iş programı, günlük imalat ve idari rapor, …, tüm süreç ve operasyonlarınızı online ve mobil yönetin!  PirCloud proje bazlı çalışan EPC, İnşaat ve Enerji başta olmak üzere Üretim ve Hizmet sektörleri ve alt sektörlerinde Türkiye ve 15 ülkede başarıyla uygulanmaktadır. 7 dili ve tüm para birimlerini desteklemektedir.  COI (Cost-of-Inaction) felsefesiyle; Giderlerinizi ve Kayıplarınızı azaltan, Gelirlerinizi de artırarak karınızı maksimize eden PirCloud size çifte kazanç sağlamaktadır. PirCloud proje ve şantiye yönetim işinin PİR’idir.   Detaylı bilgi : PirCloud.com",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null
@@ -2817,7 +2817,7 @@
       "contact_email": "info@sufle.io",
       "detail_url": "https://kouteknopark.com/sufle-teknoloji-arastirma-gelistirme-ltd-sti/",
       "full_description": "Sufle, 2018 yılında, işletmelerin çeşitli ihtiyaç ve stratejilerine göre özelleştirilmiş çok disiplinli teknoloji çözümleri geliştirmek amacıyla kurulan bir ileri mühendislik şirketidir.\nTeknolojinin işletmeleri dönüştürme ve insanlara değer yaratma gücüne inanan ve işletmelerin ileri teknolojilerden faydalanmalarına yardımcı olan ekibiyle daima en iyi sonuçları elde etmek için çalışır. Müşterilerinin tüm altyapısını güçlendirmek için özelleştirilmiş çözümler ve danışmanlık hizmetleri sunar. Üst üste Amazon Web Services tarafından yılın partneri seçilen Sufle’nin konusunda dünya çapında akredite olan ekibi; Bulut, DevOps, Modern Yazılım Geliştirme ve Regülatif uyumluluk konularında uzmanlaşmış olup, dünyanın 12 ülkesinde uçtan uca çözümler sağlamaktadır.",
-      "application_status": "not_applied",
+      "application_status": "applied",
       "notes": "",
       "source": null,
       "source_name": null

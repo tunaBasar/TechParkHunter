@@ -1,0 +1,52 @@
+# Son güncelleme: 2026-07-25
+# Kaynak URL: https://www.canakkaleteknopark.com.tr/firmalar
+# Site yapısı: Custom CMS, infinite scroll (kaydırdıkça 20'şer firma ekleniyor,
+#   canlı testte 76 firmada stabilize oldu). Her kart tek bir <a> etiketi:
+#   - Bazı kartlarda href göreli bir detay sayfasına gider (/firmalar/<sektör>/<slug>),
+#     bu durumda detay sayfasında SADECE başlık var (açıklama/e-posta yok).
+#   - Bazı kartlarda href doğrudan firmanın kendi web sitesine gider (harici link).
+#   Sektör/e-posta/telefon bilgisi HER İKİ durumda da liste kartının kendisinde
+#   (<p data-custom-area="etiketler">) mevcut; bu yüzden detail_page kullanılmıyor,
+#   tüm veri tek geçişte liste sayfasından çekiliyor.
+# Bilinen sorunlar: "etiketler" alanı e-posta/telefon/website karışık serbest
+#   metin olarak geliyor (örn. "www.baf-eyt.com.tr\ninfo@baf-eyt.com.tr\n05444510588");
+#   parser.py _clean_contact_email() regex ile e-postayı ayıklıyor, website için
+#   ayrı bir regex/post-processing YOK — website alanı bu config'de doldurulmuyor,
+#   TODO: gerekirse ayrı bir regex ile URL çıkarımı eklenebilir.
+#   Bazı kartlarda (örn. "AHMET ERDAL") href teknopark ana sayfasına dönüyor —
+#   gerçek bir detay/website linki değil; bu durumda website boş kalır.
+
+site:
+  name: "Çanakkale Teknopark (Çanakkale Onsekiz Mart Üniversitesi)"
+  slug: "canakkale_teknopark"
+  base_url: "https://www.canakkaleteknopark.com.tr"
+  company_list_url: "https://www.canakkaleteknopark.com.tr/firmalar"
+
+navigation:
+  type: "infinite_scroll"
+  scroll_pause_ms: 2000
+  max_pages: 15
+
+selectors:
+  company_container: "ul#grid > li"
+  fields:
+    name:
+      selector: "a"
+      type: "attribute"
+      attribute: "title"
+    contact_email:
+      # Cloudflare email-obfuscation ile korunan e-posta, sayfa JS'i tarafından
+      # render zamanında düz metne çevriliyor (Playwright'ta otomatik decode
+      # olmuş halde geliyor). Serbest metin (website/telefon karışık) olduğu
+      # için parser.py regex ile e-postayı ayıklıyor.
+      selector: "p[data-custom-area='etiketler']"
+      type: "text"
+    logo:
+      selector: "img"
+      type: "attribute"
+      attribute: "src"
+
+filters:
+  sector_keywords:
+    yazilim: ["yazılım", "software", "bilişim", "IT"]
+    finans: ["finans", "finance", "fintech", "bankacılık"]
